@@ -17,7 +17,9 @@ public enum TileTypes
     [Description("SummonRoom")]
     SummonRoom = 4,
     [Description("TunnelStart")]
-    TunnelStart = 5
+    TunnelStart = 5,
+    [Description("DugDirt")]
+    DugDirt = 6
 }
 
 public class Tile : MonoBehaviour {
@@ -66,9 +68,13 @@ public class Tile : MonoBehaviour {
                     Debug.Log("Dirt" + " Clicked");
                     DirtClicked();
                     break;
+                case "DugDirt":
+                    Debug.Log("Empty Clicked");
+                    DugDirtClicked(_goldCost, _soulsCost);
+                    break;
                 case "Empty":
                     Debug.Log("Empty Clicked");
-                    EmptyClicked(_goldCost, _soulsCost);
+                    DugDirtClicked(_goldCost, _soulsCost);
                     break;
             }
         }
@@ -105,10 +111,10 @@ public class Tile : MonoBehaviour {
             return;
 
         //start logic to add job to the queue to destroy this dirt
-        map.ChangeTile(Pos, Enumerations.GetEnumDescription(TileTypes.Empty));
+        map.ChangeTile(Pos, Enumerations.GetEnumDescription(TileTypes.DugDirt));
     }
 
-    void EmptyClicked(int _goldCost, int _soulsCost)
+    void DugDirtClicked(int _goldCost, int _soulsCost)
     {
         if (this.Pos.y < map.yDepth || this.Pos.y > -2)
             return;
