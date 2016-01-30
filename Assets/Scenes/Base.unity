@@ -854,7 +854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   map: {fileID: 1412609407}
   cameraLimitX: 12
-  RoomToPlace: 3
+  RoomToPlace: 0
   GoldCost: 0
   SoulsCost: 0
 --- !u!114 &507320683

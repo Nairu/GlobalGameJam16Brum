@@ -21,25 +21,25 @@ public class CameraMoveController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	    if (Input.GetKeyDown(KeyCode.DownArrow))
+	    if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
         {
             myTransform.position = new Vector3(myTransform.position.x, myTransform.position.y - 2, -10);
             map.SpawnTiles();
             //map.DespawnTiles();
         }
-        else if(Input.GetKeyDown(KeyCode.RightArrow) && myTransform.position.x < cameraLimitX)
+        else if((Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D)) && myTransform.position.x < cameraLimitX )
         {
             myTransform.position = new Vector3(myTransform.position.x + 3, myTransform.position.y, -10);
             map.SpawnTiles();
             //map.DespawnTiles();
         }
-        else if (Input.GetKeyDown(KeyCode.LeftArrow) && myTransform.position.x > (-1 * cameraLimitX + 3))
+        else if ((Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A)) && myTransform.position.x > (-1 * cameraLimitX + 3))
         {
             myTransform.position = new Vector3(myTransform.position.x - 3, myTransform.position.y, -10);
             map.SpawnTiles();
             //map.DespawnTiles();
         }
-        else if (Input.GetKeyDown(KeyCode.UpArrow))
+        else if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
         {
             myTransform.position = new Vector3(myTransform.position.x, myTransform.position.y + 2, -10);
             map.SpawnTiles();
