@@ -7,6 +7,7 @@ public class CameraMoveController : MonoBehaviour {
     private Camera myCamera;
 
     public MapManager map;
+    public int cameraLimitX;
 
 	// Use this for initialization
 	void Start () {
@@ -20,21 +21,25 @@ public class CameraMoveController : MonoBehaviour {
         {
             myTransform.position = new Vector3(myTransform.position.x, myTransform.position.y - 2, -10);
             map.SpawnTiles();
+            //map.DespawnTiles();
         }
-        else if(Input.GetKeyDown(KeyCode.RightArrow))
+        else if(Input.GetKeyDown(KeyCode.RightArrow) && myTransform.position.x < cameraLimitX)
         {
             myTransform.position = new Vector3(myTransform.position.x + 3, myTransform.position.y, -10);
             map.SpawnTiles();
+            //map.DespawnTiles();
         }
-        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        else if (Input.GetKeyDown(KeyCode.LeftArrow) && myTransform.position.x > (-1 * cameraLimitX + 3))
         {
             myTransform.position = new Vector3(myTransform.position.x - 3, myTransform.position.y, -10);
             map.SpawnTiles();
+            //map.DespawnTiles();
         }
         else if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             myTransform.position = new Vector3(myTransform.position.x, myTransform.position.y + 2, -10);
             map.SpawnTiles();
+            //map.DespawnTiles();
         }
     }
 

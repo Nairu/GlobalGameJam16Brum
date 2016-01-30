@@ -12,7 +12,7 @@ GameObject:
   - 114: {fileID: 11452548}
   m_Layer: 0
   m_Name: Dirt
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40,9 +40,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 755820546d575c34ab6a0e752a6b718f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TileName: 
+  TileName: Dirt
   Pos: {x: 0, y: 0}
-  TileType: 
+  TileType: Dirt
 --- !u!212 &21297594
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -87,6 +87,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: TileType
       value: Dirt
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: Tile
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

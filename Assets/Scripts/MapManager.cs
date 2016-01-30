@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Linq;
 
 public class MapManager : MonoBehaviour {
 
-    public int numTilesY;
+    public int numTilesY;    
     public int numTilesX;
-
 
 	// Use this for initialization
 	void Start () {
@@ -34,6 +34,18 @@ public class MapManager : MonoBehaviour {
                 if (GameObject.Find(tileName) == null)
                     CreateTile(tilePos, tileName, "Dirt");
             }
+        }        
+    }
+
+    public void DespawnTiles()
+    {
+        GameObject[] tiles = GameObject.FindGameObjectsWithTag("Tile");
+
+        tiles = tiles.Where(go => (!go.GetComponent<Renderer>().isVisible)).ToArray();
+
+        foreach (GameObject t in tiles)
+        {
+            SimplePool.Despawn(t);
         }
     }
 
@@ -47,14 +59,14 @@ public class MapManager : MonoBehaviour {
         }
 
         GameObject go = (GameObject)GameObject.Instantiate(prefab);
+        //GameObject go = (GameObject)SimplePool.Spawn(prefab, pos, Quaternion.identity);
         go.name = name;
         go.transform.position = pos;
         go.transform.parent = this.transform;
 
         Tile tile = go.GetComponent<Tile>();
         tile.Pos = pos;
-        tile.TileName = name;
-
+        tile.TileName = name;        
     }
 
 	// Update is called once per frame
