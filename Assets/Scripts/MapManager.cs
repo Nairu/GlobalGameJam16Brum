@@ -17,7 +17,7 @@ public class MapManager : MonoBehaviour {
     void SpawnTiles()
     {
         numTilesY = Mathf.CeilToInt(Camera.main.orthographicSize) * 2;
-        numTilesX = Mathf.CeilToInt(Screen.width / Screen.height * numTilesY) * 2;
+        numTilesX = Mathf.CeilToInt(Screen.width / Screen.height * numTilesY) * 3;
 
         int x = Mathf.FloorToInt(Camera.main.transform.position.x - numTilesX / 2);
 
