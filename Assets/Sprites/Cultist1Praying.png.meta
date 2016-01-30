@@ -1,0 +1,738 @@
+fileFormatVersion: 2
+guid: 6c1cfdbb5693fff41b0d560d91952717
+timeCreated: 1454168959
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Cultist1Praying_0
+    21300002: Cultist1Praying_1
+    21300004: Cultist1Praying_2
+    21300006: Cultist1Praying_3
+    21300008: Cultist1Praying_4
+    21300010: Cultist1Praying_5
+    21300012: Cultist1Praying_6
+    21300014: Cultist1Praying_7
+    21300016: Cultist1Praying_8
+    21300018: Cultist1Praying_9
+    21300020: Cultist1Praying_10
+    21300022: Cultist1Praying_11
+    21300024: Cultist1Praying_12
+    21300026: Cultist1Praying_13
+    21300028: Cultist1Praying_14
+    21300030: Cultist1Praying_15
+    21300032: Cultist1Praying_16
+    21300034: Cultist1Praying_17
+    21300036: Cultist1Praying_18
+    21300038: Cultist1Praying_19
+    21300040: Cultist1Praying_20
+    21300042: Cultist1Praying_21
+    21300044: Cultist1Praying_22
+    21300046: Cultist1Praying_23
+    21300048: Cultist1Praying_24
+    21300050: Cultist1Praying_25
+    21300052: Cultist1Praying_26
+    21300054: Cultist1Praying_27
+    21300056: Cultist1Praying_28
+    21300058: Cultist1Praying_29
+    21300060: Cultist1Praying_30
+    21300062: Cultist1Praying_31
+    21300064: Cultist1Praying_32
+    21300066: Cultist1Praying_33
+    21300068: Cultist1Praying_34
+    21300070: Cultist1Praying_35
+    21300072: Cultist1Praying_36
+    21300074: Cultist1Praying_37
+    21300076: Cultist1Praying_38
+    21300078: Cultist1Praying_39
+    21300080: Cultist1Praying_40
+    21300082: Cultist1Praying_41
+    21300084: Cultist1Praying_42
+    21300086: Cultist1Praying_43
+    21300088: Cultist1Praying_44
+    21300090: Cultist1Praying_45
+    21300092: Cultist1Praying_46
+    21300094: Cultist1Praying_47
+    21300096: Cultist1Praying_48
+    21300098: Cultist1Praying_49
+    21300100: Cultist1Praying_50
+    21300102: Cultist1Praying_51
+    21300104: Cultist1Praying_52
+    21300106: Cultist1Praying_53
+    21300108: Cultist1Praying_54
+    21300110: Cultist1Praying_55
+    21300112: Cultist1Praying_56
+    21300114: Cultist1Praying_57
+    21300116: Cultist1Praying_58
+    21300118: Cultist1Praying_59
+    21300120: Cultist1Praying_60
+    21300122: Cultist1Praying_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Cultist1Praying_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1346
+        width: 165
+        height: 153
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1346
+        width: 165
+        height: 153
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_2
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1346
+        width: 165
+        height: 153
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_3
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1346
+        width: 165
+        height: 153
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_4
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1346
+        width: 164
+        height: 153
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_5
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1346
+        width: 163
+        height: 153
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_6
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1346
+        width: 162
+        height: 153
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_7
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1346
+        width: 160
+        height: 152
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1154
+        width: 159
+        height: 152
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_9
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1154
+        width: 156
+        height: 152
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_10
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1154
+        width: 153
+        height: 152
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_11
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1154
+        width: 147
+        height: 154
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_12
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1154
+        width: 140
+        height: 162
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_13
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1154
+        width: 132
+        height: 169
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_14
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1154
+        width: 124
+        height: 175
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_15
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1154
+        width: 119
+        height: 181
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_16
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 962
+        width: 117
+        height: 184
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_17
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 962
+        width: 117
+        height: 187
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_18
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 962
+        width: 117
+        height: 189
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_19
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 962
+        width: 118
+        height: 189
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_20
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 962
+        width: 118
+        height: 189
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_21
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 962
+        width: 119
+        height: 188
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_22
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 962
+        width: 119
+        height: 188
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_23
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 962
+        width: 119
+        height: 187
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_24
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 770
+        width: 120
+        height: 185
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_25
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 770
+        width: 120
+        height: 184
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_26
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 770
+        width: 124
+        height: 182
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_27
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 770
+        width: 126
+        height: 179
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_28
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 770
+        width: 129
+        height: 177
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_29
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 770
+        width: 136
+        height: 173
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_30
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 770
+        width: 142
+        height: 169
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_31
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 770
+        width: 148
+        height: 164
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_32
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 578
+        width: 154
+        height: 160
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_33
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 578
+        width: 160
+        height: 155
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_34
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 578
+        width: 166
+        height: 150
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_35
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 578
+        width: 171
+        height: 144
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_36
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 578
+        width: 176
+        height: 139
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_37
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 578
+        width: 181
+        height: 135
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_38
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 578
+        width: 184
+        height: 134
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_39
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 578
+        width: 185
+        height: 134
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_40
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 386
+        width: 186
+        height: 133
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_41
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 386
+        width: 186
+        height: 133
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_42
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 386
+        width: 186
+        height: 133
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_43
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 386
+        width: 186
+        height: 132
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_44
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 386
+        width: 185
+        height: 132
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_45
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 386
+        width: 184
+        height: 132
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_46
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 386
+        width: 182
+        height: 132
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_47
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 386
+        width: 180
+        height: 132
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_48
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 194
+        width: 176
+        height: 133
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_49
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 194
+        width: 172
+        height: 134
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_50
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 194
+        width: 167
+        height: 135
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_51
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 194
+        width: 161
+        height: 137
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_52
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 194
+        width: 155
+        height: 138
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_53
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 194
+        width: 148
+        height: 139
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_54
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 194
+        width: 140
+        height: 140
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_55
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 194
+        width: 136
+        height: 141
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_56
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2
+        width: 135
+        height: 142
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_57
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2
+        width: 132
+        height: 144
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_58
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 2
+        width: 142
+        height: 146
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_59
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 2
+        width: 150
+        height: 148
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_60
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 2
+        width: 157
+        height: 150
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Praying_61
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 2
+        width: 161
+        height: 152
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
