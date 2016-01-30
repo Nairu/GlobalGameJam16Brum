@@ -53,7 +53,11 @@ public class GameResourceManager : MonoBehaviour {
 
     public void AddSouls(int soulsToAdd)
     {
-        _resourceManager.Souls += soulsToAdd;
+        // Do not allow soul count to exceed MaxSouls limit, excess souls are wasted.
+        if (_resourceManager.Souls + soulsToAdd <= _resourceManager.MaxSouls)
+            _resourceManager.Souls += soulsToAdd;
+        else
+            _resourceManager.Souls = _resourceManager.MaxSouls;
     }
 
     public void AddRenown(int renownToAdd)
@@ -63,8 +67,11 @@ public class GameResourceManager : MonoBehaviour {
 
     public void Update()
     {
+        MapManager map = GameObject.FindObjectOfType<MapManager>();
+
+
         _goldCounter.text = string.Format("Gold: {0}", _resourceManager.Gold);
-        _soulsCounter.text = string.Format("Souls: {0}", _resourceManager.Souls);
+        _soulsCounter.text = string.Format("Souls: {0}/{1}", _resourceManager.Souls, _resourceManager.MaxSouls);
         _renounCounter.text = string.Format("Renoun: {0}", _resourceManager.Renoun);
     }
 }
