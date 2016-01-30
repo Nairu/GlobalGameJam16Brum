@@ -32,6 +32,8 @@ public class Tile : MonoBehaviour {
 
     MapManager map;
 
+    public bool AllowsVerticalMove = false;
+
 	// Use this for initialization
 	void Start () {
         map = GameObject.FindObjectOfType<MapManager>();
@@ -56,7 +58,11 @@ public class Tile : MonoBehaviour {
                     break;
                 case "Dirt":
                     Debug.Log("Dirt" + " Clicked");
-                    DirtClicked(_goldCost, _soulsCost);
+                    DirtClicked();
+                    break;
+                case "Empty":
+                    Debug.Log("Empty Clicked");
+                    EmptyClicked(_goldCost, _soulsCost);
                     break;
             }
         }
@@ -67,15 +73,17 @@ public class Tile : MonoBehaviour {
         // Check for dirt below
         string tileToCheck = "Tile_" + Pos.x + "_" + (Pos.y - 2.0f);
         GameObject go = GameObject.Find(tileToCheck);
+        Debug.Log("Y Depth: " + map.yDepth + " and absolute value " + (Mathf.Abs(map.yDepth / 2)));
         if (go != null)
         {
             Tile tile = go.GetComponent<Tile>();
             if (tile.TileType == "Dirt")
             {
-                if (Camera.main.GetComponent<GameResourceManager>().SpendResources(goldCost, soulsCost))
+                if (Camera.main.GetComponent<GameResourceManager>().SpendResources((goldCost * (Mathf.Abs(map.yDepth / 2))), soulsCost))
                 {
                     Debug.Log("Change to Ladder");
                     map.ChangeTile(tile.Pos, "Tunnel");
+                    map.yDepth -= 2;
                 }
                 else
                 {
@@ -85,9 +93,21 @@ public class Tile : MonoBehaviour {
         }
     }
 
-    void DirtClicked(int _goldCost, int _soulsCost)
+    void DirtClicked()
     {
-         Debug.Log("Change to " + Enumerations.GetEnumDescription((TileTypes)_roomToPlace));        
+        if (this.Pos.y < map.yDepth || this.Pos.y > -2)
+            return;
+
+        //start logic to add job to the queue to destroy this dirt
+        map.ChangeTile(Pos, Enumerations.GetEnumDescription(TileTypes.Empty));
+    }
+
+    void EmptyClicked(int _goldCost, int _soulsCost)
+    {
+        if (this.Pos.y < map.yDepth || this.Pos.y > -2)
+            return;
+
+        Debug.Log("Change to " + Enumerations.GetEnumDescription((TileTypes)_roomToPlace));
         if (Camera.main.GetComponent<GameResourceManager>().SpendResources(_goldCost, _soulsCost))
         {
             map.ChangeTile(Pos, Enumerations.GetEnumDescription((TileTypes)_roomToPlace));

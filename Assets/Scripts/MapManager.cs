@@ -14,6 +14,8 @@ public class MapManager : MonoBehaviour {
     public float tileY;
     public GameObject goTest;
 
+    public int yDepth = -2;
+
     // Use this for initialization
     void Start () {
         SpawnTiles();
