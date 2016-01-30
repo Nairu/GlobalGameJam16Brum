@@ -780,7 +780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   map: {fileID: 1412609407}
   cameraLimitX: 12
-  RoomToPlace: 3
+  RoomToPlace: 0
   GoldCost: 0
   SoulsCost: 0
 --- !u!114 &507320683
@@ -794,7 +794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee298d148a2718d43b52749e69769906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartingGold: 60
+  StartingGold: 9000
   StartingSouls: 10
   StartingRenoun: 2
 --- !u!1 &785724281
