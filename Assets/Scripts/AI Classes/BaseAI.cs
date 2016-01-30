@@ -21,7 +21,12 @@ public class BaseAI : MonoBehaviour {
         _health += amountToHeal;
     }
 
-    private void Die()
+    protected virtual void Attack()
+    {
+
+    }
+
+    protected virtual void Die()
     {
 
     }

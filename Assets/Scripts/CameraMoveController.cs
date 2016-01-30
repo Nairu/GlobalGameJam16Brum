@@ -9,8 +9,12 @@ public class CameraMoveController : MonoBehaviour {
     public MapManager map;
     public int cameraLimitX;
 
-	// Use this for initialization
-	void Start () {
+    public int RoomToPlace = 3;
+    public int GoldCost = 0;
+    public int SoulsCost = 0;
+
+    // Use this for initialization
+    void Start () {
         myTransform = GetComponent<Transform>();
         myCamera = GetComponent<Camera>();
     }
@@ -48,5 +52,13 @@ public class CameraMoveController : MonoBehaviour {
         Vector3 checkVector = myCamera.ScreenToWorldPoint(Input.mousePosition);
 
         return new Vector2(Mathf.Floor(checkVector.x), Mathf.FloorToInt(checkVector.y));
+    }
+
+    public void SetRoom(int roomToSet)
+    {
+        RoomToPlace = roomToSet;
+        Tile refTile = map.GetTileArchetype(Enumerations.GetEnumDescription((TileTypes)roomToSet));        
+        GoldCost = refTile.goldCost;        
+        SoulsCost = refTile.soulsCost;
     }
 }

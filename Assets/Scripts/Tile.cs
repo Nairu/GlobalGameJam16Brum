@@ -1,5 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.EventSystems;
+using System.ComponentModel;
+using System.Reflection;
+
+public enum TileTypes
+{
+    [Description("Empty")]
+    Empty = 0,
+    [Description("Dirt")]
+    Dirt = 1,
+    [Description("Tunnel")]
+    Tunnel = 2,
+    [Description("Dorm")]
+    Dorm = 3,
+    [Description("SummonRoom")]
+    SummonRoom = 4
+}
 
 public class Tile : MonoBehaviour {
 
@@ -7,6 +24,11 @@ public class Tile : MonoBehaviour {
 
     public Vector2 Pos;
     public string TileType;
+
+    public int goldCost;
+    public int soulsCost;
+
+    private int _roomToPlace;
 
     MapManager map;
 
@@ -20,16 +42,23 @@ public class Tile : MonoBehaviour {
     {
         Debug.Log(TileName + " Clicked");
 
-        switch (TileType)
+        if (!EventSystem.current.IsPointerOverGameObject())
         {
-            case "Tunnel":
-                Debug.Log("Tunnel" + " Clicked");
-                TunnelClicked();
-                break;
-            case "Dirt":
-                Debug.Log("Dirt" + " Clicked");
-                DirtClicked();
-                break;
+            _roomToPlace = Camera.main.GetComponent<CameraMoveController>().RoomToPlace;
+            int _goldCost = Camera.main.GetComponent<CameraMoveController>().GoldCost;
+            int _soulsCost = Camera.main.GetComponent<CameraMoveController>().SoulsCost;
+
+            switch (TileType)
+            {
+                case "Tunnel":
+                    Debug.Log("Tunnel" + " Clicked");
+                    TunnelClicked();
+                    break;
+                case "Dirt":
+                    Debug.Log("Dirt" + " Clicked");
+                    DirtClicked(_goldCost, _soulsCost);
+                    break;
+            }
         }
     }
 
@@ -43,16 +72,28 @@ public class Tile : MonoBehaviour {
             Tile tile = go.GetComponent<Tile>();
             if (tile.TileType == "Dirt")
             {
-                Debug.Log("Change to Ladder");
-                map.ChangeTile(tile.Pos, "Tunnel");
+                if (Camera.main.GetComponent<GameResourceManager>().SpendResources(goldCost, soulsCost))
+                {
+                    Debug.Log("Change to Ladder");
+                    map.ChangeTile(tile.Pos, "Tunnel");
+                }
+                else
+                {
+                    Debug.Log("Not enough gold!");
+                }
             }
         }
     }
 
-    void DirtClicked()
+    void DirtClicked(int _goldCost, int _soulsCost)
     {
-         Debug.Log("Change to Dormitory");
-         map.ChangeTile(Pos, "Dorm");
+         Debug.Log("Change to " + Enumerations.GetEnumDescription((TileTypes)_roomToPlace));        
+        if (Camera.main.GetComponent<GameResourceManager>().SpendResources(_goldCost, _soulsCost))
+        {
+            map.ChangeTile(Pos, Enumerations.GetEnumDescription((TileTypes)_roomToPlace));
+        }
+        else
+            Debug.Log("Not enough gold!");
     }
 
     // Update is called once per frame

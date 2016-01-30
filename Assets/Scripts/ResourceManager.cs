@@ -1,4 +1,6 @@
-﻿public class ResourceManager {
+﻿using UnityEngine;
+
+public class ResourceManager {
 
     private int _gold;
     public int Gold
@@ -38,17 +40,17 @@
     
     public bool HaveEnoughGold(int goldToSpend)
     {
-        return goldToSpend < Gold;
+        return goldToSpend <= Gold;
     }
 
     public bool HaveEnoughSouls(int soulsToSpend)
     {
-        return soulsToSpend < Souls;
+        return soulsToSpend <= Souls;
     }
 
     public bool HaveEnoughRenoun(int renounToSpend)
     {
-        return renounToSpend < Renoun;
+        return renounToSpend <= Renoun;
     }
 
     public bool SpendGold(int gold)
@@ -70,10 +72,12 @@
     {
         if (!HaveEnoughGold(gold) || !HaveEnoughSouls(souls) || !HaveEnoughRenoun(renoun))
         {
-            return false;
+            Debug.Log("Not enough gold / souls / renoun");
+            return false;            
         }
         else
         {
+            Debug.Log("Gold spend " + gold);
             Gold -= gold;
             Souls -= souls;
             Renoun -= renoun;

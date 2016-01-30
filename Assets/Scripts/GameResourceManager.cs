@@ -46,6 +46,21 @@ public class GameResourceManager : MonoBehaviour {
         return _resourceManager.SpendResources(gold, souls, renoun);
     }
 
+    public void AddGold(int goldToAdd)
+    {
+        _resourceManager.Gold += goldToAdd;
+    }
+
+    public void AddSouls(int soulsToAdd)
+    {
+        _resourceManager.Souls += soulsToAdd;
+    }
+
+    public void AddRenown(int renownToAdd)
+    {
+        _resourceManager.Renoun += renownToAdd;
+    }
+
     public void Update()
     {
         _goldCounter.text = string.Format("Gold: {0}", _resourceManager.Gold);

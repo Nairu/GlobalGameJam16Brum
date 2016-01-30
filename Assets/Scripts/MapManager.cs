@@ -72,17 +72,58 @@ public class MapManager : MonoBehaviour {
         go.transform.parent = this.transform;
 
         Tile tile = go.GetComponent<Tile>();
-        tile.Pos = pos;
-        tile.TileName = name;
-        tile.TileType = type;      
+        if (tile != null)
+        {
+            tile.Pos = pos;
+            tile.TileName = name;
+            tile.TileType = type;
+        }
+    }
+
+    public Tile GetTileArchetype(string type)
+    {
+        GameObject prefab = Resources.Load<GameObject>(type);
+        if (prefab == null)
+            return null;
+        GameObject go = (GameObject)GameObject.Instantiate(prefab);
+
+        Tile tile = go.GetComponent<Tile>();
+        if (tile == null)
+            return null;
+        else
+        {
+            GameObject.Destroy(go);
+            return tile;
+        }
+    }
+
+    public string TileCoordToName(int x, int y)
+    {
+        return "Tile_" + x + "_" + y;
+    }
+
+    public Tile GetTileAt(int x, int y)
+    {
+        GameObject go = (GameObject)GameObject.Find(TileCoordToName(x, y));
+        if (go == null)
+            return null;
+
+        Tile tile = go.GetComponent<Tile>();
+        if (tile != null)
+        {
+            return tile;
+        }
+
+        // If this object has no Tile component, then it is a child of the "real" parent
+        return go.transform.parent.GetComponent<Tile>();
     }
 
     public void ChangeTile(Vector2 pos, string type)
     {
-        Debug.Log("changing : Tile_" + pos.x + "_" + pos.y);
-        string tileName = "Tile_" + pos.x + "_" + pos.y;
-        GameObject go = (GameObject)GameObject.Find(tileName);
-        Tile targetTile = go.GetComponent<Tile>();
+        Debug.Log("changing : " + TileCoordToName(Mathf.FloorToInt(pos.x), Mathf.FloorToInt(pos.y)));
+        string tileName = TileCoordToName(Mathf.FloorToInt(pos.x), Mathf.FloorToInt(pos.y));
+                
+        Tile targetTile = GetTileAt(Mathf.FloorToInt(pos.x), Mathf.FloorToInt(pos.y));
         Destroy(targetTile.gameObject);
 
         CreateTile(pos, tileName, type);
