@@ -23,6 +23,15 @@ public class ResourceManager {
         set { _renoun = value; }
     }
 
+    public int MaxSouls
+    {
+        get
+        {
+            MapManager map = GameObject.FindObjectOfType<MapManager>();
+
+            return 10 + (map.prisonCount * 5);
+        }
+    } 
 
     public ResourceManager(int gold, int souls, int renoun)
     {

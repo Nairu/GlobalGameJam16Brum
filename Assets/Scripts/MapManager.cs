@@ -15,6 +15,10 @@ public class MapManager : MonoBehaviour {
     public GameObject goTest;
 
     public int yDepth = -2;
+    public int prisonCount = 0;
+
+    public int CthuluLimit = 10;
+    public bool CthuluFound = false;
 
     // Use this for initialization
     void Start () {

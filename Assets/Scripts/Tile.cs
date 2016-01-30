@@ -19,7 +19,13 @@ public enum TileTypes
     [Description("TunnelStart")]
     TunnelStart = 5,
     [Description("DugDirt")]
-    DugDirt = 6
+    DugDirt = 6,
+    [Description("MessHall")]
+    MessHall = 7,
+    [Description("Dungeon")]
+    Dungeon = 8,
+    [Description("CthuluShrine")]
+    CthuluShrine = 9
 }
 
 public class Tile : MonoBehaviour {
@@ -121,7 +127,13 @@ public class Tile : MonoBehaviour {
         //start logic to add job to the queue to destroy this dirt, 
         // ONLY if the tile in question has a walkable path to a ladder
         if (IsReachable())
-            map.ChangeTile(Pos, Enumerations.GetEnumDescription(TileTypes.Empty));
+        {
+            // Must check if we have discovered a secret! Oooooohh!
+            TileTypes t = checkForSecret(Pos);
+
+            Debug.Log("change Dirt to " + t.ToString());
+            map.ChangeTile(Pos, Enumerations.GetEnumDescription(t));
+        }
     }
 
     void DugDirtClicked(int _goldCost, int _soulsCost)
@@ -133,6 +145,10 @@ public class Tile : MonoBehaviour {
         if (Camera.main.GetComponent<GameResourceManager>().SpendResources(_goldCost, _soulsCost))
         {
             map.ChangeTile(Pos, Enumerations.GetEnumDescription((TileTypes)_roomToPlace));
+            // increment number of prisons if necessary 
+            if ((TileTypes)_roomToPlace == TileTypes.Dungeon)
+                map.prisonCount++;
+ 
         }
         else
             Debug.Log("Not enough gold!");
@@ -145,7 +161,37 @@ public class Tile : MonoBehaviour {
             // Refund half the initial gold cost
             Camera.main.GetComponent<GameResourceManager>().AddGold( this.goldCost / 2);
             map.ChangeTile(Pos, Enumerations.GetEnumDescription((TileTypes)_roomToPlace));
+
+            // decrement number of prisons if necessary 
+            if (map.GetTileAt((int)Pos.x, (int)Pos.y))
+                map.prisonCount--;
         }
+    }
+
+    TileTypes checkForSecret(Vector2 pos)
+    {
+        // Cthulu's Shrine
+        // Can only appear when y < -10 
+        if (pos.y < map.CthuluLimit && map.CthuluFound == false)
+        {
+            int rand = Random.Range(1, 10);
+            Debug.Log("Random number: " + rand);
+            int y = Mathf.Abs((int)pos.y);
+            Debug.Log("Y Coord: " + y);
+
+            int marker = y + rand - map.CthuluLimit;
+            Debug.Log("marker: " + marker);
+
+            if (marker >= (map.CthuluLimit * 2))
+            {
+                map.CthuluFound = true;
+                return TileTypes.CthuluShrine;
+            }
+
+        }
+
+        // No secret found, return empty dirt
+        return TileTypes.DugDirt;
     }
 
     // Update is called once per frame
