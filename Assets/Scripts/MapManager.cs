@@ -7,8 +7,15 @@ public class MapManager : MonoBehaviour {
     public int numTilesY;    
     public int numTilesX;
 
-	// Use this for initialization
-	void Start () {
+
+    public float RemTestX;
+    public float RemTestY;
+    public float tileX;
+    public float tileY;
+    public GameObject goTest;
+
+    // Use this for initialization
+    void Start () {
         SpawnTiles();
 
 
@@ -49,7 +56,7 @@ public class MapManager : MonoBehaviour {
         }
     }
 
-    void CreateTile(Vector2 pos, string name, string type)
+    public void CreateTile(Vector2 pos, string name, string type)
     {
         GameObject prefab = Resources.Load<GameObject>(type);
         // check type exists iin prefabs
@@ -66,12 +73,55 @@ public class MapManager : MonoBehaviour {
 
         Tile tile = go.GetComponent<Tile>();
         tile.Pos = pos;
-        tile.TileName = name;        
+        tile.TileName = name;
+        tile.TileType = type;      
+    }
+
+    public void ChangeTile(Vector2 pos, string type)
+    {
+        Debug.Log("changing : Tile_" + pos.x + "_" + pos.y);
+        string tileName = "Tile_" + pos.x + "_" + pos.y;
+        GameObject go = (GameObject)GameObject.Find(tileName);
+        Tile targetTile = go.GetComponent<Tile>();
+        Destroy(targetTile.gameObject);
+
+        CreateTile(pos, tileName, type);
     }
 
 	// Update is called once per frame
 	void Update () {
 	
+        if (Input.GetMouseButtonDown(0))
+        {
+            Vector2 mousePos = Camera.main.GetComponent<CameraMoveController>().AbsolutePositionUnerMouse();
+            Debug.Log(mousePos);
 
+            //goTest = ClickSelect();
+
+            //Destroy(goTest);
+
+        }
 	}
+
+    GameObject ClickSelect()
+    {
+        //Converting Mouse Pos to 2D (vector2) World Pos
+        Vector2 rayPos = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
+        RaycastHit2D hit = Physics2D.Raycast(rayPos, Vector2.zero, 12.0f);
+
+        if (hit)
+        {
+            Debug.Log(hit.transform.name);
+            return hit.transform.gameObject;
+        }
+        else return null;
+    }
+
+    float MakePositive(float input)
+    {
+        if (input < 0)
+            return input * -1;
+        else
+            return input;
+    }
 }

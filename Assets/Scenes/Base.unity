@@ -376,6 +376,7 @@ GameObject:
   - 4: {fileID: 1210791274}
   - 212: {fileID: 1210791273}
   - 114: {fileID: 1210791275}
+  - 61: {fileID: 1210791276}
   m_Layer: 0
   m_Name: Tile_0_-2
   m_TagString: Untagged
@@ -436,9 +437,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 755820546d575c34ab6a0e752a6b718f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TileName: 
-  Pos: {x: 0, y: 0}
-  TileType: 
+  TileName: Tile_0_-2
+  Pos: {x: 0, y: -2}
+  TileType: Tunnel
+--- !u!61 &1210791276
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1210791272}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 1.5, y: 1}
+  serializedVersion: 2
+  m_Size: {x: 3, y: 2}
 --- !u!1 &1412609406
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,6 +483,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numTilesY: 0
   numTilesX: 0
+  RemTestX: 0
+  RemTestY: 0
+  tileX: 0
+  tileY: 0
+  goTest: {fileID: 0}
 --- !u!4 &1412609408
 Transform:
   m_ObjectHideFlags: 0
