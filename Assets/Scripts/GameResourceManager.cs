@@ -1,8 +1,13 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class GameResourceManager : MonoBehaviour {
 
     private ResourceManager _resourceManager;
+    //private GameObject _gameCanvas;
+    private Text _goldCounter;
+    private Text _soulsCounter;
+    private Text _renounCounter;
 
     public int StartingGold = 0;
     public int StartingSouls = 0;
@@ -11,6 +16,14 @@ public class GameResourceManager : MonoBehaviour {
     void Awake()
     {
         _resourceManager = new ResourceManager(StartingGold, StartingSouls, StartingRenoun);
+        _goldCounter = GameObject.FindGameObjectWithTag("Gold").GetComponent<Text>();
+        _soulsCounter = GameObject.FindGameObjectWithTag("Souls").GetComponent<Text>();
+        _renounCounter = GameObject.FindGameObjectWithTag("Renoun").GetComponent<Text>();
+    }
+
+    void Start()
+    {
+        
     }
 
     public bool SpendGold(int goldToSpend)
@@ -31,5 +44,12 @@ public class GameResourceManager : MonoBehaviour {
     public bool SpendResources(int gold = 0, int souls = 0, int renoun = 0)
     {
         return _resourceManager.SpendResources(gold, souls, renoun);
+    }
+
+    public void Update()
+    {
+        _goldCounter.text = string.Format("Gold: {0}", _resourceManager.Gold);
+        _soulsCounter.text = string.Format("Souls: {0}", _resourceManager.Souls);
+        _renounCounter.text = string.Format("Renoun: {0}", _resourceManager.Renoun);
     }
 }
