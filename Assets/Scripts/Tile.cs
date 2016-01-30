@@ -15,7 +15,9 @@ public enum TileTypes
     [Description("Dorm")]
     Dorm = 3,
     [Description("SummonRoom")]
-    SummonRoom = 4
+    SummonRoom = 4,
+    [Description("TunnelStart")]
+    TunnelStart = 5
 }
 
 public class Tile : MonoBehaviour {
@@ -53,6 +55,10 @@ public class Tile : MonoBehaviour {
             switch (TileType)
             {
                 case "Tunnel":
+                    Debug.Log("Tunnel" + " Clicked");
+                    TunnelClicked();
+                    break;
+                case "TunnelStart":
                     Debug.Log("Tunnel" + " Clicked");
                     TunnelClicked();
                     break;
