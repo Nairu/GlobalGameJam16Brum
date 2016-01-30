@@ -1,0 +1,1189 @@
+fileFormatVersion: 2
+guid: defcdb22025721f49bd61c8cb032d477
+timeCreated: 1454168569
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Cultist1Worshipping_0
+    21300002: Cultist1Worshipping_1
+    21300004: Cultist1Worshipping_2
+    21300006: Cultist1Worshipping_3
+    21300008: Cultist1Worshipping_4
+    21300010: Cultist1Worshipping_5
+    21300012: Cultist1Worshipping_6
+    21300014: Cultist1Worshipping_7
+    21300016: Cultist1Worshipping_8
+    21300018: Cultist1Worshipping_9
+    21300020: Cultist1Worshipping_10
+    21300022: Cultist1Worshipping_11
+    21300024: Cultist1Worshipping_12
+    21300026: Cultist1Worshipping_13
+    21300028: Cultist1Worshipping_14
+    21300030: Cultist1Worshipping_15
+    21300032: Cultist1Worshipping_16
+    21300034: Cultist1Worshipping_17
+    21300036: Cultist1Worshipping_18
+    21300038: Cultist1Worshipping_19
+    21300040: Cultist1Worshipping_20
+    21300042: Cultist1Worshipping_21
+    21300044: Cultist1Worshipping_22
+    21300046: Cultist1Worshipping_23
+    21300048: Cultist1Worshipping_24
+    21300050: Cultist1Worshipping_25
+    21300052: Cultist1Worshipping_26
+    21300054: Cultist1Worshipping_27
+    21300056: Cultist1Worshipping_28
+    21300058: Cultist1Worshipping_29
+    21300060: Cultist1Worshipping_30
+    21300062: Cultist1Worshipping_31
+    21300064: Cultist1Worshipping_32
+    21300066: Cultist1Worshipping_33
+    21300068: Cultist1Worshipping_34
+    21300070: Cultist1Worshipping_35
+    21300072: Cultist1Worshipping_36
+    21300074: Cultist1Worshipping_37
+    21300076: Cultist1Worshipping_38
+    21300078: Cultist1Worshipping_39
+    21300080: Cultist1Worshipping_40
+    21300082: Cultist1Worshipping_41
+    21300084: Cultist1Worshipping_42
+    21300086: Cultist1Worshipping_43
+    21300088: Cultist1Worshipping_44
+    21300090: Cultist1Worshipping_45
+    21300092: Cultist1Worshipping_46
+    21300094: Cultist1Worshipping_47
+    21300096: Cultist1Worshipping_48
+    21300098: Cultist1Worshipping_49
+    21300100: Cultist1Worshipping_50
+    21300102: Cultist1Worshipping_51
+    21300104: Cultist1Worshipping_52
+    21300106: Cultist1Worshipping_53
+    21300108: Cultist1Worshipping_54
+    21300110: Cultist1Worshipping_55
+    21300112: Cultist1Worshipping_56
+    21300114: Cultist1Worshipping_57
+    21300116: Cultist1Worshipping_58
+    21300118: Cultist1Worshipping_59
+    21300120: Cultist1Worshipping_60
+    21300122: Cultist1Worshipping_61
+    21300124: Cultist1Worshipping_62
+    21300126: Cultist1Worshipping_63
+    21300128: Cultist1Worshipping_64
+    21300130: Cultist1Worshipping_65
+    21300132: Cultist1Worshipping_66
+    21300134: Cultist1Worshipping_67
+    21300136: Cultist1Worshipping_68
+    21300138: Cultist1Worshipping_69
+    21300140: Cultist1Worshipping_70
+    21300142: Cultist1Worshipping_71
+    21300144: Cultist1Worshipping_72
+    21300146: Cultist1Worshipping_73
+    21300148: Cultist1Worshipping_74
+    21300150: Cultist1Worshipping_75
+    21300152: Cultist1Worshipping_76
+    21300154: Cultist1Worshipping_77
+    21300156: Cultist1Worshipping_78
+    21300158: Cultist1Worshipping_79
+    21300160: Cultist1Worshipping_80
+    21300162: Cultist1Worshipping_81
+    21300164: Cultist1Worshipping_82
+    21300166: Cultist1Worshipping_83
+    21300168: Cultist1Worshipping_84
+    21300170: Cultist1Worshipping_85
+    21300172: Cultist1Worshipping_86
+    21300174: Cultist1Worshipping_87
+    21300176: Cultist1Worshipping_88
+    21300178: Cultist1Worshipping_89
+    21300180: Cultist1Worshipping_90
+    21300182: Cultist1Worshipping_91
+    21300184: Cultist1Worshipping_92
+    21300186: Cultist1Worshipping_93
+    21300188: Cultist1Worshipping_94
+    21300190: Cultist1Worshipping_95
+    21300192: Cultist1Worshipping_96
+    21300194: Cultist1Worshipping_97
+    21300196: Cultist1Worshipping_98
+    21300198: Cultist1Worshipping_99
+    21300200: Cultist1Worshipping_100
+    21300202: Cultist1Worshipping_101
+    21300204: Cultist1Worshipping_102
+    21300206: Cultist1Worshipping_103
+    21300208: Cultist1Worshipping_104
+    21300210: Cultist1Worshipping_105
+    21300212: Cultist1Worshipping_106
+    21300214: Cultist1Worshipping_107
+    21300216: Cultist1Worshipping_108
+    21300218: Cultist1Worshipping_109
+    21300220: Cultist1Worshipping_110
+    21300222: Cultist1Worshipping_111
+    21300224: Cultist1Worshipping_112
+    21300226: Cultist1Worshipping_113
+    21300228: Cultist1Worshipping_114
+    21300230: Cultist1Worshipping_115
+    21300232: Cultist1Worshipping_116
+    21300234: Cultist1Worshipping_117
+    21300236: Cultist1Worshipping_118
+    21300238: Cultist1Worshipping_119
+    21300240: Cultist1Worshipping_120
+    21300242: Cultist1Worshipping_121
+    21300244: Cultist1Worshipping_122
+    21300246: Cultist1Worshipping_123
+    21300248: Cultist1Worshipping_124
+    21300250: Cultist1Worshipping_125
+    21300252: Cultist1Worshipping_126
+    21300254: Cultist1Worshipping_127
+    21300256: Cultist1Worshipping_128
+    21300258: Cultist1Worshipping_129
+    21300260: Cultist1Worshipping_130
+    21300262: Cultist1Worshipping_131
+    21300264: Cultist1Worshipping_132
+    21300266: Cultist1Worshipping_133
+    21300268: Cultist1Worshipping_134
+    21300270: Cultist1Worshipping_135
+    21300272: Cultist1Worshipping_136
+    21300274: Cultist1Worshipping_137
+    21300276: Cultist1Worshipping_138
+    21300278: Cultist1Worshipping_139
+    21300280: Cultist1Worshipping_140
+    21300282: Cultist1Worshipping_141
+    21300284: Cultist1Worshipping_142
+    21300286: Cultist1Worshipping_143
+    21300288: Cultist1Worshipping_144
+    21300290: Cultist1Worshipping_145
+    21300292: Cultist1Worshipping_146
+    21300294: Cultist1Worshipping_147
+    21300296: Cultist1Worshipping_148
+    21300298: Cultist1Worshipping_149
+    21300300: Cultist1Worshipping_150
+    21300302: Cultist1Worshipping_151
+    21300304: Cultist1Worshipping_152
+    21300306: Cultist1Worshipping_153
+    21300308: Cultist1Worshipping_154
+    21300310: Cultist1Worshipping_155
+    21300312: Cultist1Worshipping_156
+    21300314: Cultist1Worshipping_157
+    21300316: Cultist1Worshipping_158
+    21300318: Cultist1Worshipping_159
+    21300320: Cultist1Worshipping_160
+    21300322: Cultist1Worshipping_161
+    21300324: Cultist1Worshipping_162
+    21300326: Cultist1Worshipping_163
+    21300328: Cultist1Worshipping_164
+    21300330: Cultist1Worshipping_165
+    21300332: Cultist1Worshipping_166
+    21300334: Cultist1Worshipping_167
+    21300336: Cultist1Worshipping_168
+    21300338: Cultist1Worshipping_169
+    21300340: Cultist1Worshipping_170
+    21300342: Cultist1Worshipping_171
+    21300344: Cultist1Worshipping_172
+    21300346: Cultist1Worshipping_173
+    21300348: Cultist1Worshipping_174
+    21300350: Cultist1Worshipping_175
+    21300352: Cultist1Worshipping_176
+    21300354: Cultist1Worshipping_177
+    21300356: Cultist1Worshipping_178
+    21300358: Cultist1Worshipping_179
+    21300360: Cultist1Worshipping_180
+    21300362: Cultist1Worshipping_181
+    21300364: Cultist1Worshipping_182
+    21300366: Cultist1Worshipping_183
+    21300368: Cultist1Worshipping_184
+    21300370: Cultist1Worshipping_185
+    21300372: Cultist1Worshipping_186
+    21300374: Cultist1Worshipping_187
+    21300376: Cultist1Worshipping_188
+    21300378: Cultist1Worshipping_189
+    21300380: Cultist1Worshipping_190
+    21300382: Cultist1Worshipping_191
+    21300384: Cultist1Worshipping_192
+    21300386: Cultist1Worshipping_193
+    21300388: Cultist1Worshipping_194
+    21300390: Cultist1Worshipping_195
+    21300392: Cultist1Worshipping_196
+    21300394: Cultist1Worshipping_197
+    21300396: Cultist1Worshipping_198
+    21300398: Cultist1Worshipping_199
+    21300400: Cultist1Worshipping_200
+    21300402: Cultist1Worshipping_201
+    21300404: Cultist1Worshipping_202
+    21300406: Cultist1Worshipping_203
+    21300408: Cultist1Worshipping_204
+    21300410: Cultist1Worshipping_205
+    21300412: Cultist1Worshipping_206
+    21300414: Cultist1Worshipping_207
+    21300416: Cultist1Worshipping_208
+    21300418: Cultist1Worshipping_209
+    21300420: Cultist1Worshipping_210
+    21300422: Cultist1Worshipping_211
+    21300424: Cultist1Worshipping_212
+    21300426: Cultist1Worshipping_213
+    21300428: Cultist1Worshipping_214
+    21300430: Cultist1Worshipping_215
+    21300432: Cultist1Worshipping_216
+    21300434: Cultist1Worshipping_217
+    21300436: Cultist1Worshipping_218
+    21300438: Cultist1Worshipping_219
+    21300440: Cultist1Worshipping_220
+    21300442: Cultist1Worshipping_221
+    21300444: Cultist1Worshipping_222
+    21300446: Cultist1Worshipping_223
+    21300448: Cultist1Worshipping_224
+    21300450: Cultist1Worshipping_225
+    21300452: Cultist1Worshipping_226
+    21300454: Cultist1Worshipping_227
+    21300456: Cultist1Worshipping_228
+    21300458: Cultist1Worshipping_229
+    21300460: Cultist1Worshipping_230
+    21300462: Cultist1Worshipping_231
+    21300464: Cultist1Worshipping_232
+    21300466: Cultist1Worshipping_233
+    21300468: Cultist1Worshipping_234
+    21300470: Cultist1Worshipping_235
+    21300472: Cultist1Worshipping_236
+    21300474: Cultist1Worshipping_237
+    21300476: Cultist1Worshipping_238
+    21300478: Cultist1Worshipping_239
+    21300480: Cultist1Worshipping_240
+    21300482: Cultist1Worshipping_241
+    21300484: Cultist1Worshipping_242
+    21300486: Cultist1Worshipping_243
+    21300488: Cultist1Worshipping_244
+    21300490: Cultist1Worshipping_245
+    21300492: Cultist1Worshipping_246
+    21300494: Cultist1Worshipping_247
+    21300496: Cultist1Worshipping_248
+    21300498: Cultist1Worshipping_249
+    21300500: Cultist1Worshipping_250
+    21300502: Cultist1Worshipping_251
+    21300504: Cultist1Worshipping_252
+    21300506: Cultist1Worshipping_253
+    21300508: Cultist1Worshipping_254
+    21300510: Cultist1Worshipping_255
+    21300512: Cultist1Worshipping_256
+    21300514: Cultist1Worshipping_257
+    21300516: Cultist1Worshipping_258
+    21300518: Cultist1Worshipping_259
+    21300520: Cultist1Worshipping_260
+    21300522: Cultist1Worshipping_261
+    21300524: Cultist1Worshipping_262
+    21300526: Cultist1Worshipping_263
+    21300528: Cultist1Worshipping_264
+    21300530: Cultist1Worshipping_265
+    21300532: Cultist1Worshipping_266
+    21300534: Cultist1Worshipping_267
+    21300536: Cultist1Worshipping_268
+    21300538: Cultist1Worshipping_269
+    21300540: Cultist1Worshipping_270
+    21300542: Cultist1Worshipping_271
+    21300544: Cultist1Worshipping_272
+    21300546: Cultist1Worshipping_273
+    21300548: Cultist1Worshipping_274
+    21300550: Cultist1Worshipping_275
+    21300552: Cultist1Worshipping_276
+    21300554: Cultist1Worshipping_277
+    21300556: Cultist1Worshipping_278
+    21300558: Cultist1Worshipping_279
+    21300560: Cultist1Worshipping_280
+    21300562: Cultist1Worshipping_281
+    21300564: Cultist1Worshipping_282
+    21300566: Cultist1Worshipping_283
+    21300568: Cultist1Worshipping_284
+    21300570: Cultist1Worshipping_285
+    21300572: Cultist1Worshipping_286
+    21300574: Cultist1Worshipping_287
+    21300576: Cultist1Worshipping_288
+    21300578: Cultist1Worshipping_289
+    21300580: Cultist1Worshipping_290
+    21300582: Cultist1Worshipping_291
+    21300584: Cultist1Worshipping_292
+    21300586: Cultist1Worshipping_293
+    21300588: Cultist1Worshipping_294
+    21300590: Cultist1Worshipping_295
+    21300592: Cultist1Worshipping_296
+    21300594: Cultist1Worshipping_297
+    21300596: Cultist1Worshipping_298
+    21300598: Cultist1Worshipping_299
+    21300600: Cultist1Worshipping_300
+    21300602: Cultist1Worshipping_301
+    21300604: Cultist1Worshipping_302
+    21300606: Cultist1Worshipping_303
+    21300608: Cultist1Worshipping_304
+    21300610: Cultist1Worshipping_305
+    21300612: Cultist1Worshipping_306
+    21300614: Cultist1Worshipping_307
+    21300616: Cultist1Worshipping_308
+    21300618: Cultist1Worshipping_309
+    21300620: Cultist1Worshipping_310
+    21300622: Cultist1Worshipping_311
+    21300624: Cultist1Worshipping_312
+    21300626: Cultist1Worshipping_313
+    21300628: Cultist1Worshipping_314
+    21300630: Cultist1Worshipping_315
+    21300632: Cultist1Worshipping_316
+    21300634: Cultist1Worshipping_317
+    21300636: Cultist1Worshipping_318
+    21300638: Cultist1Worshipping_319
+    21300640: Cultist1Worshipping_320
+    21300642: Cultist1Worshipping_321
+    21300644: Cultist1Worshipping_322
+    21300646: Cultist1Worshipping_323
+    21300648: Cultist1Worshipping_324
+    21300650: Cultist1Worshipping_325
+    21300652: Cultist1Worshipping_326
+    21300654: Cultist1Worshipping_327
+    21300656: Cultist1Worshipping_328
+    21300658: Cultist1Worshipping_329
+    21300660: Cultist1Worshipping_330
+    21300662: Cultist1Worshipping_331
+    21300664: Cultist1Worshipping_332
+    21300666: Cultist1Worshipping_333
+    21300668: Cultist1Worshipping_334
+    21300670: Cultist1Worshipping_335
+    21300672: Cultist1Worshipping_336
+    21300674: Cultist1Worshipping_337
+    21300676: Cultist1Worshipping_338
+    21300678: Cultist1Worshipping_339
+    21300680: Cultist1Worshipping_340
+    21300682: Cultist1Worshipping_341
+    21300684: Cultist1Worshipping_342
+    21300686: Cultist1Worshipping_343
+    21300688: Cultist1Worshipping_344
+    21300690: Cultist1Worshipping_345
+    21300692: Cultist1Worshipping_346
+    21300694: Cultist1Worshipping_347
+    21300696: Cultist1Worshipping_348
+    21300698: Cultist1Worshipping_349
+    21300700: Cultist1Worshipping_350
+    21300702: Cultist1Worshipping_351
+    21300704: Cultist1Worshipping_352
+    21300706: Cultist1Worshipping_353
+    21300708: Cultist1Worshipping_354
+    21300710: Cultist1Worshipping_355
+    21300712: Cultist1Worshipping_356
+    21300714: Cultist1Worshipping_357
+    21300716: Cultist1Worshipping_358
+    21300718: Cultist1Worshipping_359
+    21300720: Cultist1Worshipping_360
+    21300722: Cultist1Worshipping_361
+    21300724: Cultist1Worshipping_362
+    21300726: Cultist1Worshipping_363
+    21300728: Cultist1Worshipping_364
+    21300730: Cultist1Worshipping_365
+    21300732: Cultist1Worshipping_366
+    21300734: Cultist1Worshipping_367
+    21300736: Cultist1Worshipping_368
+    21300738: Cultist1Worshipping_369
+    21300740: Cultist1Worshipping_370
+    21300742: Cultist1Worshipping_371
+    21300744: Cultist1Worshipping_372
+    21300746: Cultist1Worshipping_373
+    21300748: Cultist1Worshipping_374
+    21300750: Cultist1Worshipping_375
+    21300752: Cultist1Worshipping_376
+    21300754: Cultist1Worshipping_377
+    21300756: Cultist1Worshipping_378
+    21300758: Cultist1Worshipping_379
+    21300760: Cultist1Worshipping_380
+    21300762: Cultist1Worshipping_381
+    21300764: Cultist1Worshipping_382
+    21300766: Cultist1Worshipping_383
+    21300768: Cultist1Worshipping_384
+    21300770: Cultist1Worshipping_385
+    21300772: Cultist1Worshipping_386
+    21300774: Cultist1Worshipping_387
+    21300776: Cultist1Worshipping_388
+    21300778: Cultist1Worshipping_389
+    21300780: Cultist1Worshipping_390
+    21300782: Cultist1Worshipping_391
+    21300784: Cultist1Worshipping_392
+    21300786: Cultist1Worshipping_393
+    21300788: Cultist1Worshipping_394
+    21300790: Cultist1Worshipping_395
+    21300792: Cultist1Worshipping_396
+    21300794: Cultist1Worshipping_397
+    21300796: Cultist1Worshipping_398
+    21300798: Cultist1Worshipping_399
+    21300800: Cultist1Worshipping_400
+    21300802: Cultist1Worshipping_401
+    21300804: Cultist1Worshipping_402
+    21300806: Cultist1Worshipping_403
+    21300808: Cultist1Worshipping_404
+    21300810: Cultist1Worshipping_405
+    21300812: Cultist1Worshipping_406
+    21300814: Cultist1Worshipping_407
+    21300816: Cultist1Worshipping_408
+    21300818: Cultist1Worshipping_409
+    21300820: Cultist1Worshipping_410
+    21300822: Cultist1Worshipping_411
+    21300824: Cultist1Worshipping_412
+    21300826: Cultist1Worshipping_413
+    21300828: Cultist1Worshipping_414
+    21300830: Cultist1Worshipping_415
+    21300832: Cultist1Worshipping_416
+    21300834: Cultist1Worshipping_417
+    21300836: Cultist1Worshipping_418
+    21300838: Cultist1Worshipping_419
+    21300840: Cultist1Worshipping_420
+    21300842: Cultist1Worshipping_421
+    21300844: Cultist1Worshipping_422
+    21300846: Cultist1Worshipping_423
+    21300848: Cultist1Worshipping_424
+    21300850: Cultist1Worshipping_425
+    21300852: Cultist1Worshipping_426
+    21300854: Cultist1Worshipping_427
+    21300856: Cultist1Worshipping_428
+    21300858: Cultist1Worshipping_429
+    21300860: Cultist1Worshipping_430
+    21300862: Cultist1Worshipping_431
+    21300864: Cultist1Worshipping_432
+    21300866: Cultist1Worshipping_433
+    21300868: Cultist1Worshipping_434
+    21300870: Cultist1Worshipping_435
+    21300872: Cultist1Worshipping_436
+    21300874: Cultist1Worshipping_437
+    21300876: Cultist1Worshipping_438
+    21300878: Cultist1Worshipping_439
+    21300880: Cultist1Worshipping_440
+    21300882: Cultist1Worshipping_441
+    21300884: Cultist1Worshipping_442
+    21300886: Cultist1Worshipping_443
+    21300888: Cultist1Worshipping_444
+    21300890: Cultist1Worshipping_445
+    21300892: Cultist1Worshipping_446
+    21300894: Cultist1Worshipping_447
+    21300896: Cultist1Worshipping_448
+    21300898: Cultist1Worshipping_449
+    21300900: Cultist1Worshipping_450
+    21300902: Cultist1Worshipping_451
+    21300904: Cultist1Worshipping_452
+    21300906: Cultist1Worshipping_453
+    21300908: Cultist1Worshipping_454
+    21300910: Cultist1Worshipping_455
+    21300912: Cultist1Worshipping_456
+    21300914: Cultist1Worshipping_457
+    21300916: Cultist1Worshipping_458
+    21300918: Cultist1Worshipping_459
+    21300920: Cultist1Worshipping_460
+    21300922: Cultist1Worshipping_461
+    21300924: Cultist1Worshipping_462
+    21300926: Cultist1Worshipping_463
+    21300928: Cultist1Worshipping_464
+    21300930: Cultist1Worshipping_465
+    21300932: Cultist1Worshipping_466
+    21300934: Cultist1Worshipping_467
+    21300936: Cultist1Worshipping_468
+    21300938: Cultist1Worshipping_469
+    21300940: Cultist1Worshipping_470
+    21300942: Cultist1Worshipping_471
+    21300944: Cultist1Worshipping_472
+    21300946: Cultist1Worshipping_473
+    21300948: Cultist1Worshipping_474
+    21300950: Cultist1Worshipping_475
+    21300952: Cultist1Worshipping_476
+    21300954: Cultist1Worshipping_477
+    21300956: Cultist1Worshipping_478
+    21300958: Cultist1Worshipping_479
+    21300960: Cultist1Worshipping_480
+    21300962: Cultist1Worshipping_481
+    21300964: Cultist1Worshipping_482
+    21300966: Cultist1Worshipping_483
+    21300968: Cultist1Worshipping_484
+    21300970: Cultist1Worshipping_485
+    21300972: Cultist1Worshipping_486
+    21300974: Cultist1Worshipping_487
+    21300976: Cultist1Worshipping_488
+    21300978: Cultist1Worshipping_489
+    21300980: Cultist1Worshipping_490
+    21300982: Cultist1Worshipping_491
+    21300984: Cultist1Worshipping_492
+    21300986: Cultist1Worshipping_493
+    21300988: Cultist1Worshipping_494
+    21300990: Cultist1Worshipping_495
+    21300992: Cultist1Worshipping_496
+    21300994: Cultist1Worshipping_497
+    21300996: Cultist1Worshipping_498
+    21300998: Cultist1Worshipping_499
+    21301000: Cultist1Worshipping_500
+    21301002: Cultist1Worshipping_501
+    21301004: Cultist1Worshipping_502
+    21301006: Cultist1Worshipping_503
+    21301008: Cultist1Worshipping_504
+    21301010: Cultist1Worshipping_505
+    21301012: Cultist1Worshipping_506
+    21301014: Cultist1Worshipping_507
+    21301016: Cultist1Worshipping_508
+    21301018: Cultist1Worshipping_509
+    21301020: Cultist1Worshipping_510
+    21301022: Cultist1Worshipping_511
+    21301024: Cultist1Worshipping_512
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Cultist1Worshipping_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1465
+        width: 162
+        height: 156
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1465
+        width: 165
+        height: 156
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_2
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1465
+        width: 167
+        height: 155
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1465
+        width: 168
+        height: 155
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_4
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1465
+        width: 169
+        height: 154
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_5
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1465
+        width: 169
+        height: 154
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_6
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1465
+        width: 169
+        height: 153
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_7
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1465
+        width: 166
+        height: 153
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_8
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1258
+        width: 162
+        height: 157
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1258
+        width: 155
+        height: 167
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_10
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1258
+        width: 147
+        height: 176
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_11
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1258
+        width: 142
+        height: 183
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_12
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 1258
+        width: 141
+        height: 188
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_13
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1258
+        width: 143
+        height: 189
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_14
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1258
+        width: 146
+        height: 188
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_15
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1258
+        width: 147
+        height: 187
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_16
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1051
+        width: 150
+        height: 186
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_17
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1051
+        width: 153
+        height: 185
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_18
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1051
+        width: 155
+        height: 183
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_19
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1051
+        width: 157
+        height: 181
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_20
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1051
+        width: 161
+        height: 178
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_21
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1051
+        width: 165
+        height: 174
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_22
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1051
+        width: 170
+        height: 170
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_23
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1051
+        width: 175
+        height: 166
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_24
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 844
+        width: 183
+        height: 161
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_25
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 844
+        width: 189
+        height: 156
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_26
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 844
+        width: 193
+        height: 152
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_27
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 844
+        width: 198
+        height: 147
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_28
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 844
+        width: 203
+        height: 143
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_29
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 844
+        width: 207
+        height: 138
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_30
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 844
+        width: 211
+        height: 134
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_31
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 844
+        width: 214
+        height: 129
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_32
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 638
+        width: 220
+        height: 121
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_33
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 638
+        width: 226
+        height: 115
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_34
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 638
+        width: 230
+        height: 112
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_35
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 638
+        width: 235
+        height: 109
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_36
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 638
+        width: 239
+        height: 106
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_37
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 638
+        width: 243
+        height: 103
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_38
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 638
+        width: 245
+        height: 101
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_39
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 638
+        width: 244
+        height: 100
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_40
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 430
+        width: 245
+        height: 100
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_41
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 430
+        width: 245
+        height: 99
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_42
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 430
+        width: 245
+        height: 98
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_43
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 430
+        width: 244
+        height: 97
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_44
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 430
+        width: 244
+        height: 95
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_45
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 431
+        width: 247
+        height: 85
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_46
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 431
+        width: 249
+        height: 78
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_47
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 432
+        width: 251
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 225
+        width: 254
+        height: 63
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_49
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 225
+        width: 255
+        height: 56
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_50
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 225
+        width: 257
+        height: 51
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_51
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 225
+        width: 250
+        height: 61
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_52
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 223
+        width: 242
+        height: 73
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_53
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 223
+        width: 232
+        height: 85
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_54
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 223
+        width: 220
+        height: 98
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_55
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 223
+        width: 207
+        height: 111
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_56
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 16
+        width: 201
+        height: 124
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_57
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 16
+        width: 192
+        height: 131
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_58
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 16
+        width: 190
+        height: 137
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_59
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 16
+        width: 187
+        height: 143
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_60
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 16
+        width: 182
+        height: 148
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1Worshipping_61
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 16
+        width: 176
+        height: 152
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

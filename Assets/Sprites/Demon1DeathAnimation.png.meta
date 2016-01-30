@@ -1,0 +1,760 @@
+fileFormatVersion: 2
+guid: 0020730070325e64ea6fc4bde07cac99
+timeCreated: 1454173121
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Demon1DeathAnimation_0
+    21300002: Demon1DeathAnimation_1
+    21300004: Demon1DeathAnimation_2
+    21300006: Demon1DeathAnimation_3
+    21300008: Demon1DeathAnimation_4
+    21300010: Demon1DeathAnimation_5
+    21300012: Demon1DeathAnimation_6
+    21300014: Demon1DeathAnimation_7
+    21300016: Demon1DeathAnimation_8
+    21300018: Demon1DeathAnimation_9
+    21300020: Demon1DeathAnimation_10
+    21300022: Demon1DeathAnimation_11
+    21300024: Demon1DeathAnimation_12
+    21300026: Demon1DeathAnimation_13
+    21300028: Demon1DeathAnimation_14
+    21300030: Demon1DeathAnimation_15
+    21300032: Demon1DeathAnimation_16
+    21300034: Demon1DeathAnimation_17
+    21300036: Demon1DeathAnimation_18
+    21300038: Demon1DeathAnimation_19
+    21300040: Demon1DeathAnimation_20
+    21300042: Demon1DeathAnimation_21
+    21300044: Demon1DeathAnimation_22
+    21300046: Demon1DeathAnimation_23
+    21300048: Demon1DeathAnimation_24
+    21300050: Demon1DeathAnimation_25
+    21300052: Demon1DeathAnimation_26
+    21300054: Demon1DeathAnimation_27
+    21300056: Demon1DeathAnimation_28
+    21300058: Demon1DeathAnimation_29
+    21300060: Demon1DeathAnimation_30
+    21300062: Demon1DeathAnimation_31
+    21300064: Demon1DeathAnimation_32
+    21300066: Demon1DeathAnimation_33
+    21300068: Demon1DeathAnimation_34
+    21300070: Demon1DeathAnimation_35
+    21300072: Demon1DeathAnimation_36
+    21300074: Demon1DeathAnimation_37
+    21300076: Demon1DeathAnimation_38
+    21300078: Demon1DeathAnimation_39
+    21300080: Demon1DeathAnimation_40
+    21300082: Demon1DeathAnimation_41
+    21300084: Demon1DeathAnimation_42
+    21300086: Demon1DeathAnimation_43
+    21300088: Demon1DeathAnimation_44
+    21300090: Demon1DeathAnimation_45
+    21300092: Demon1DeathAnimation_46
+    21300094: Demon1DeathAnimation_47
+    21300096: Demon1DeathAnimation_48
+    21300098: Demon1DeathAnimation_49
+    21300100: Demon1DeathAnimation_50
+    21300102: Demon1DeathAnimation_51
+    21300104: Demon1DeathAnimation_52
+    21300106: Demon1DeathAnimation_53
+    21300108: Demon1DeathAnimation_54
+    21300110: Demon1DeathAnimation_55
+    21300112: Demon1DeathAnimation_56
+    21300114: Demon1DeathAnimation_57
+    21300116: Demon1DeathAnimation_58
+    21300118: Demon1DeathAnimation_59
+    21300120: Demon1DeathAnimation_60
+    21300122: Demon1DeathAnimation_61
+    21300124: Demon1DeathAnimation_62
+    21300126: Demon1DeathAnimation_63
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Demon1DeathAnimation_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1400
+        width: 130
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1400
+        width: 130
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_2
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1400
+        width: 130
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1400
+        width: 130
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1400
+        width: 132
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1400
+        width: 131
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_6
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1400
+        width: 131
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_7
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1400
+        width: 132
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1200
+        width: 132
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_9
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1200
+        width: 132
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1200
+        width: 131
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1200
+        width: 131
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_12
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1200
+        width: 131
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_13
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1200
+        width: 134
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_14
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1200
+        width: 131
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_15
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1200
+        width: 131
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1000
+        width: 133
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_17
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1000
+        width: 130
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_18
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1000
+        width: 132
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_19
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1000
+        width: 139
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_20
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1003
+        width: 141
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_21
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1004
+        width: 139
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_22
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1008
+        width: 139
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_23
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1008
+        width: 140
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 808
+        width: 140
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_25
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 808
+        width: 166
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_26
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 808
+        width: 165
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_27
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 808
+        width: 165
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_28
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 804
+        width: 167
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_29
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 807
+        width: 169
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_30
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 807
+        width: 168
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_31
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 807
+        width: 166
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 604
+        width: 164
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_33
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 607
+        width: 164
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_34
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 607
+        width: 166
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_35
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 604
+        width: 149
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_36
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 605
+        width: 149
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_37
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 604
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_38
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 604
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_39
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 607
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 408
+        width: 148
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_41
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 407
+        width: 148
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_42
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 403
+        width: 147
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_43
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 400
+        width: 148
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_44
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 408
+        width: 106
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_45
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 440
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_46
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 408
+        width: 135
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_47
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 407
+        width: 136
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_48
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 407
+        width: 110
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_49
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 206
+        width: 107
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_50
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 235
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_51
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 204
+        width: 109
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_52
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 208
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_53
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 209
+        width: 100
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_54
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 208
+        width: 97
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_55
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 207
+        width: 100
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_56
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 207
+        width: 89
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_57
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 207
+        width: 90
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_58
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 7
+        width: 89
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_59
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 7
+        width: 97
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_60
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 7
+        width: 97
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_61
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 7
+        width: 98
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_62
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 7
+        width: 78
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1DeathAnimation_63
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 7
+        width: 79
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

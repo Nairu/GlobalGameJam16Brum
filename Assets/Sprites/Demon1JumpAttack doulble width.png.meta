@@ -1,0 +1,760 @@
+fileFormatVersion: 2
+guid: 375db538ce85a49418444867af33d21a
+timeCreated: 1454171658
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Demon1JumpAttack doulble width_0
+    21300002: Demon1JumpAttack doulble width_1
+    21300004: Demon1JumpAttack doulble width_2
+    21300006: Demon1JumpAttack doulble width_3
+    21300008: Demon1JumpAttack doulble width_4
+    21300010: Demon1JumpAttack doulble width_5
+    21300012: Demon1JumpAttack doulble width_6
+    21300014: Demon1JumpAttack doulble width_7
+    21300016: Demon1JumpAttack doulble width_8
+    21300018: Demon1JumpAttack doulble width_9
+    21300020: Demon1JumpAttack doulble width_10
+    21300022: Demon1JumpAttack doulble width_11
+    21300024: Demon1JumpAttack doulble width_12
+    21300026: Demon1JumpAttack doulble width_13
+    21300028: Demon1JumpAttack doulble width_14
+    21300030: Demon1JumpAttack doulble width_15
+    21300032: Demon1JumpAttack doulble width_16
+    21300034: Demon1JumpAttack doulble width_17
+    21300036: Demon1JumpAttack doulble width_18
+    21300038: Demon1JumpAttack doulble width_19
+    21300040: Demon1JumpAttack doulble width_20
+    21300042: Demon1JumpAttack doulble width_21
+    21300044: Demon1JumpAttack doulble width_22
+    21300046: Demon1JumpAttack doulble width_23
+    21300048: Demon1JumpAttack doulble width_24
+    21300050: Demon1JumpAttack doulble width_25
+    21300052: Demon1JumpAttack doulble width_26
+    21300054: Demon1JumpAttack doulble width_27
+    21300056: Demon1JumpAttack doulble width_28
+    21300058: Demon1JumpAttack doulble width_29
+    21300060: Demon1JumpAttack doulble width_30
+    21300062: Demon1JumpAttack doulble width_31
+    21300064: Demon1JumpAttack doulble width_32
+    21300066: Demon1JumpAttack doulble width_33
+    21300068: Demon1JumpAttack doulble width_34
+    21300070: Demon1JumpAttack doulble width_35
+    21300072: Demon1JumpAttack doulble width_36
+    21300074: Demon1JumpAttack doulble width_37
+    21300076: Demon1JumpAttack doulble width_38
+    21300078: Demon1JumpAttack doulble width_39
+    21300080: Demon1JumpAttack doulble width_40
+    21300082: Demon1JumpAttack doulble width_41
+    21300084: Demon1JumpAttack doulble width_42
+    21300086: Demon1JumpAttack doulble width_43
+    21300088: Demon1JumpAttack doulble width_44
+    21300090: Demon1JumpAttack doulble width_45
+    21300092: Demon1JumpAttack doulble width_46
+    21300094: Demon1JumpAttack doulble width_47
+    21300096: Demon1JumpAttack doulble width_48
+    21300098: Demon1JumpAttack doulble width_49
+    21300100: Demon1JumpAttack doulble width_50
+    21300102: Demon1JumpAttack doulble width_51
+    21300104: Demon1JumpAttack doulble width_52
+    21300106: Demon1JumpAttack doulble width_53
+    21300108: Demon1JumpAttack doulble width_54
+    21300110: Demon1JumpAttack doulble width_55
+    21300112: Demon1JumpAttack doulble width_56
+    21300114: Demon1JumpAttack doulble width_57
+    21300116: Demon1JumpAttack doulble width_58
+    21300118: Demon1JumpAttack doulble width_59
+    21300120: Demon1JumpAttack doulble width_60
+    21300122: Demon1JumpAttack doulble width_61
+    21300124: Demon1JumpAttack doulble width_62
+    21300126: Demon1JumpAttack doulble width_63
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Demon1JumpAttack doulble width_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1387
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1387
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1387
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1387
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_4
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1387
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_5
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1387
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_6
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1387
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_7
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1387
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1190
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1190
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_10
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1190
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_11
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1190
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_12
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1190
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_13
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1190
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_14
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1190
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_15
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1190
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 993
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_17
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 993
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_18
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 993
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_19
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 993
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_20
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 993
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_21
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 993
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_22
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 993
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_23
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 993
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 796
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_25
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 796
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_26
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 796
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_27
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 796
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_28
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 796
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_29
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 796
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_30
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 796
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_31
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 796
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 599
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_33
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 599
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_34
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 599
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_35
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 599
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_36
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 599
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_37
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 599
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_38
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 599
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_39
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 599
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_41
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 402
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_42
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 402
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_43
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 402
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_44
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 402
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_45
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 402
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_46
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 402
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_47
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 402
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_49
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 205
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_50
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 205
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_51
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 205
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_52
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 205
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_53
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 205
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_54
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 205
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_55
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 205
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_57
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 8
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_58
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 8
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_59
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 8
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_60
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 8
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_61
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 8
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_62
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 8
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack doulble width_63
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 8
+        width: 204
+        height: 197
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
