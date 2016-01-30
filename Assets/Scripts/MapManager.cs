@@ -14,24 +14,25 @@ public class MapManager : MonoBehaviour {
 
 	}
 
-    void SpawnTiles()
+    public void SpawnTiles()
     {
         numTilesY = Mathf.CeilToInt(Camera.main.orthographicSize) * 2;
         numTilesX = Mathf.CeilToInt(Screen.width / Screen.height * numTilesY) * 3;
 
-        int x = Mathf.FloorToInt(Camera.main.transform.position.x - numTilesX / 2);
+        int x = Mathf.FloorToInt(Camera.main.transform.position.x - numTilesX / 3);
 
         for (; x < Camera.main.transform.position.x + Mathf.CeilToInt(numTilesX / 2) + 1; x = x+3)
         {
             int y = Mathf.FloorToInt(Camera.main.transform.position.y - numTilesY / 2);
             for (; y < Mathf.CeilToInt(numTilesY / 2) + 1; y = y+2)
             {
-                if (y > 0)
+                if (y > -2)
                     break;
 
                 string tileName = "Tile_" + x + "_" + y;
                 Vector2 tilePos = new Vector2(x, y);
-                CreateTile(tilePos, tileName, "Dirt");
+                if (GameObject.Find(tileName) == null)
+                    CreateTile(tilePos, tileName, "Dirt");
             }
         }
     }
@@ -59,5 +60,6 @@ public class MapManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+
 	}
 }

@@ -6,6 +6,8 @@ public class CameraMoveController : MonoBehaviour {
     private Transform myTransform;
     private Camera myCamera;
 
+    public MapManager map;
+
 	// Use this for initialization
 	void Start () {
         myTransform = GetComponent<Transform>();
@@ -17,18 +19,22 @@ public class CameraMoveController : MonoBehaviour {
 	    if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             myTransform.position = new Vector3(myTransform.position.x, myTransform.position.y - 2, -10);
+            map.SpawnTiles();
         }
         else if(Input.GetKeyDown(KeyCode.RightArrow))
         {
-            myTransform.position = new Vector3(myTransform.position.x + 2, myTransform.position.y, -10);
+            myTransform.position = new Vector3(myTransform.position.x + 3, myTransform.position.y, -10);
+            map.SpawnTiles();
         }
         else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            myTransform.position = new Vector3(myTransform.position.x - 2, myTransform.position.y, -10);
+            myTransform.position = new Vector3(myTransform.position.x - 3, myTransform.position.y, -10);
+            map.SpawnTiles();
         }
         else if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             myTransform.position = new Vector3(myTransform.position.x, myTransform.position.y + 2, -10);
+            map.SpawnTiles();
         }
     }
 
