@@ -19,7 +19,9 @@ public enum TileTypes
     [Description("TunnelStart")]
     TunnelStart = 5,
     [Description("DugDirt")]
-    DugDirt = 6
+    DugDirt = 6,
+    [Description("MessHall")]
+    MessHall = 7
 }
 
 public class Tile : MonoBehaviour {
@@ -121,7 +123,7 @@ public class Tile : MonoBehaviour {
         //start logic to add job to the queue to destroy this dirt, 
         // ONLY if the tile in question has a walkable path to a ladder
         if (IsReachable())
-            map.ChangeTile(Pos, Enumerations.GetEnumDescription(TileTypes.Empty));
+            map.ChangeTile(Pos, Enumerations.GetEnumDescription(TileTypes.DugDirt));
     }
 
     void DugDirtClicked(int _goldCost, int _soulsCost)
