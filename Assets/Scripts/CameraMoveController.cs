@@ -9,6 +9,8 @@ public class CameraMoveController : MonoBehaviour {
     public MapManager map;
     public int cameraLimitX;
 
+    public BaseAI currentWorker;
+
     public int RoomToPlace = 3;
     public int GoldCost = 0;
     public int SoulsCost = 0;
