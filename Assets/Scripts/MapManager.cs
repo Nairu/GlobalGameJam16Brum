@@ -79,6 +79,9 @@ public class MapManager : MonoBehaviour {
             tile.Pos = pos;
             tile.TileName = name;
             tile.TileType = type;
+
+            if (tile.TileType != TileTypes.Dirt.ToString())
+                tile.isWalkable = true;
         }
     }
 
@@ -136,8 +139,8 @@ public class MapManager : MonoBehaviour {
 	
         if (Input.GetMouseButtonDown(0))
         {
-            Vector2 mousePos = Camera.main.GetComponent<CameraMoveController>().AbsolutePositionUnerMouse();
-            Debug.Log(mousePos);
+            //Vector2 mousePos = Camera.main.GetComponent<CameraMoveController>().AbsolutePositionUnerMouse();
+            //Debug.Log(mousePos);
 
             //goTest = ClickSelect();
 
@@ -160,11 +163,5 @@ public class MapManager : MonoBehaviour {
         else return null;
     }
 
-    float MakePositive(float input)
-    {
-        if (input < 0)
-            return input * -1;
-        else
-            return input;
-    }
+
 }

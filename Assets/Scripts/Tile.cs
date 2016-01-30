@@ -28,6 +28,7 @@ public class Tile : MonoBehaviour {
 
     public Vector2 Pos;
     public string TileType;
+    public bool isWalkable = false;
 
     public int goldCost;
     public int soulsCost;
@@ -76,6 +77,10 @@ public class Tile : MonoBehaviour {
                     Debug.Log("Empty Clicked");
                     DugDirtClicked(_goldCost, _soulsCost);
                     break;
+                default:
+                    Debug.Log("Room Clicked");
+                    RoomClicked();
+                    break;
             }
         }
     }
@@ -108,10 +113,15 @@ public class Tile : MonoBehaviour {
     void DirtClicked()
     {
         if (this.Pos.y < map.yDepth || this.Pos.y > -2)
+        {
+            Debug.Log("No Ladder currently on this level: " + this.Pos.y);
             return;
+        }
 
-        //start logic to add job to the queue to destroy this dirt
-        map.ChangeTile(Pos, Enumerations.GetEnumDescription(TileTypes.DugDirt));
+        //start logic to add job to the queue to destroy this dirt, 
+        // ONLY if the tile in question has a walkable path to a ladder
+        if (IsReachable())
+            map.ChangeTile(Pos, Enumerations.GetEnumDescription(TileTypes.Empty));
     }
 
     void DugDirtClicked(int _goldCost, int _soulsCost)
@@ -128,11 +138,66 @@ public class Tile : MonoBehaviour {
             Debug.Log("Not enough gold!");
     }
 
+    void RoomClicked()
+    {
+        if (Enumerations.GetEnumDescription((TileTypes)_roomToPlace) == TileTypes.Empty.ToString())
+        {
+            // Refund half the initial gold cost
+            Camera.main.GetComponent<GameResourceManager>().AddGold( this.goldCost / 2);
+            map.ChangeTile(Pos, Enumerations.GetEnumDescription((TileTypes)_roomToPlace));
+        }
+    }
+
     // Update is called once per frame
     void Update () {
 	
         
 	}
 
+    bool IsReachable()
+    {
+        // Firsttry pathing towards the centre
+        int dir = 3;
+        if (Pos.x > 0)
+            dir = -3;
+
+        //Tile examine = this;
+        Debug.Log("Pathing check: "  + this.TileName);
+        if (ExamineReachable(this, dir))
+            return true;
+        else
+        {
+            // repeat, pathing the oposite direction
+            dir *= -1;
+           // examine = this;
+            if (ExamineReachable(this, dir))
+                return true;
+        }
+
+        // Can't find a ladder in either direction, the tile is not currently connected
+        Debug.Log("No Path to " + this.TileName);
+        return false;
+    }
+
+    bool ExamineReachable(Tile examine, int dir)
+    {
+        int checkX = (int)Pos.x + dir;
+        examine = map.GetTileAt(checkX, (int)Pos.y);
+        while (examine.isWalkable)
+        {            
+            if (!examine.isWalkable)
+            {
+                return false;
+            }
+
+            if (examine.TileType == TileTypes.Tunnel.ToString())
+                return true;
+
+            checkX += dir;
+            examine = map.GetTileAt(checkX, (int)Pos.y);
+        }
+
+        return false;
+    }
 
 }
