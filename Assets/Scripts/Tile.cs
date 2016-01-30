@@ -15,7 +15,11 @@ public enum TileTypes
     [Description("Dorm")]
     Dorm = 3,
     [Description("SummonRoom")]
-    SummonRoom = 4
+    SummonRoom = 4,
+    [Description("TunnelStart")]
+    TunnelStart = 5,
+    [Description("DugDirt")]
+    DugDirt = 6
 }
 
 public class Tile : MonoBehaviour {
@@ -57,13 +61,21 @@ public class Tile : MonoBehaviour {
                     Debug.Log("Tunnel" + " Clicked");
                     TunnelClicked();
                     break;
+                case "TunnelStart":
+                    Debug.Log("Tunnel" + " Clicked");
+                    TunnelClicked();
+                    break;
                 case "Dirt":
                     Debug.Log("Dirt" + " Clicked");
                     DirtClicked();
                     break;
+                case "DugDirt":
+                    Debug.Log("Empty Clicked");
+                    DugDirtClicked(_goldCost, _soulsCost);
+                    break;
                 case "Empty":
                     Debug.Log("Empty Clicked");
-                    EmptyClicked(_goldCost, _soulsCost);
+                    DugDirtClicked(_goldCost, _soulsCost);
                     break;
                 default:
                     Debug.Log("Room Clicked");
@@ -112,7 +124,7 @@ public class Tile : MonoBehaviour {
             map.ChangeTile(Pos, Enumerations.GetEnumDescription(TileTypes.Empty));
     }
 
-    void EmptyClicked(int _goldCost, int _soulsCost)
+    void DugDirtClicked(int _goldCost, int _soulsCost)
     {
         if (this.Pos.y < map.yDepth || this.Pos.y > -2)
             return;
