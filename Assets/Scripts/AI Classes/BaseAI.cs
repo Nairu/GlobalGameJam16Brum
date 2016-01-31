@@ -29,7 +29,7 @@ public class BaseAI : MonoBehaviour
     }
 
     float baseSpeed = 1f;
-    float speed = 1f;
+    protected float speed = 1f;
 
     bool move = false;
     bool initEndPos = false;
@@ -71,20 +71,15 @@ public class BaseAI : MonoBehaviour
         }
     }
 
-    void FaceToMovement(Vector3 dir)
+    protected void FaceToMovement(Vector3 dir)
     {
         if (dir.x > 0)
         {
-            Vector3 lScale = transform.localScale;
-            if (lScale.x > 0)
-                lScale.x = -lScale.x;
-            
-            transform.localScale = lScale;
+            transform.localScale = new Vector3(-0.3f, 0.3f, 0.3f);
         }
         else if (dir.x < 0)
-        {
-            Vector3 lScale = transform.localScale;
-            transform.localScale = lScale;
+        {            
+            transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
         }
     }
 
@@ -119,31 +114,27 @@ public class BaseAI : MonoBehaviour
         return null;
     }
 
-    public IEnumerator MoveToX(float x)
+    public void MoveToX(float x)
     {
-        while (transform.position.x != x)
+        Vector3 dir = Vector3.zero;
+        if (transform.position.x > x)
         {
-            Vector3 dir = Vector3.zero;
-            if (transform.position.x > targetX)
-            {
-                dir = Vector3.left * speed * Time.deltaTime;
-                dir = Vector3.ClampMagnitude(dir, Mathf.Abs(targetX - transform.position.x));
-            }
-            else if (transform.position.x < targetX)
-            {
-                dir = Vector3.right * speed * Time.deltaTime;
-                dir = Vector3.ClampMagnitude(dir, Mathf.Abs(targetX - transform.position.x));
-            }
-
-            FaceToMovement(dir);
-            transform.Translate(dir);
-            yield return null;
+            dir = Vector3.left * speed * Time.deltaTime;
+            dir = Vector3.ClampMagnitude(dir, Mathf.Abs(x - transform.position.x));
         }
+        else if (transform.position.x < x)
+        {
+            dir = Vector3.right * speed * Time.deltaTime;
+            dir = Vector3.ClampMagnitude(dir, Mathf.Abs(x - transform.position.x));
+        }
+
+        FaceToMovement(dir);
+        transform.Translate(dir);
     }
 
-    public IEnumerator MoveToFloor(float y)
+    public void MoveToFloor(float y, float currentX)
     {
-        while (transform.position.y != y)
+        if (currentX == 1.5f)
         {
             //we are lined up with the stairs
             Vector3 dir = new Vector3(0, y - transform.position.y, 0);
@@ -151,7 +142,10 @@ public class BaseAI : MonoBehaviour
 
             FaceToMovement(dir);
             transform.Translate(dir, Space.Self);
-            yield return null;
         }
+        else
+        {
+            MoveToX(1.5f);
+        }         
     }
 }
