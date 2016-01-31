@@ -1,0 +1,738 @@
+fileFormatVersion: 2
+guid: 4ab51c9c33e703d4d8bdc77b06386423
+timeCreated: 1454198077
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Knight1Walk_0
+    21300002: Knight1Walk_1
+    21300004: Knight1Walk_2
+    21300006: Knight1Walk_3
+    21300008: Knight1Walk_4
+    21300010: Knight1Walk_5
+    21300012: Knight1Walk_6
+    21300014: Knight1Walk_7
+    21300016: Knight1Walk_8
+    21300018: Knight1Walk_9
+    21300020: Knight1Walk_10
+    21300022: Knight1Walk_11
+    21300024: Knight1Walk_12
+    21300026: Knight1Walk_13
+    21300028: Knight1Walk_14
+    21300030: Knight1Walk_15
+    21300032: Knight1Walk_16
+    21300034: Knight1Walk_17
+    21300036: Knight1Walk_18
+    21300038: Knight1Walk_19
+    21300040: Knight1Walk_20
+    21300042: Knight1Walk_21
+    21300044: Knight1Walk_22
+    21300046: Knight1Walk_23
+    21300048: Knight1Walk_24
+    21300050: Knight1Walk_25
+    21300052: Knight1Walk_26
+    21300054: Knight1Walk_27
+    21300056: Knight1Walk_28
+    21300058: Knight1Walk_29
+    21300060: Knight1Walk_30
+    21300062: Knight1Walk_31
+    21300064: Knight1Walk_32
+    21300066: Knight1Walk_33
+    21300068: Knight1Walk_34
+    21300070: Knight1Walk_35
+    21300072: Knight1Walk_36
+    21300074: Knight1Walk_37
+    21300076: Knight1Walk_38
+    21300078: Knight1Walk_39
+    21300080: Knight1Walk_40
+    21300082: Knight1Walk_41
+    21300084: Knight1Walk_42
+    21300086: Knight1Walk_43
+    21300088: Knight1Walk_44
+    21300090: Knight1Walk_45
+    21300092: Knight1Walk_46
+    21300094: Knight1Walk_47
+    21300096: Knight1Walk_48
+    21300098: Knight1Walk_49
+    21300100: Knight1Walk_50
+    21300102: Knight1Walk_51
+    21300104: Knight1Walk_52
+    21300106: Knight1Walk_53
+    21300108: Knight1Walk_54
+    21300110: Knight1Walk_55
+    21300112: Knight1Walk_56
+    21300114: Knight1Walk_57
+    21300116: Knight1Walk_58
+    21300118: Knight1Walk_59
+    21300120: Knight1Walk_60
+    21300122: Knight1Walk_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Knight1Walk_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1393
+        width: 89
+        height: 189
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1393
+        width: 89
+        height: 189
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1393
+        width: 88
+        height: 188
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_3
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1393
+        width: 88
+        height: 188
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_4
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1393
+        width: 87
+        height: 187
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_5
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1393
+        width: 86
+        height: 187
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_6
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1392
+        width: 87
+        height: 187
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_7
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1392
+        width: 88
+        height: 187
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1194
+        width: 91
+        height: 187
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_9
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1194
+        width: 95
+        height: 187
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_10
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1194
+        width: 98
+        height: 187
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_11
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1194
+        width: 102
+        height: 187
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_12
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1194
+        width: 106
+        height: 187
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_13
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1194
+        width: 107
+        height: 187
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_14
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1193
+        width: 106
+        height: 188
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_15
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1192
+        width: 106
+        height: 189
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 994
+        width: 106
+        height: 189
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_17
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 993
+        width: 104
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 993
+        width: 104
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_19
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 993
+        width: 103
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_20
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 993
+        width: 101
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_21
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 993
+        width: 98
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_22
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 993
+        width: 96
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_23
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 993
+        width: 96
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 795
+        width: 95
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_25
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 795
+        width: 94
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_26
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 796
+        width: 94
+        height: 189
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_27
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 796
+        width: 94
+        height: 189
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_28
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 796
+        width: 93
+        height: 189
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_29
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 796
+        width: 93
+        height: 189
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_30
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 796
+        width: 93
+        height: 189
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_31
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 796
+        width: 92
+        height: 189
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 597
+        width: 92
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_33
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 597
+        width: 92
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_34
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 596
+        width: 90
+        height: 191
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_35
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 596
+        width: 90
+        height: 191
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_36
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 595
+        width: 90
+        height: 192
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_37
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 595
+        width: 90
+        height: 192
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_38
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 594
+        width: 89
+        height: 192
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_39
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 594
+        width: 89
+        height: 192
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 396
+        width: 89
+        height: 192
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_41
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 396
+        width: 88
+        height: 192
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_42
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 396
+        width: 88
+        height: 192
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_43
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 396
+        width: 87
+        height: 192
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_44
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 396
+        width: 86
+        height: 192
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_45
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 396
+        width: 86
+        height: 192
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_46
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 396
+        width: 86
+        height: 192
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_47
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 396
+        width: 87
+        height: 192
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 198
+        width: 87
+        height: 192
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_49
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 198
+        width: 88
+        height: 193
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_50
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 199
+        width: 89
+        height: 192
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_51
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 200
+        width: 88
+        height: 191
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_52
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 201
+        width: 88
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_53
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 202
+        width: 88
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_54
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 203
+        width: 87
+        height: 189
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_55
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 203
+        width: 88
+        height: 189
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_56
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5
+        width: 88
+        height: 189
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_57
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 5
+        width: 88
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_58
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 5
+        width: 89
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_59
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 6
+        width: 88
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_60
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 6
+        width: 89
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1Walk_61
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 6
+        width: 89
+        height: 190
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
