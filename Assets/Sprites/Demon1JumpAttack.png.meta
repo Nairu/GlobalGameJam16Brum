@@ -1,0 +1,738 @@
+fileFormatVersion: 2
+guid: ba42bf28025d1ac4d99514faa7b6ff82
+timeCreated: 1454169946
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Demon1JumpAttack_0
+    21300002: Demon1JumpAttack_1
+    21300004: Demon1JumpAttack_2
+    21300006: Demon1JumpAttack_3
+    21300008: Demon1JumpAttack_4
+    21300010: Demon1JumpAttack_5
+    21300012: Demon1JumpAttack_6
+    21300014: Demon1JumpAttack_7
+    21300016: Demon1JumpAttack_8
+    21300018: Demon1JumpAttack_9
+    21300020: Demon1JumpAttack_10
+    21300022: Demon1JumpAttack_11
+    21300024: Demon1JumpAttack_12
+    21300026: Demon1JumpAttack_13
+    21300028: Demon1JumpAttack_14
+    21300030: Demon1JumpAttack_15
+    21300032: Demon1JumpAttack_16
+    21300034: Demon1JumpAttack_17
+    21300036: Demon1JumpAttack_18
+    21300038: Demon1JumpAttack_19
+    21300040: Demon1JumpAttack_20
+    21300042: Demon1JumpAttack_21
+    21300044: Demon1JumpAttack_22
+    21300046: Demon1JumpAttack_23
+    21300048: Demon1JumpAttack_24
+    21300050: Demon1JumpAttack_25
+    21300052: Demon1JumpAttack_26
+    21300054: Demon1JumpAttack_27
+    21300056: Demon1JumpAttack_28
+    21300058: Demon1JumpAttack_29
+    21300060: Demon1JumpAttack_30
+    21300062: Demon1JumpAttack_31
+    21300064: Demon1JumpAttack_32
+    21300066: Demon1JumpAttack_33
+    21300068: Demon1JumpAttack_34
+    21300070: Demon1JumpAttack_35
+    21300072: Demon1JumpAttack_36
+    21300074: Demon1JumpAttack_37
+    21300076: Demon1JumpAttack_38
+    21300078: Demon1JumpAttack_39
+    21300080: Demon1JumpAttack_40
+    21300082: Demon1JumpAttack_41
+    21300084: Demon1JumpAttack_42
+    21300086: Demon1JumpAttack_43
+    21300088: Demon1JumpAttack_44
+    21300090: Demon1JumpAttack_45
+    21300092: Demon1JumpAttack_46
+    21300094: Demon1JumpAttack_47
+    21300096: Demon1JumpAttack_48
+    21300098: Demon1JumpAttack_49
+    21300100: Demon1JumpAttack_50
+    21300102: Demon1JumpAttack_51
+    21300104: Demon1JumpAttack_52
+    21300106: Demon1JumpAttack_53
+    21300108: Demon1JumpAttack_54
+    21300110: Demon1JumpAttack_55
+    21300112: Demon1JumpAttack_56
+    21300114: Demon1JumpAttack_57
+    21300116: Demon1JumpAttack_58
+    21300118: Demon1JumpAttack_59
+    21300120: Demon1JumpAttack_60
+    21300122: Demon1JumpAttack_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Demon1JumpAttack_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1429
+        width: 129
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_1
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1429
+        width: 129
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1429
+        width: 129
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_3
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1429
+        width: 128
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_4
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1429
+        width: 128
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_5
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1429
+        width: 128
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_6
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1429
+        width: 127
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_7
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 1429
+        width: 127
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1222
+        width: 130
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_9
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1222
+        width: 132
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_10
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1225
+        width: 133
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_11
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1225
+        width: 135
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_12
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1225
+        width: 136
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_13
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1225
+        width: 139
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_14
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1226
+        width: 141
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_15
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 1222
+        width: 145
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_16
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1019
+        width: 148
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_17
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1023
+        width: 151
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_18
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1023
+        width: 154
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_19
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1024
+        width: 154
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_20
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1018
+        width: 156
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_21
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1024
+        width: 156
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_22
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1016
+        width: 155
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_23
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 1023
+        width: 156
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_24
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 819
+        width: 156
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_25
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 819
+        width: 156
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_26
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 814
+        width: 155
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_27
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 816
+        width: 155
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_28
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 823
+        width: 154
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_29
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 821
+        width: 154
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_30
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 826
+        width: 154
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_31
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 828
+        width: 157
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 622
+        width: 155
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_33
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 618
+        width: 153
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_34
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 618
+        width: 151
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_35
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 617
+        width: 149
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_36
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 616
+        width: 148
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_37
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 615
+        width: 148
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_38
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 616
+        width: 147
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_39
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 616
+        width: 146
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_40
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 413
+        width: 146
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_41
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 413
+        width: 143
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_42
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 413
+        width: 144
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_43
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 413
+        width: 142
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_44
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 413
+        width: 141
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_45
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 415
+        width: 139
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_46
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 416
+        width: 139
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_47
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 417
+        width: 138
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_48
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 215
+        width: 138
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_49
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 217
+        width: 136
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_50
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 218
+        width: 135
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_51
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 216
+        width: 134
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_52
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 217
+        width: 133
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_53
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 216
+        width: 133
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_54
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 214
+        width: 133
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_55
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 215
+        width: 133
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_56
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 12
+        width: 132
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_57
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 11
+        width: 132
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_58
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 11
+        width: 131
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_59
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 9
+        width: 130
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_60
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 9
+        width: 131
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1JumpAttack_61
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 9
+        width: 130
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

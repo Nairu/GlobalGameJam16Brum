@@ -1,0 +1,738 @@
+fileFormatVersion: 2
+guid: 7fe7d1098a45a3d4cb1f01c87e6aadf7
+timeCreated: 1454166945
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Cultist1ClimbLadder_0
+    21300002: Cultist1ClimbLadder_1
+    21300004: Cultist1ClimbLadder_2
+    21300006: Cultist1ClimbLadder_3
+    21300008: Cultist1ClimbLadder_4
+    21300010: Cultist1ClimbLadder_5
+    21300012: Cultist1ClimbLadder_6
+    21300014: Cultist1ClimbLadder_7
+    21300016: Cultist1ClimbLadder_8
+    21300018: Cultist1ClimbLadder_9
+    21300020: Cultist1ClimbLadder_10
+    21300022: Cultist1ClimbLadder_11
+    21300024: Cultist1ClimbLadder_12
+    21300026: Cultist1ClimbLadder_13
+    21300028: Cultist1ClimbLadder_14
+    21300030: Cultist1ClimbLadder_15
+    21300032: Cultist1ClimbLadder_16
+    21300034: Cultist1ClimbLadder_17
+    21300036: Cultist1ClimbLadder_18
+    21300038: Cultist1ClimbLadder_19
+    21300040: Cultist1ClimbLadder_20
+    21300042: Cultist1ClimbLadder_21
+    21300044: Cultist1ClimbLadder_22
+    21300046: Cultist1ClimbLadder_23
+    21300048: Cultist1ClimbLadder_24
+    21300050: Cultist1ClimbLadder_25
+    21300052: Cultist1ClimbLadder_26
+    21300054: Cultist1ClimbLadder_27
+    21300056: Cultist1ClimbLadder_28
+    21300058: Cultist1ClimbLadder_29
+    21300060: Cultist1ClimbLadder_30
+    21300062: Cultist1ClimbLadder_31
+    21300064: Cultist1ClimbLadder_32
+    21300066: Cultist1ClimbLadder_33
+    21300068: Cultist1ClimbLadder_34
+    21300070: Cultist1ClimbLadder_35
+    21300072: Cultist1ClimbLadder_36
+    21300074: Cultist1ClimbLadder_37
+    21300076: Cultist1ClimbLadder_38
+    21300078: Cultist1ClimbLadder_39
+    21300080: Cultist1ClimbLadder_40
+    21300082: Cultist1ClimbLadder_41
+    21300084: Cultist1ClimbLadder_42
+    21300086: Cultist1ClimbLadder_43
+    21300088: Cultist1ClimbLadder_44
+    21300090: Cultist1ClimbLadder_45
+    21300092: Cultist1ClimbLadder_46
+    21300094: Cultist1ClimbLadder_47
+    21300096: Cultist1ClimbLadder_48
+    21300098: Cultist1ClimbLadder_49
+    21300100: Cultist1ClimbLadder_50
+    21300102: Cultist1ClimbLadder_51
+    21300104: Cultist1ClimbLadder_52
+    21300106: Cultist1ClimbLadder_53
+    21300108: Cultist1ClimbLadder_54
+    21300110: Cultist1ClimbLadder_55
+    21300112: Cultist1ClimbLadder_56
+    21300114: Cultist1ClimbLadder_57
+    21300116: Cultist1ClimbLadder_58
+    21300118: Cultist1ClimbLadder_59
+    21300120: Cultist1ClimbLadder_60
+    21300122: Cultist1ClimbLadder_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Cultist1ClimbLadder_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1414
+        width: 79
+        height: 189
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1414
+        width: 79
+        height: 190
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1414
+        width: 79
+        height: 191
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_3
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1414
+        width: 79
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_4
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1414
+        width: 79
+        height: 193
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_5
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1414
+        width: 79
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_6
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1414
+        width: 79
+        height: 195
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_7
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1414
+        width: 79
+        height: 196
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1212
+        width: 79
+        height: 197
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1212
+        width: 79
+        height: 198
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_10
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1212
+        width: 79
+        height: 199
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_11
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1212
+        width: 79
+        height: 200
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_12
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1212
+        width: 79
+        height: 201
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_13
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1212
+        width: 78
+        height: 201
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_14
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1212
+        width: 78
+        height: 200
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_15
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1213
+        width: 78
+        height: 198
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1012
+        width: 77
+        height: 196
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1012
+        width: 77
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_18
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1013
+        width: 76
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_19
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1013
+        width: 76
+        height: 191
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_20
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1014
+        width: 76
+        height: 189
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_21
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1014
+        width: 75
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_22
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1013
+        width: 75
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_23
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1012
+        width: 74
+        height: 189
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 809
+        width: 74
+        height: 191
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_25
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 808
+        width: 74
+        height: 193
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_26
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 808
+        width: 73
+        height: 193
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_27
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 808
+        width: 73
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_28
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 808
+        width: 73
+        height: 195
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_29
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 808
+        width: 72
+        height: 195
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_30
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 808
+        width: 72
+        height: 196
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_31
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 808
+        width: 72
+        height: 196
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_32
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 606
+        width: 71
+        height: 197
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_33
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 606
+        width: 71
+        height: 198
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_34
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 606
+        width: 70
+        height: 198
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_35
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 606
+        width: 70
+        height: 199
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_36
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 606
+        width: 70
+        height: 200
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_37
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 606
+        width: 69
+        height: 200
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_38
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 606
+        width: 69
+        height: 200
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_39
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 606
+        width: 69
+        height: 198
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_40
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 404
+        width: 70
+        height: 196
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_41
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 404
+        width: 70
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_42
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 404
+        width: 70
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_43
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 404
+        width: 70
+        height: 190
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_44
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 404
+        width: 71
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_45
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 404
+        width: 71
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_46
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 404
+        width: 71
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_47
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 404
+        width: 71
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 202
+        width: 71
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_49
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 202
+        width: 72
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_50
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 202
+        width: 72
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_51
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 202
+        width: 72
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_52
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 202
+        width: 73
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_53
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 202
+        width: 74
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_54
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 202
+        width: 74
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_55
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 202
+        width: 75
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_56
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 75
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_57
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0
+        width: 76
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_58
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 76
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_59
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 0
+        width: 77
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_60
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 0
+        width: 77
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cultist1ClimbLadder_61
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 0
+        width: 78
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

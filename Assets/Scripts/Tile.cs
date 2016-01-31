@@ -25,7 +25,9 @@ public enum TileTypes
     [Description("Dungeon")]
     Dungeon = 8,
     [Description("CthuluShrine")]
-    CthuluShrine = 9
+    CthuluShrine = 9,
+    [Description("RecreationRoom")]
+    RecreationRoom = 10
 }
 
 public class Tile : MonoBehaviour {
@@ -145,9 +147,11 @@ public class Tile : MonoBehaviour {
         if (Camera.main.GetComponent<GameResourceManager>().SpendResources(_goldCost, _soulsCost))
         {
             map.ChangeTile(Pos, Enumerations.GetEnumDescription((TileTypes)_roomToPlace));
+
+            UpdateRoomCounts((TileTypes)_roomToPlace, 1);
             // increment number of prisons if necessary 
-            if ((TileTypes)_roomToPlace == TileTypes.Dungeon)
-                map.prisonCount++;
+           // if ((TileTypes)_roomToPlace == TileTypes.Dungeon)
+           //     map.prisonCount++;
  
         }
         else
@@ -156,16 +160,7 @@ public class Tile : MonoBehaviour {
 
     void RoomClicked()
     {
-        if (Enumerations.GetEnumDescription((TileTypes)_roomToPlace) == TileTypes.Empty.ToString())
-        {
-            // Refund half the initial gold cost
-            Camera.main.GetComponent<GameResourceManager>().AddGold( this.goldCost / 2);
-            map.ChangeTile(Pos, Enumerations.GetEnumDescription((TileTypes)_roomToPlace));
-
-            // decrement number of prisons if necessary 
-            if (map.GetTileAt((int)Pos.x, (int)Pos.y))
-                map.prisonCount--;
-        }
+        Camera.main.GetComponent<GUIManager>().OpenPanel(TileName, TileType);
     }
 
     TileTypes checkForSecret(Vector2 pos)
@@ -192,6 +187,46 @@ public class Tile : MonoBehaviour {
 
         // No secret found, return empty dirt
         return TileTypes.DugDirt;
+    }
+
+    public void DestroyRoom()
+    {
+        // Refund half the initial gold cost
+        Camera.main.GetComponent<GameResourceManager>().AddGold(this.goldCost / 2);
+        map.ChangeTile(Pos, Enumerations.GetEnumDescription(TileTypes.Empty));
+        
+        UpdateRoomCounts(TileType.GetEnumFromDescription<TileTypes>(), -1);
+        // decrement number of prisons if necessary 
+        //if (map.GetTileAt((int)Pos.x, (int)Pos.y).TileType == TileTypes.Dungeon.ToString())
+        //    map.prisonCount--;
+    }
+
+    void UpdateRoomCounts(TileTypes type, int modifier)
+    {
+
+        switch (type)
+        {
+            case TileTypes.SummonRoom:
+                break;
+            case TileTypes.Dorm:
+                map.dormCount += modifier;
+                Debug.Log("Dorm count is now: " + map.dormCount);
+                break;
+            case TileTypes.MessHall:
+                map.messCount += modifier;
+                Debug.Log("Mess Hall count is now: " + map.messCount);
+                break;
+            case TileTypes.Dungeon:
+                map.prisonCount += modifier;
+                Debug.Log("Prison count is now: " + map.prisonCount);
+                break;
+            case TileTypes.RecreationRoom:
+                map.recreationCount += modifier;
+                Debug.Log("Recreation count is now: " + map.recreationCount);
+                break;
+            case TileTypes.CthuluShrine:
+                break;
+        }
     }
 
     // Update is called once per frame

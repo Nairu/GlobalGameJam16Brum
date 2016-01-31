@@ -1,0 +1,738 @@
+fileFormatVersion: 2
+guid: 4c48764b925555947aed93cec47a2203
+timeCreated: 1454169615
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Demon1ClimbLadder_0
+    21300002: Demon1ClimbLadder_1
+    21300004: Demon1ClimbLadder_2
+    21300006: Demon1ClimbLadder_3
+    21300008: Demon1ClimbLadder_4
+    21300010: Demon1ClimbLadder_5
+    21300012: Demon1ClimbLadder_6
+    21300014: Demon1ClimbLadder_7
+    21300016: Demon1ClimbLadder_8
+    21300018: Demon1ClimbLadder_9
+    21300020: Demon1ClimbLadder_10
+    21300022: Demon1ClimbLadder_11
+    21300024: Demon1ClimbLadder_12
+    21300026: Demon1ClimbLadder_13
+    21300028: Demon1ClimbLadder_14
+    21300030: Demon1ClimbLadder_15
+    21300032: Demon1ClimbLadder_16
+    21300034: Demon1ClimbLadder_17
+    21300036: Demon1ClimbLadder_18
+    21300038: Demon1ClimbLadder_19
+    21300040: Demon1ClimbLadder_20
+    21300042: Demon1ClimbLadder_21
+    21300044: Demon1ClimbLadder_22
+    21300046: Demon1ClimbLadder_23
+    21300048: Demon1ClimbLadder_24
+    21300050: Demon1ClimbLadder_25
+    21300052: Demon1ClimbLadder_26
+    21300054: Demon1ClimbLadder_27
+    21300056: Demon1ClimbLadder_28
+    21300058: Demon1ClimbLadder_29
+    21300060: Demon1ClimbLadder_30
+    21300062: Demon1ClimbLadder_31
+    21300064: Demon1ClimbLadder_32
+    21300066: Demon1ClimbLadder_33
+    21300068: Demon1ClimbLadder_34
+    21300070: Demon1ClimbLadder_35
+    21300072: Demon1ClimbLadder_36
+    21300074: Demon1ClimbLadder_37
+    21300076: Demon1ClimbLadder_38
+    21300078: Demon1ClimbLadder_39
+    21300080: Demon1ClimbLadder_40
+    21300082: Demon1ClimbLadder_41
+    21300084: Demon1ClimbLadder_42
+    21300086: Demon1ClimbLadder_43
+    21300088: Demon1ClimbLadder_44
+    21300090: Demon1ClimbLadder_45
+    21300092: Demon1ClimbLadder_46
+    21300094: Demon1ClimbLadder_47
+    21300096: Demon1ClimbLadder_48
+    21300098: Demon1ClimbLadder_49
+    21300100: Demon1ClimbLadder_50
+    21300102: Demon1ClimbLadder_51
+    21300104: Demon1ClimbLadder_52
+    21300106: Demon1ClimbLadder_53
+    21300108: Demon1ClimbLadder_54
+    21300110: Demon1ClimbLadder_55
+    21300112: Demon1ClimbLadder_56
+    21300114: Demon1ClimbLadder_57
+    21300116: Demon1ClimbLadder_58
+    21300118: Demon1ClimbLadder_59
+    21300120: Demon1ClimbLadder_60
+    21300122: Demon1ClimbLadder_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Demon1ClimbLadder_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1550
+        width: 94
+        height: 193
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1550
+        width: 97
+        height: 193
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1538
+        width: 99
+        height: 205
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_3
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1560
+        width: 101
+        height: 183
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_4
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1560
+        width: 104
+        height: 183
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_5
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1560
+        width: 106
+        height: 183
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_6
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1560
+        width: 108
+        height: 183
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_7
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1560
+        width: 111
+        height: 184
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1333
+        width: 113
+        height: 193
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1333
+        width: 114
+        height: 193
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_10
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1333
+        width: 116
+        height: 193
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_11
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1333
+        width: 117
+        height: 193
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_12
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1341
+        width: 118
+        height: 185
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_13
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1332
+        width: 119
+        height: 205
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 10}
+    - name: Demon1ClimbLadder_14
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1339
+        width: 120
+        height: 187
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_15
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1339
+        width: 120
+        height: 187
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1113
+        width: 122
+        height: 198
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1119
+        width: 121
+        height: 193
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_18
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1112
+        width: 119
+        height: 196
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_19
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1118
+        width: 116
+        height: 191
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_20
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1110
+        width: 114
+        height: 199
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_21
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1117
+        width: 114
+        height: 191
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_22
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1117
+        width: 113
+        height: 191
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_23
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1118
+        width: 112
+        height: 190
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 892
+        width: 111
+        height: 198
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_25
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 892
+        width: 111
+        height: 201
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_26
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 902
+        width: 109
+        height: 190
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_27
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 903
+        width: 108
+        height: 187
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_28
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 904
+        width: 107
+        height: 187
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_29
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 891
+        width: 106
+        height: 199
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_30
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 905
+        width: 105
+        height: 185
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_31
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 906
+        width: 105
+        height: 184
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 688
+        width: 104
+        height: 187
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_33
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 672
+        width: 104
+        height: 204
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_34
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 672
+        width: 106
+        height: 205
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_35
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 689
+        width: 106
+        height: 183
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_36
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 689
+        width: 107
+        height: 183
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_37
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 689
+        width: 109
+        height: 183
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_38
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 689
+        width: 112
+        height: 186
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_39
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 689
+        width: 113
+        height: 187
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_40
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 471
+        width: 116
+        height: 187
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_41
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 471
+        width: 115
+        height: 183
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 471
+        width: 116
+        height: 183
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_43
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 470
+        width: 117
+        height: 184
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_44
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 443
+        width: 117
+        height: 214
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_45
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 469
+        width: 118
+        height: 189
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_46
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 468
+        width: 118
+        height: 190
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_47
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 467
+        width: 119
+        height: 187
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 248
+        width: 119
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_49
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 248
+        width: 118
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_50
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 247
+        width: 119
+        height: 192
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_51
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 231
+        width: 117
+        height: 205
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_52
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 246
+        width: 116
+        height: 190
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_53
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 246
+        width: 115
+        height: 190
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_54
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 234
+        width: 115
+        height: 206
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_55
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 235
+        width: 113
+        height: 204
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_56
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 13
+        width: 109
+        height: 205
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_57
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 13
+        width: 108
+        height: 207
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_58
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 13
+        width: 106
+        height: 205
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_59
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 13
+        width: 104
+        height: 205
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_60
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 13
+        width: 100
+        height: 204
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon1ClimbLadder_61
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 13
+        width: 98
+        height: 204
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

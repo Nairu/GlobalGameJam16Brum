@@ -29,7 +29,7 @@ public class ResourceManager {
         {
             MapManager map = GameObject.FindObjectOfType<MapManager>();
 
-            return 10 + (map.prisonCount * 5);
+            return 10 + (map.prisonCount * map.prisonValue);
         }
     } 
 

@@ -39,7 +39,7 @@ public class CameraMoveController : MonoBehaviour {
             map.SpawnTiles();
             //map.DespawnTiles();
         }
-        else if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+        else if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)) && myTransform.position.y < 5)
         {
             myTransform.position = new Vector3(myTransform.position.x, myTransform.position.y + 2, -10);
             map.SpawnTiles();
