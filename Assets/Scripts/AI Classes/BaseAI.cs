@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BaseAI : MonoBehaviour
 {
-
+    public string myName;
     private int _health;
     public int Health
     {
@@ -53,6 +53,8 @@ public class BaseAI : MonoBehaviour
 
     void Start()
     {
+        gameObject.name = "Cultist " + this.GetHashCode();
+        myName = gameObject.name;
         myMap = GameObject.Find("Map").GetComponent<MapManager>();
     }
 

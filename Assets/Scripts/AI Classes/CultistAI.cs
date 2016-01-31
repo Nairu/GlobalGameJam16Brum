@@ -2,8 +2,7 @@
 using System.Collections;
 
 public class CultistAI : BaseAI {
-
-    public string myName;
+    
     public float needThreshold = 0.5f;
     public float needBadly = 1f;
     public float needHardLimit = 3f;
@@ -25,8 +24,7 @@ public class CultistAI : BaseAI {
     public Tile myCultistCareer;
 
     void Awake()
-    {
-        myName = gameObject.name;
+    {        
         myAnimator = GetComponent<Animator>();
     }
 
@@ -116,6 +114,9 @@ public class CultistAI : BaseAI {
     bool FunFoodNeeds()
     {
         Tile t;
+
+        if (needSleep > needThreshold)
+            return true;
 
         if (needFood > needThreshold && needFood >= needFun)
         {
@@ -235,8 +236,9 @@ public class CultistAI : BaseAI {
 
     bool DoWork()
     {
+        myCultistJob = JobQueue.TakeCultistJob(this);
         if (myCultistJob == null)
-            myCultistJob = JobQueue.TakeJob(this) as CultistJob;
+            return false ;
 
         if (myCultistJob == null)
             return false;
