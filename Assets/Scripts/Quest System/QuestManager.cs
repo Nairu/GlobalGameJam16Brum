@@ -25,8 +25,7 @@ public class QuestManager : MonoBehaviour
         currentRenown = Camera.main.GetComponent<GameResourceManager>().currentRenown();
         currentCultists = Camera.main.GetComponent<GameResourceManager>().getCultistsAmt();
         currentDemons = Camera.main.GetComponent<GameResourceManager>().getDemonsAmt();
-        activeQuests = new List<Quest>(); // The number here represents the maximum amount of active quests a player can have.
-        //Debug.Log("this is called");
+        activeQuests = new List<Quest>(1); // The number here represents the maximum amount of active quests a player can have.
     }
 
     bool lookingAtWindow = false;
@@ -42,7 +41,7 @@ public class QuestManager : MonoBehaviour
         currentDemons = Camera.main.GetComponent<GameResourceManager>().getDemonsAmt();
         
         int generationChance = UnityEngine.Random.Range(1, 10801);
-        if(generationChance > 0 && !lookingAtWindow)
+        if(generationChance == 10800 && !lookingAtWindow && activeQuests.Count < 3)
         {
             Time.timeScale = 0;
             lookingAtWindow = true;
@@ -55,6 +54,7 @@ public class QuestManager : MonoBehaviour
         if (!lookingAtWindow)
             Time.timeScale = 1;        
         
+
         foreach (Quest q in activeQuests)
         {
             int valueToPass = 1;
