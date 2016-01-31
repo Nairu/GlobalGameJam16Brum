@@ -10,6 +10,10 @@ public class DemonAI : BaseAI {
 	
 	// Update is called once per frame
 	void Update () {
-	
-	}
+        if (UnityEngine.Random.Range(1, 10001) > 9990)
+        {
+            AudioSource youDontKnow = GetComponent<AudioSource>();
+            youDontKnow.Play();
+        }
+    }
 }

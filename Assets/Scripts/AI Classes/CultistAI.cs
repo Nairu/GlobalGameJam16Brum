@@ -50,6 +50,12 @@ public class CultistAI : BaseAI {
         needFood += Time.deltaTime / 92f;
         needFun += Time.deltaTime / 125f;
 
+        if (UnityEngine.Random.Range(1, 10001) > 9990)
+        {
+            AudioSource wololo = GetComponent<AudioSource>();
+            wololo.Play();
+        }
+
         if (needSleep >= needHardLimit || needFood >= needHardLimit || needFun >= needHardLimit)
         {
             base.Die();
@@ -332,6 +338,8 @@ public class CultistAI : BaseAI {
 
     void DoWander()
     {
+
+
         wanderTime -= Time.deltaTime;
         if (wanderTime <= 0)
         {

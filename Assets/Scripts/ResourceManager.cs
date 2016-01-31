@@ -23,6 +23,21 @@ public class ResourceManager {
         set { _renoun = value; }
     }
 
+
+    private int _cultists;
+    public int Cultists
+    {
+        get { return _cultists; }
+        set { _cultists = value; }
+    }
+
+    private int _demons;
+    public int Demons
+    {
+        get { return _demons; }
+        set { _demons = value; }
+    }
+
     public int MaxSouls
     {
         get
@@ -38,6 +53,8 @@ public class ResourceManager {
         Gold = gold;
         Souls = souls;
         Renoun = renoun;
+        Cultists = 2;
+        Demons = 0;
     }
     
     public ResourceManager()
@@ -45,6 +62,8 @@ public class ResourceManager {
         Gold = 0;
         Souls = 0;
         Renoun = 0;
+        Cultists = 2;
+        Demons = 0;
     }
     
     public bool HaveEnoughGold(int goldToSpend)

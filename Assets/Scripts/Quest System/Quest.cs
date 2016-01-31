@@ -55,4 +55,9 @@ public abstract class Quest {
         return rewardSouls;
     }
 
+    public string getQuestText()
+    {
+        return questText;
+    }
+
 }
