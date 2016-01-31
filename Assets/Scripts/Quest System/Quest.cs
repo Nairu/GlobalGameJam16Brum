@@ -55,15 +55,4 @@ public abstract class Quest {
         return rewardSouls;
     }
 
-
-
-    // Use this for initialization
-    void Start () {
-	    
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

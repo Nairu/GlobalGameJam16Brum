@@ -8,12 +8,14 @@ public class BuildQuest : Quest {
 
     TileTypes roomType = TileTypes.Empty;
     private int numOfRoomsToBuild = 0;
+
     private int startingNumberOfRoomsOfType;
     public int StartingNumberOfRoomsOfType
     {
         get { return startingNumberOfRoomsOfType; }
         set { startingNumberOfRoomsOfType = value; }
     }
+
 
     public BuildQuest(ref TileTypes passbackRoomType, int timeLimit) : base(timeLimit)
     {        
@@ -56,14 +58,4 @@ public class BuildQuest : Quest {
 
     }
 
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

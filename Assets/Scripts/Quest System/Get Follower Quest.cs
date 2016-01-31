@@ -5,22 +5,38 @@ using System;
 public class GetFollowerQuest : Quest {
 
 
-    public GetFollowerQuest(int timeLimit) : base(timeLimit){
+    private int followersToAquire;
 
-    }
-
-    public override bool QuestSucceeded(int i)
+    private int startingNumberOfFollowers;
+    public int StartingNumberOfFollowers
     {
-        throw new NotImplementedException();
+        get { return startingNumberOfFollowers; }
+        set { startingNumberOfFollowers = value; }
     }
 
-    // Use this for initialization
-    void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+    public GetFollowerQuest(int timeLimit, int renown) : base(timeLimit){
+
+        followersToAquire = UnityEngine.Random.Range(1, renown + 1);
+        listOfQuests = new string[1];
+        listOfQuests[0] = @"Hmmmmm, your cult is looking a wee bit puny is it not?
+                            I think you'd benefit if you had a few more fellows join you.
+                            I'm a generous chap, and I'd like to see you all do well,
+                            so I'll give you something if you can get " + followersToAquire + 
+                            " chaps to sign up to your cause in " + timeLimit + " seconds.";
+        
+                            
+
+    }
+        
+    public override bool QuestSucceeded(int currentNumberOfFollowers)
+    {
+        return ((currentNumberOfFollowers - StartingNumberOfFollowers) >= followersToAquire);
+    }
+
+    public int getFollowersToGet()
+    {
+        return followersToAquire;
+    }
+
 }
