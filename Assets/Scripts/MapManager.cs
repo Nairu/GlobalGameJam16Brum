@@ -15,7 +15,15 @@ public class MapManager : MonoBehaviour {
     public GameObject goTest;
 
     public int yDepth = -2;
+    public int dormCount = 0;
+    public int messCount = 0;
     public int prisonCount = 0;
+    public int recreationCount = 0;
+
+    public int dormValue = 3;
+    public int messValue = 3;
+    public int prisonValue = 5;
+    public int recreationValue = 3;
 
     public int CthuluLimit = 10;
     public bool CthuluFound = false;

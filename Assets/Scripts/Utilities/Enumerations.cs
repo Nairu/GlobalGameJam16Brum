@@ -2,7 +2,7 @@
 using System;
 using System.ComponentModel;
 
-public class Enumerations {
+public static class Enumerations {
 
     public static string GetEnumDescription(Enum value)
     {
@@ -18,5 +18,28 @@ public class Enumerations {
             return attributes[0].Description;
         else
             return value.ToString();
+    }
+
+    public static T GetEnumFromDescription<T>(this string value)
+    {
+        var type = typeof(T);
+        if (!type.IsEnum) throw new InvalidOperationException();
+        foreach (var field in type.GetFields())
+        {
+            var attribute = Attribute.GetCustomAttribute(field,
+                                       typeof(DescriptionAttribute)) as DescriptionAttribute;
+            if (attribute != null)
+            {
+                if (attribute.Description == value)
+                    return (T)field.GetValue(null);
+            }
+            else
+            {
+                if (field.Name == value)
+                    return (T)field.GetValue(null);
+            }
+        }
+
+        throw new ArgumentException("Not Found", "value");
     }
 }
