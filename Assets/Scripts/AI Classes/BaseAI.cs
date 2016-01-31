@@ -90,99 +90,107 @@ public class BaseAI : MonoBehaviour
 
     public void Update()
     {
-        MoveTo(some tile);
+        MoveLeft();
     }
 
-    public void StartMove(Tile target)
+    public void MoveLeft()
     {
-        StartCoroutine(MoveTo(target));
+        Vector3 dir = Vector3.zero;
+        dir = Vector3.left * speed * Time.deltaTime;
+        dir = Vector3.ClampMagnitude(dir, Mathf.Abs(targetX - transform.position.x));
     }
 
-    private Tile GetClosestLadder()
-    {
-        Tile currentTile = myMap.GetTileAt((int)Mathf.Round(transform.position.x / 3) * 3, (int)Mathf.Round(transform.position.y / 2) * 2);
-        if (currentTile.TileType == Enumerations.GetEnumDescription(TileTypes.Tunnel)
-            || currentTile.TileType == Enumerations.GetEnumDescription(TileTypes.TunnelStart))
-            return currentTile;
 
-        int dir = currentTile.IsLadderReachable();
+    //public void StartMove(Tile target)
+    //{
+    //    StartCoroutine(MoveTo(target));
+    //}
 
-        if (dir == -1)
-            return null;
-        else
-        {
-            int checkX = (int)currentTile.Pos.x + dir;
-            Tile examine = currentTile;
-            while (examine.isWalkable)
-            {
-                if (!examine.isWalkable)
-                    return null;
+    //private Tile GetClosestLadder()
+    //{
+    //    Tile currentTile = myMap.GetTileAt((int)Mathf.Round(transform.position.x / 3) * 3, (int)Mathf.Round(transform.position.y / 2) * 2);
+    //    if (currentTile.TileType == Enumerations.GetEnumDescription(TileTypes.Tunnel)
+    //        || currentTile.TileType == Enumerations.GetEnumDescription(TileTypes.TunnelStart))
+    //        return currentTile;
 
-                if (examine.AllowsVerticalMove)
-                    return examine;
+    //    int dir = currentTile.IsLadderReachable();
 
-                checkX += dir;
-                examine = myMap.GetTileAt(checkX, (int)examine.Pos.y);
-            }
-        }
+    //    if (dir == -1)
+    //        return null;
+    //    else
+    //    {
+    //        int checkX = (int)currentTile.Pos.x + dir;
+    //        Tile examine = currentTile;
+    //        while (examine.isWalkable)
+    //        {
+    //            if (!examine.isWalkable)
+    //                return null;
 
-        return null;
-    }
+    //            if (examine.AllowsVerticalMove)
+    //                return examine;
 
-    public IEnumerator MoveTo(Tile target)
-    {
-        if (transform.position.y != target.Pos.y)
-        {
-            Tile ladder = myMap.GetTileAt(0, (int)transform.position.y);
-            yield return MoveToX(ladder.Pos.x);
+    //            checkX += dir;
+    //            examine = myMap.GetTileAt(checkX, (int)examine.Pos.y);
+    //        }
+    //    }
 
-            //if (startNextEnum)
-            yield return MoveToFloor(target.Pos.y);
-        }
+    //    return null;
+    //}
 
-        if (transform.position.x != target.Pos.x)
-        {
-            yield return MoveToX(target.Pos.x);
-        }
-    }
+    //public IEnumerator MoveTo(Tile target)
+    //{
+    //    if (transform.position.y != target.Pos.y)
+    //    {
+    //        Tile ladder = myMap.GetTileAt(0, (int)transform.position.y);
+    //        yield return MoveToX(ladder.Pos.x);
 
-    bool startNextEnum = false;
+    //        //if (startNextEnum)
+    //        yield return MoveToFloor(target.Pos.y);
+    //    }
 
-    public IEnumerator MoveToX(float x)
-    {
-        while (transform.position.x != x)
-        {
-            Vector3 dir = Vector3.zero;
-            if (transform.position.x > targetX)
-            {
-                dir = Vector3.left * speed * Time.deltaTime;
-                dir = Vector3.ClampMagnitude(dir, Mathf.Abs(targetX - transform.position.x));
-            }
-            else if (transform.position.x < targetX)
-            {
-                dir = Vector3.right * speed * Time.deltaTime;
-                dir = Vector3.ClampMagnitude(dir, Mathf.Abs(targetX - transform.position.x));
-            }
+    //    if (transform.position.x != target.Pos.x)
+    //    {
+    //        yield return MoveToX(target.Pos.x);
+    //    }
+    //}
 
-            FaceToMovement(dir);
-            transform.Translate(dir);
+    //bool startNextEnum = false;
 
-            startNextEnum = (transform.position.x == x);
-            yield return new WaitForSeconds(Time.deltaTime);
-        }
-    }
+    //public IEnumerator MoveToX(float x)
+    //{
+    //    while (transform.position.x != x)
+    //    {
+    //        Vector3 dir = Vector3.zero;
+    //        if (transform.position.x > targetX)
+    //        {
+    //            dir = Vector3.left * speed * Time.deltaTime;
+    //            dir = Vector3.ClampMagnitude(dir, Mathf.Abs(targetX - transform.position.x));
+    //        }
+    //        else if (transform.position.x < targetX)
+    //        {
+    //            dir = Vector3.right * speed * Time.deltaTime;
+    //            dir = Vector3.ClampMagnitude(dir, Mathf.Abs(targetX - transform.position.x));
+    //        }
 
-    public IEnumerator MoveToFloor(float y)
-    {
-        while (transform.position.y != y)
-        {
-            //we are lined up with the stairs
-            Vector3 dir = new Vector3(0, y - transform.position.y, 0);
-            dir = Vector3.ClampMagnitude(dir, speed * Time.deltaTime);
+    //        FaceToMovement(dir);
+    //        transform.Translate(dir);
 
-            FaceToMovement(dir);
-            transform.Translate(dir, Space.Self);
-            yield return new WaitForSeconds(Time.deltaTime);
-        }
-    }
+    //        startNextEnum = (transform.position.x == x);
+    //        yield return new WaitForSeconds(Time.deltaTime);
+    //    }
+    //}
+
+    //public IEnumerator MoveToFloor(float y)
+    //{
+    //    while (transform.position.y != y)
+    //    {
+    //        //we are lined up with the stairs
+    //        Vector3 dir = new Vector3(0, y - transform.position.y, 0);
+    //        dir = Vector3.ClampMagnitude(dir, speed * Time.deltaTime);
+
+    //        FaceToMovement(dir);
+    //        transform.Translate(dir, Space.Self);
+    //        yield return new WaitForSeconds(Time.deltaTime);
+    //    }
+    //}
 }

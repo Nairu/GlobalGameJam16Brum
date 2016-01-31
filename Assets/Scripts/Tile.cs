@@ -182,6 +182,8 @@ public class Tile : MonoBehaviour {
     void RoomClicked()
     {
         Camera.main.GetComponent<GUIManager>().OpenPanel(TileName, TileType);
+
+      //  Camera.main.GetComponent<CameraMoveController>().currentWorker.StartMove(this);
     }
 
     TileTypes checkForSecret(Vector2 pos)
