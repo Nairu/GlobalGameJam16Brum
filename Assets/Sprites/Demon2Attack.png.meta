@@ -1,0 +1,738 @@
+fileFormatVersion: 2
+guid: c16ad0974de7f6d44916f7cee2f6f004
+timeCreated: 1454225849
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Demon2Attack_0
+    21300002: Demon2Attack_1
+    21300004: Demon2Attack_2
+    21300006: Demon2Attack_3
+    21300008: Demon2Attack_4
+    21300010: Demon2Attack_5
+    21300012: Demon2Attack_6
+    21300014: Demon2Attack_7
+    21300016: Demon2Attack_8
+    21300018: Demon2Attack_9
+    21300020: Demon2Attack_10
+    21300022: Demon2Attack_11
+    21300024: Demon2Attack_12
+    21300026: Demon2Attack_13
+    21300028: Demon2Attack_14
+    21300030: Demon2Attack_15
+    21300032: Demon2Attack_16
+    21300034: Demon2Attack_17
+    21300036: Demon2Attack_18
+    21300038: Demon2Attack_19
+    21300040: Demon2Attack_20
+    21300042: Demon2Attack_21
+    21300044: Demon2Attack_22
+    21300046: Demon2Attack_23
+    21300048: Demon2Attack_24
+    21300050: Demon2Attack_25
+    21300052: Demon2Attack_26
+    21300054: Demon2Attack_27
+    21300056: Demon2Attack_28
+    21300058: Demon2Attack_29
+    21300060: Demon2Attack_30
+    21300062: Demon2Attack_31
+    21300064: Demon2Attack_32
+    21300066: Demon2Attack_33
+    21300068: Demon2Attack_34
+    21300070: Demon2Attack_35
+    21300072: Demon2Attack_36
+    21300074: Demon2Attack_37
+    21300076: Demon2Attack_38
+    21300078: Demon2Attack_39
+    21300080: Demon2Attack_40
+    21300082: Demon2Attack_41
+    21300084: Demon2Attack_42
+    21300086: Demon2Attack_43
+    21300088: Demon2Attack_44
+    21300090: Demon2Attack_45
+    21300092: Demon2Attack_46
+    21300094: Demon2Attack_47
+    21300096: Demon2Attack_48
+    21300098: Demon2Attack_49
+    21300100: Demon2Attack_50
+    21300102: Demon2Attack_51
+    21300104: Demon2Attack_52
+    21300106: Demon2Attack_53
+    21300108: Demon2Attack_54
+    21300110: Demon2Attack_55
+    21300112: Demon2Attack_56
+    21300114: Demon2Attack_57
+    21300116: Demon2Attack_58
+    21300118: Demon2Attack_59
+    21300120: Demon2Attack_60
+    21300122: Demon2Attack_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Demon2Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1372
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1372
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_2
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1372
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_3
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1372
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_4
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1372
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_5
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1372
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_6
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1372
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_7
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1372
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1176
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_9
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1176
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_10
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1176
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_11
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1176
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_12
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1176
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_13
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1176
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_14
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1176
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_15
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1176
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 980
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_17
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 980
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_18
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 980
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_19
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 980
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_20
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 980
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_21
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 980
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_22
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 980
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_23
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 980
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 784
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_25
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 784
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_26
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 784
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_27
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 784
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_28
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 784
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_29
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 784
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_30
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 784
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_31
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 784
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_33
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 588
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_34
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 588
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_35
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 588
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_36
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 588
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_37
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 588
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_38
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 588
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_39
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 588
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 392
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_41
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 392
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_42
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 392
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_43
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 392
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_44
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 392
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_45
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 392
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_46
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 392
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_47
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 392
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_49
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 196
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_50
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 196
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_51
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 196
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_52
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 196
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_53
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 196
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_54
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 196
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_55
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 196
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_57
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_58
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_59
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 0
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_60
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Attack_61
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 0
+        width: 237
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

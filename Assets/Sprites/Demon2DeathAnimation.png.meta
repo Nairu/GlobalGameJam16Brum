@@ -1,0 +1,738 @@
+fileFormatVersion: 2
+guid: feb1c909f6df0c942b5a2c644f3edb24
+timeCreated: 1454226094
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Demon2DeathAnimation_0
+    21300002: Demon2DeathAnimation_1
+    21300004: Demon2DeathAnimation_2
+    21300006: Demon2DeathAnimation_3
+    21300008: Demon2DeathAnimation_4
+    21300010: Demon2DeathAnimation_5
+    21300012: Demon2DeathAnimation_6
+    21300014: Demon2DeathAnimation_7
+    21300016: Demon2DeathAnimation_8
+    21300018: Demon2DeathAnimation_9
+    21300020: Demon2DeathAnimation_10
+    21300022: Demon2DeathAnimation_11
+    21300024: Demon2DeathAnimation_12
+    21300026: Demon2DeathAnimation_13
+    21300028: Demon2DeathAnimation_14
+    21300030: Demon2DeathAnimation_15
+    21300032: Demon2DeathAnimation_16
+    21300034: Demon2DeathAnimation_17
+    21300036: Demon2DeathAnimation_18
+    21300038: Demon2DeathAnimation_19
+    21300040: Demon2DeathAnimation_20
+    21300042: Demon2DeathAnimation_21
+    21300044: Demon2DeathAnimation_22
+    21300046: Demon2DeathAnimation_23
+    21300048: Demon2DeathAnimation_24
+    21300050: Demon2DeathAnimation_25
+    21300052: Demon2DeathAnimation_26
+    21300054: Demon2DeathAnimation_27
+    21300056: Demon2DeathAnimation_28
+    21300058: Demon2DeathAnimation_29
+    21300060: Demon2DeathAnimation_30
+    21300062: Demon2DeathAnimation_31
+    21300064: Demon2DeathAnimation_32
+    21300066: Demon2DeathAnimation_33
+    21300068: Demon2DeathAnimation_34
+    21300070: Demon2DeathAnimation_35
+    21300072: Demon2DeathAnimation_36
+    21300074: Demon2DeathAnimation_37
+    21300076: Demon2DeathAnimation_38
+    21300078: Demon2DeathAnimation_39
+    21300080: Demon2DeathAnimation_40
+    21300082: Demon2DeathAnimation_41
+    21300084: Demon2DeathAnimation_42
+    21300086: Demon2DeathAnimation_43
+    21300088: Demon2DeathAnimation_44
+    21300090: Demon2DeathAnimation_45
+    21300092: Demon2DeathAnimation_46
+    21300094: Demon2DeathAnimation_47
+    21300096: Demon2DeathAnimation_48
+    21300098: Demon2DeathAnimation_49
+    21300100: Demon2DeathAnimation_50
+    21300102: Demon2DeathAnimation_51
+    21300104: Demon2DeathAnimation_52
+    21300106: Demon2DeathAnimation_53
+    21300108: Demon2DeathAnimation_54
+    21300110: Demon2DeathAnimation_55
+    21300112: Demon2DeathAnimation_56
+    21300114: Demon2DeathAnimation_57
+    21300116: Demon2DeathAnimation_58
+    21300118: Demon2DeathAnimation_59
+    21300120: Demon2DeathAnimation_60
+    21300122: Demon2DeathAnimation_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Demon2DeathAnimation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1358
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1358
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_2
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1358
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1358
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1358
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1358
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_6
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1358
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_7
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 1358
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1164
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_9
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1164
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1164
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1164
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_12
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1164
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_13
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1164
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_14
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1164
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_15
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 1164
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 970
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_17
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 970
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_18
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 970
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_19
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 970
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_20
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 970
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_21
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 970
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_22
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 970
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_23
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 970
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 776
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_25
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 776
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_26
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 776
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_27
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 776
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_28
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 776
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_29
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 776
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_30
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 776
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_31
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 776
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 582
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_33
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 582
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_34
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 582
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_35
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 582
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_36
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 582
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_37
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 582
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_38
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 582
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_39
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 582
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 388
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_41
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 388
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_42
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 388
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_43
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 388
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_44
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 388
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_45
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 388
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_46
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 388
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_47
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 388
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_49
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 194
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_50
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 194
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_51
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 194
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_52
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 194
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_53
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 194
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_54
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 194
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_55
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 194
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_57
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 0
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_58
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 0
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_59
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 0
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_60
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2DeathAnimation_61
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 0
+        width: 181
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

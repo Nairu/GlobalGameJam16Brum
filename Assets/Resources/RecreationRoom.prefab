@@ -11,6 +11,7 @@ GameObject:
   - 212: {fileID: 21256838}
   - 114: {fileID: 11462114}
   - 61: {fileID: 6179626}
+  - 114: {fileID: 11440968}
   m_Layer: 0
   m_Name: RecreationRoom
   m_TagString: Untagged
@@ -18,6 +19,63 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &126936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 414686}
+  m_Layer: 0
+  m_Name: RecreationPos2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &160922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 450142}
+  m_Layer: 0
+  m_Name: RecreationPos3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &189288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 451970}
+  m_Layer: 0
+  m_Name: RecreationPos1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &414686
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.901, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 415022}
+  m_RootOrder: 1
 --- !u!4 &415022
 Transform:
   m_ObjectHideFlags: 1
@@ -25,10 +83,37 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 112610}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.786028, y: 2.4071214, z: 0}
+  m_LocalPosition: {x: -3.117807, y: -2.443851, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 451970}
+  - {fileID: 414686}
+  - {fileID: 450142}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &450142
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 160922}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.42, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 415022}
+  m_RootOrder: 2
+--- !u!4 &451970
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.092, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 415022}
   m_RootOrder: 0
 --- !u!61 &6179626
 BoxCollider2D:
@@ -44,6 +129,25 @@ BoxCollider2D:
   m_Offset: {x: 1.5, y: 1}
   serializedVersion: 2
   m_Size: {x: 3, y: 2}
+--- !u!114 &11440968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ea2da479c744a4d86c94b2a93e0264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  need: 2
+  capacity: 3
+  myPositions:
+  - {fileID: 451970}
+  - {fileID: 414686}
+  - {fileID: 450142}
+  myCultists: []
+  timeToWait: 5
 --- !u!114 &11462114
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -59,6 +163,10 @@ MonoBehaviour:
   Pos: {x: 0, y: 0}
   TileType: 
   isWalkable: 0
+  canUp: 0
+  canDown: 0
+  canLeft: 0
+  canRight: 0
   goldCost: 50
   soulsCost: 0
   AllowsVerticalMove: 0
@@ -102,6 +210,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: goldCost
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: timeToWait
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
