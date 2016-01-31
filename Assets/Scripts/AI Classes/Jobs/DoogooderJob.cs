@@ -6,11 +6,12 @@ public class DoogooderJob : BaseJob {
 
     public int timeToComplete;
     private Stopwatch watch;
+    public CultistAI target;
 
-    public DoogooderJob(Tile myJob) : base(myJob)
+    public DoogooderJob(Tile myJob, CultistAI target) : base(myJob)
     {
         watch = new Stopwatch();
-        //timeToComplete = myJob.
+        
     }
 
 }

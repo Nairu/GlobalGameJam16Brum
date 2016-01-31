@@ -2036,9 +2036,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee298d148a2718d43b52749e69769906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  knight: {fileID: 147480, guid: 3217013795172e94e8ff359e4ade54f0, type: 2}
   StartingGold: 9000
   StartingSouls: 10
   StartingRenoun: 2
+  difficultySpeed: 0.5
+  minuteChecker: 0
 --- !u!114 &507320684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2316,6 +2319,45 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 589541532}
+--- !u!1 &594312897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 594312898}
+  - 114: {fileID: 594312899}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &594312898
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 594312897}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.99, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+--- !u!114 &594312899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 594312897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88cd60c33d5a244817432b044643d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &659683664
 GameObject:
   m_ObjectHideFlags: 0
@@ -6084,6 +6126,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1615448840}
   - 212: {fileID: 1615448839}
+  - 114: {fileID: 1615448841}
   m_Layer: 0
   m_Name: Cult_Shack
   m_TagString: Untagged
@@ -6133,6 +6176,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+--- !u!114 &1615448841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1615448838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 755820546d575c34ab6a0e752a6b718f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TileName: 
+  Pos: {x: 0, y: -2}
+  TileType: Tunnel
+  isWalkable: 1
+  canUp: 0
+  canDown: 0
+  canLeft: 0
+  canRight: 0
+  goldCost: 10
+  soulsCost: 0
+  JobDuration: 0
+  AllowsVerticalMove: 1
 --- !u!1 &1660897089
 GameObject:
   m_ObjectHideFlags: 0

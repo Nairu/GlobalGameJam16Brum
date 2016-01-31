@@ -16,56 +16,23 @@ public class JobQueue : MonoBehaviour {
         openCultistJobs.AddLast(j);
     }
 
+    public static void AddDemonJob(DemonJob j)
+    {
+        InitOpenJobs();
+        openDemonJobs.AddLast(j);
+    }
+
+    public static void AddGoodyJob(DoogooderJob j)
+    {
+        InitOpenJobs();
+        openDoogooderJobs.AddLast(j);
+    }
+
     public static void RemoveCultistJob(CultistJob j)
     {
         openCultistJobs.Remove(j);
     }
-
-    //public static bool TakeCultistJob(CultistAI worker)
-    //{
-    //    InitOpenJobs();
-    //    if (openJobs.Count == 0)
-    //        return false;
-
-    //    int i = 0;
-    //    for (int j = 0; j < AIs.Count; j++)
-    //    {
-    //        if (AIs[j].myJob != null)
-    //            continue;
-
-    //        while (i < openJobs.Count)
-    //        {
-    //            BaseJob job = (openJobs.First as LinkedListNode<BaseJob>).Value;
-
-    //            if (AIs[j].GetType() == typeof(CultistAI) && job.worker == null)
-    //            {
-    //                if (job.tile.IsLadderReachable() != -1)
-    //                {
-    //                    job.worker = AIs[j];
-    //                    AIs[j].myJob = job;
-    //                    GameObject.Find(AIs[j].myName).GetComponent<CultistAI>().myCultistJob = job as CultistJob;
-
-    //                    //openJobs.Remove(job);                        
-    //                    openJobs.RemoveFirst();
-    //                    return true;
-    //                }
-    //            }
-    //            else if (AIs[j].GetType() == typeof(DemonAI))
-    //            {
-
-    //            }
-    //            else if (AIs[j].GetType() == typeof(DoogooderAI))
-    //            {
-
-    //            }
-    //            i++;
-    //        }
-    //        j++;
-    //    }
-
-    //    return false;
-    //}
-
+    
     public static CultistJob TakeCultistJob(CultistAI worker)
     {
         InitOpenJobs();
