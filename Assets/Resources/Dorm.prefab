@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &112382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 435584}
+  m_Layer: 0
+  m_Name: BedPos1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &136502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 411068}
+  m_Layer: 0
+  m_Name: BedPos2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &159822
 GameObject:
   m_ObjectHideFlags: 0
@@ -11,6 +41,7 @@ GameObject:
   - 212: {fileID: 21218102}
   - 114: {fileID: 11411236}
   - 61: {fileID: 6164532}
+  - 114: {fileID: 11404612}
   m_Layer: 0
   m_Name: Dorm
   m_TagString: Untagged
@@ -18,6 +49,45 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &165928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 471060}
+  m_Layer: 0
+  m_Name: BedPos3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &411068
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.513, y: 0.25800002, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 437856}
+  m_RootOrder: 1
+--- !u!4 &435584
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112382}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.556, y: 0.258, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 437856}
+  m_RootOrder: 0
 --- !u!4 &437856
 Transform:
   m_ObjectHideFlags: 1
@@ -25,11 +95,26 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159822}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -3.0098681, y: -2.0030992, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 435584}
+  - {fileID: 411068}
+  - {fileID: 471060}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!4 &471060
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165928}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.463, y: 0.25800002, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 437856}
+  m_RootOrder: 2
 --- !u!61 &6164532
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -44,6 +129,24 @@ BoxCollider2D:
   m_Offset: {x: 1.5, y: 1}
   serializedVersion: 2
   m_Size: {x: 3, y: 2}
+--- !u!114 &11404612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ea2da479c744a4d86c94b2a93e0264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  need: 1
+  capacity: 3
+  myPositions:
+  - {fileID: 435584}
+  - {fileID: 411068}
+  - {fileID: 471060}
+  currFillAmount: 0
 --- !u!114 &11411236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -58,8 +161,14 @@ MonoBehaviour:
   TileName: 
   Pos: {x: 0, y: 0}
   TileType: Dorm
+  isWalkable: 0
+  canUp: 0
+  canDown: 0
+  canLeft: 0
+  canRight: 0
   goldCost: 20
   soulsCost: 0
+  AllowsVerticalMove: 0
 --- !u!212 &21218102
 SpriteRenderer:
   m_ObjectHideFlags: 1
