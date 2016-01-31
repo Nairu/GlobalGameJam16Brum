@@ -74,12 +74,63 @@ public class JobQueue : MonoBehaviour {
 
         if (worker.myCultistJob != null)
             return null;
-
+        
         CultistJob j = (openCultistJobs.First as LinkedListNode<CultistJob>).Value;
+        while (j.worker != null)
+        {
+            openCultistJobs.RemoveFirst();
+            j = (openCultistJobs.First as LinkedListNode<CultistJob>).Value;
+        }
+
         j.worker = worker;
         openCultistJobs.RemoveFirst();
         return j;
     }
+
+    public static DemonJob TakeDemonJob(DemonAI worker)
+    {
+        InitOpenJobs();
+        if (openDemonJobs.Count == 0)
+            return null;
+
+        if (worker.myJob != null)
+            return null;
+
+        DemonJob j = (openDemonJobs.First as LinkedListNode<DemonJob>).Value;
+        while (j.worker != null)
+        {
+            openDemonJobs.RemoveFirst();
+            j = (openDemonJobs.First as LinkedListNode<DemonJob>).Value;
+        }
+
+        j.worker = worker;
+        openDemonJobs.RemoveFirst();
+        return j;
+    }
+
+    public static DoogooderJob TakeDoogooderJob(DoogooderAI worker)
+    {
+        InitOpenJobs();
+        if (openDoogooderJobs.Count == 0)
+            return null;
+
+        if (worker.myJob != null)
+            return null;
+
+        DoogooderJob j = (openDoogooderJobs.First as LinkedListNode<DoogooderJob>).Value;
+        while (j.worker != null)
+        {
+            openDemonJobs.RemoveFirst();
+            j = (openDoogooderJobs.First as LinkedListNode<DoogooderJob>).Value;
+        }
+
+        j.worker = worker;
+        openDemonJobs.RemoveFirst();
+        return j;
+    }
+
+
+
 
     public static void MaxCultistPriority(CultistJob j)
     {

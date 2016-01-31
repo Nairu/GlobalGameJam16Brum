@@ -7,7 +7,7 @@ public class BaseJob {
     
     public BaseJob(Tile tile)
     {
-        
+        this.tile = tile;
     }
 
     public virtual void Done()
