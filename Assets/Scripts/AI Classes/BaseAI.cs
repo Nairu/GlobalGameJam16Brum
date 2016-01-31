@@ -78,7 +78,7 @@ public class BaseAI : MonoBehaviour
             Vector3 lScale = transform.localScale;
             if (lScale.x > 0)
                 lScale.x = -lScale.x;
-            
+
             transform.localScale = lScale;
         }
         else if (dir.x < 0)
@@ -86,6 +86,16 @@ public class BaseAI : MonoBehaviour
             Vector3 lScale = transform.localScale;
             transform.localScale = lScale;
         }
+    }
+
+    public void Update()
+    {
+        MoveTo(some tile);
+    }
+
+    public void StartMove(Tile target)
+    {
+        StartCoroutine(MoveTo(target));
     }
 
     private Tile GetClosestLadder()
@@ -119,6 +129,25 @@ public class BaseAI : MonoBehaviour
         return null;
     }
 
+    public IEnumerator MoveTo(Tile target)
+    {
+        if (transform.position.y != target.Pos.y)
+        {
+            Tile ladder = myMap.GetTileAt(0, (int)transform.position.y);
+            yield return MoveToX(ladder.Pos.x);
+
+            //if (startNextEnum)
+            yield return MoveToFloor(target.Pos.y);
+        }
+
+        if (transform.position.x != target.Pos.x)
+        {
+            yield return MoveToX(target.Pos.x);
+        }
+    }
+
+    bool startNextEnum = false;
+
     public IEnumerator MoveToX(float x)
     {
         while (transform.position.x != x)
@@ -137,7 +166,9 @@ public class BaseAI : MonoBehaviour
 
             FaceToMovement(dir);
             transform.Translate(dir);
-            yield return null;
+
+            startNextEnum = (transform.position.x == x);
+            yield return new WaitForSeconds(Time.deltaTime);
         }
     }
 
@@ -151,7 +182,7 @@ public class BaseAI : MonoBehaviour
 
             FaceToMovement(dir);
             transform.Translate(dir, Space.Self);
-            yield return null;
+            yield return new WaitForSeconds(Time.deltaTime);
         }
     }
 }
