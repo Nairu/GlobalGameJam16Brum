@@ -38,6 +38,11 @@ public class Tile : MonoBehaviour {
     public string TileType;
     public bool isWalkable = false;
 
+    public bool canUp = false;
+    public bool canDown = false;
+    public bool canLeft = false;
+    public bool canRight = false;
+
     public int goldCost;
     public int soulsCost;
 
@@ -281,4 +286,57 @@ public class Tile : MonoBehaviour {
         return false;
     }
 
+
+
+
+    public void CheckOptions()
+    {
+        //Check UP
+        // ensure not on top row
+        if (Pos.y < -2)
+        {
+            if (TileType == Enumerations.GetEnumDescription(TileTypes.Tunnel))
+                canUp = true;
+            else
+                canUp = false;
+        }
+
+        // Check Down
+        //ensure there is a tile below
+        Tile tile = map.GetTileAt((int)Pos.x, (int)Pos.y - 2);
+        if (tile != null)
+        {
+            if ((TileType == Enumerations.GetEnumDescription(TileTypes.Tunnel) ||            //
+                TileType == Enumerations.GetEnumDescription(TileTypes.TunnelStart)) &&    // If this tile has a ladder
+                (tile.TileType == Enumerations.GetEnumDescription(TileTypes.Tunnel)))        // AND The tile below has a tall ladder 
+            {
+                canDown = true;
+            }
+            else
+                canDown = false;
+        }
+        
+        // Check Left
+        // Ensure there is a Tile to the left
+        tile = map.GetTileAt((int)Pos.x - 3, (int)Pos.y);
+        if (tile != null)
+        {
+            if (tile.isWalkable)
+                canLeft = true;
+            else
+                canLeft = false;
+        }
+
+        // Check Right
+        // Ensure there is a Tile to the right
+        tile = map.GetTileAt((int)Pos.x + 3, (int)Pos.y);
+        if (tile != null)
+        {
+            if (tile.isWalkable)
+                canLeft = true;
+            else
+                canLeft = false;
+        }
+
+    }
 }

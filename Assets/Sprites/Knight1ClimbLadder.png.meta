@@ -1,0 +1,749 @@
+fileFormatVersion: 2
+guid: eb80862fadf4dbe438376b885bd303d0
+timeCreated: 1454196912
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Knight1ClimbLadder_0
+    21300002: Knight1ClimbLadder_1
+    21300004: Knight1ClimbLadder_2
+    21300006: Knight1ClimbLadder_3
+    21300008: Knight1ClimbLadder_4
+    21300010: Knight1ClimbLadder_5
+    21300012: Knight1ClimbLadder_6
+    21300014: Knight1ClimbLadder_7
+    21300016: Knight1ClimbLadder_8
+    21300018: Knight1ClimbLadder_9
+    21300020: Knight1ClimbLadder_10
+    21300022: Knight1ClimbLadder_11
+    21300024: Knight1ClimbLadder_12
+    21300026: Knight1ClimbLadder_13
+    21300028: Knight1ClimbLadder_14
+    21300030: Knight1ClimbLadder_15
+    21300032: Knight1ClimbLadder_16
+    21300034: Knight1ClimbLadder_17
+    21300036: Knight1ClimbLadder_18
+    21300038: Knight1ClimbLadder_19
+    21300040: Knight1ClimbLadder_20
+    21300042: Knight1ClimbLadder_21
+    21300044: Knight1ClimbLadder_22
+    21300046: Knight1ClimbLadder_23
+    21300048: Knight1ClimbLadder_24
+    21300050: Knight1ClimbLadder_25
+    21300052: Knight1ClimbLadder_26
+    21300054: Knight1ClimbLadder_27
+    21300056: Knight1ClimbLadder_28
+    21300058: Knight1ClimbLadder_29
+    21300060: Knight1ClimbLadder_30
+    21300062: Knight1ClimbLadder_31
+    21300064: Knight1ClimbLadder_32
+    21300066: Knight1ClimbLadder_33
+    21300068: Knight1ClimbLadder_34
+    21300070: Knight1ClimbLadder_35
+    21300072: Knight1ClimbLadder_36
+    21300074: Knight1ClimbLadder_37
+    21300076: Knight1ClimbLadder_38
+    21300078: Knight1ClimbLadder_39
+    21300080: Knight1ClimbLadder_40
+    21300082: Knight1ClimbLadder_41
+    21300084: Knight1ClimbLadder_42
+    21300086: Knight1ClimbLadder_43
+    21300088: Knight1ClimbLadder_44
+    21300090: Knight1ClimbLadder_45
+    21300092: Knight1ClimbLadder_46
+    21300094: Knight1ClimbLadder_47
+    21300096: Knight1ClimbLadder_48
+    21300098: Knight1ClimbLadder_49
+    21300100: Knight1ClimbLadder_50
+    21300102: Knight1ClimbLadder_51
+    21300104: Knight1ClimbLadder_52
+    21300106: Knight1ClimbLadder_53
+    21300108: Knight1ClimbLadder_54
+    21300110: Knight1ClimbLadder_55
+    21300112: Knight1ClimbLadder_56
+    21300114: Knight1ClimbLadder_57
+    21300116: Knight1ClimbLadder_58
+    21300118: Knight1ClimbLadder_59
+    21300120: Knight1ClimbLadder_60
+    21300122: Knight1ClimbLadder_61
+    21300124: Knight1ClimbLadder_62
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Knight1ClimbLadder_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1517
+        width: 74
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1518
+        width: 74
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1518
+        width: 74
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_3
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1517
+        width: 74
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_4
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1517
+        width: 73
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_5
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1517
+        width: 74
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_6
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1517
+        width: 73
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_7
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1517
+        width: 73
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1301
+        width: 73
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1300
+        width: 74
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1300
+        width: 73
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_11
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1300
+        width: 73
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_12
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1300
+        width: 73
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_13
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1300
+        width: 75
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_14
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1301
+        width: 73
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_15
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1302
+        width: 73
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1086
+        width: 74
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1087
+        width: 75
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_18
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1087
+        width: 74
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_19
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1087
+        width: 74
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_20
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1086
+        width: 75
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_21
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1085
+        width: 74
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_22
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1084
+        width: 74
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_23
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1082
+        width: 74
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 865
+        width: 74
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_25
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 864
+        width: 74
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_26
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 865
+        width: 75
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_27
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 866
+        width: 74
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_28
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 867
+        width: 74
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_29
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 868
+        width: 73
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_30
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 869
+        width: 75
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_31
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 869
+        width: 73
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 652
+        width: 74
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_33
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 651
+        width: 74
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_34
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 650
+        width: 74
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_35
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 650
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_36
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 650
+        width: 73
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_37
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 649
+        width: 74
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_38
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 648
+        width: 73
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_39
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 648
+        width: 74
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_40
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 650
+        width: 73
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_41
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 435
+        width: 74
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_42
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 437
+        width: 73
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_43
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 439
+        width: 73
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_44
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 440
+        width: 72
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_45
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 442
+        width: 71
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_46
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 441
+        width: 72
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_47
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 440
+        width: 74
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_48
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 439
+        width: 73
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_49
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 222
+        width: 72
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_50
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 221
+        width: 76
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_51
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 219
+        width: 75
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_52
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 220
+        width: 76
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_53
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 220
+        width: 75
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_54
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 220
+        width: 73
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_55
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 220
+        width: 73
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_56
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 220
+        width: 76
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_57
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4
+        width: 73
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_58
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 4
+        width: 72
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_59
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 5
+        width: 75
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_60
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 5
+        width: 74
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_61
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 5
+        width: 74
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Knight1ClimbLadder_62
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 5
+        width: 74
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
