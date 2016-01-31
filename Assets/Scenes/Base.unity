@@ -260,52 +260,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e57b789516024b41842afdc4280ef8a, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &19647247
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.092
-      objectReference: {fileID: 0}
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 111670, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_Name
-      value: Cultist (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &29764601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,7 +973,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.697
+      value: 2.432
       objectReference: {fileID: 0}
     - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1047,11 +1001,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 111670, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
       propertyPath: m_Name
-      value: Cultist (1)
+      value: Cultist 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
@@ -4899,7 +4853,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.346
+      value: 0.596
       objectReference: {fileID: 0}
     - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4931,7 +4885,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 111670, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
       propertyPath: m_Name
-      value: Cultist
+      value: Cultist 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11479712, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
+      propertyPath: needFood
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
@@ -5068,52 +5026,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1360315421}
---- !u!1001 &1381875900
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.565
-      objectReference: {fileID: 0}
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 420056, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_RootOrder
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 111670, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-      propertyPath: m_Name
-      value: Cultist (3)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 8596a053492ee8a46b2da2f840615210, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1384730622
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,6 +16,8 @@ public class NeedProvider : MonoBehaviour
     public Transform[] myPositions;
     public List<CultistAI> myCultists;
 
+    public float timeToWait = 1f;
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         CultistAI cai = collision.GetComponent<CultistAI>();

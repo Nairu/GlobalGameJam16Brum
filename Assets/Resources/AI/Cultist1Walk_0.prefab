@@ -26,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 111670}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.343, y: -2, z: 0}
+  m_LocalPosition: {x: 2.708, y: -2, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,12 +74,15 @@ MonoBehaviour:
   myCareer: {fileID: 0}
   myEnemy: {fileID: 0}
   myMap: {fileID: 0}
+  myName: 
   needThreshold: 0.5
   needBadly: 1
   needHardLimit: 3
   cultistSpeed: 0.8
+  myHash: 0
+  boundTransform: {fileID: 0}
   needSleep: 0
-  needFood: 0.5
+  needFood: 0
   needFun: 0
   myCultistJob: {fileID: 0}
   myCultistCareer: {fileID: 0}

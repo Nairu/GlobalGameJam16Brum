@@ -3,10 +3,16 @@ using System.Collections;
 
 public class CultistAI : BaseAI {
 
+    public string myName;
     public float needThreshold = 0.5f;
     public float needBadly = 1f;
     public float needHardLimit = 3f;
     public new float cultistSpeed;
+
+    public int myHash;
+    public Transform boundTransform;
+
+    bool moving = false;
 
     public float needSleep = 0;
     public float needFood = 0;
@@ -15,6 +21,11 @@ public class CultistAI : BaseAI {
     public CultistJob myCultistJob;
     public Tile myCultistCareer;
 
+    void Awake()
+    {
+        myName = gameObject.name;
+    }
+
     public new int Health
     {
         get { return base.Health; }
@@ -22,6 +33,7 @@ public class CultistAI : BaseAI {
 
     public void Update()
     {
+        myHash = GetHashCode();
         needSleep += Time.deltaTime / 143f;
         needFood += Time.deltaTime / 92f;
         needFun += Time.deltaTime / 125f;
@@ -45,7 +57,8 @@ public class CultistAI : BaseAI {
             return;
         }
         
-        DoWander();
+        if (!moving)
+            DoWander();
     }
 
     NeedProvider GetClosestProvider(NeedType need)
@@ -56,7 +69,7 @@ public class CultistAI : BaseAI {
         NeedProvider[] provs = GameObject.FindObjectsOfType<NeedProvider>();
         foreach (NeedProvider p in provs)
         {
-            if (p.need == need && !p.IsFull())
+            if (p.need == need && !p.IsFull() && !p.myCultists.Contains(this))
             {
                 Tile t = p.GetComponent<Tile>();
 
@@ -66,9 +79,10 @@ public class CultistAI : BaseAI {
                     closest = p;
                     dist = d;
                 }
-
-                if (p.myCultists.Contains(this))
-                    p.myCultists.Remove(this);
+            }
+            else if (p.myCultists.Contains(this))
+            {
+                p.myCultists.Remove(this);
             }
         }
 
@@ -93,24 +107,34 @@ public class CultistAI : BaseAI {
                 t = n.GetComponent<Tile>();
                 if (t.Pos.y != transform.position.y)
                 {
+                    moving = true;
                     //Go to floor                    
-                    base.MoveToFloor(t.Pos.y, transform.position.x);
+                    base.MoveToFloor(t.Pos.y);
                 }
-                else if (n.myPositions[n.myCultists.Count].position.x 
-                         != (Mathf.RoundToInt(transform.position.x / 3) * 3))
+                else if (transform.position.x < t.Pos.x ||
+                          transform.position.x > t.Pos.x + 3)
                 {
+                    moving = true;
                     if (!n.myCultists.Contains(this))
+                    {
+                        //myMap.messCount++;
                         n.myCultists.Add(this);
-                    base.MoveToX(n.myPositions[n.myCultists.Count - 1].position.x);
+                    }
+
+                    for (int i = 0; i < n.myCultists.Count; i++)
+                    {                        
+                        n.myCultists[i].MoveToX(n.myPositions[i].transform.position.x);
+                    }
 
                     //Go to position
                 }
                 else
                 {
+                    moving = false;
                     if (eatTimer <= 0)
                     {
                         //set eatTimer = some abstract length
-                        eatTimer = 1;
+                        eatTimer = n.timeToWait;
                     }
 
                     eatTimer -= Time.deltaTime;
@@ -119,7 +143,10 @@ public class CultistAI : BaseAI {
                     {
                         needFood = 0;
                         if (n.myCultists.Contains(this))
+                        {
+                            //myMap.messCount--;
                             n.myCultists.Remove(this);
+                        }
                         return false;
                     }                   
                     return true;
@@ -137,22 +164,31 @@ public class CultistAI : BaseAI {
                 t = p.GetComponent<Tile>();
                 if (t.Pos.y != transform.position.y)
                 {
-                    base.MoveToFloor(t.Pos.y, transform.position.x);
+                    moving = true;
+                    base.MoveToFloor(t.Pos.y);
                 }
-                else if (p.myPositions[p.myCultists.Count].position.x 
-                         != (Mathf.RoundToInt(transform.position.x / 3) * 3))
+                else if (transform.position.x < t.Pos.x
+                         || transform.position.x > t.Pos.x + 3)
                 {
+                    moving = true;
                     if (!p.myCultists.Contains(this))
+                    {
+                        //myMap.recreationCount++;
                         p.myCultists.Add(this);
-                    base.MoveToX(p.myPositions[p.myCultists.Count - 1].position.x);
+                    }
+
+                    for (int i = 0; i < p.myCultists.Count; i++)
+                    {
+                        p.myCultists[i].MoveToX(p.myPositions[i].transform.position.x);
+                    }
                 }
                 else
                 {
-                    
+                    moving = false;
                     if (funTimer <= 0)
                     {
                         // some arbitrary length
-                        funTimer = 1;
+                        funTimer = p.timeToWait;
                     }
 
                     funTimer -= Time.deltaTime;
@@ -161,7 +197,10 @@ public class CultistAI : BaseAI {
                     {
                         needFun = 0;
                         if (p.myCultists.Contains(this))
+                        {
+                            //myMap.recreationCount--;
                             p.myCultists.Remove(this);
+                        }
                         return false;
                     }
                     return true;
@@ -198,14 +237,17 @@ public class CultistAI : BaseAI {
                     t = p.GetComponent<Tile>();
                     if (t.Pos.y != transform.position.y)
                     {
-                        base.MoveToFloor(t.Pos.y, transform.position.x);
+                        moving = true;
+                        base.MoveToFloor(t.Pos.y);
                     }
                     else if (t.Pos.x != (Mathf.RoundToInt(transform.position.x / 3) * 3))
                     {
+                        moving = true;
                         base.MoveToX(t.Pos.x);
                     }
                     else
                     {
+                        moving = false;
                         DoSleep();
                         
                         return true;

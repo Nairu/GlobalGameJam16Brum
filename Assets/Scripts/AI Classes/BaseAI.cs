@@ -132,16 +132,25 @@ public class BaseAI : MonoBehaviour
         transform.Translate(dir);
     }
 
-    public void MoveToFloor(float y, float currentX)
+    public void MoveToFloor(float y)
     {
-        if (currentX == 1.5f)
+        if (transform.position.x == 1.5f)
         {
+            Vector3 dir = Vector3.zero;
             //we are lined up with the stairs
-            Vector3 dir = new Vector3(0, y - transform.position.y, 0);
-            dir = Vector3.ClampMagnitude(dir, speed * Time.deltaTime);
+            if (transform.position.y > y)
+            {
+                dir = Vector3.down * speed * Time.deltaTime;
+                dir = Vector3.ClampMagnitude(dir, Mathf.Abs(y - transform.position.y));
+            }
+            else if (transform.position.y < y)
+            {
+                dir = Vector3.up * speed * Time.deltaTime;
+                dir = Vector3.ClampMagnitude(dir, Mathf.Abs(y - transform.position.y));
+            }
 
             FaceToMovement(dir);
-            transform.Translate(dir, Space.Self);
+            transform.Translate(dir);
         }
         else
         {
