@@ -1,0 +1,1798 @@
+fileFormatVersion: 2
+guid: 4207ad8c2a8b0364dbd33c6d5e689a8d
+timeCreated: 1454172482
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Demon1Walk_0
+    21300002: Demon1Walk_1
+    21300004: Demon1Walk_2
+    21300006: Demon1Walk_3
+    21300008: Demon1Walk_4
+    21300010: Demon1Walk_5
+    21300012: Demon1Walk_6
+    21300014: Demon1Walk_7
+    21300016: Demon1Walk_8
+    21300018: Demon1Walk_9
+    21300020: Demon1Walk_10
+    21300022: Demon1Walk_11
+    21300024: Demon1Walk_12
+    21300026: Demon1Walk_13
+    21300028: Demon1Walk_14
+    21300030: Demon1Walk_15
+    21300032: Demon1Walk_16
+    21300034: Demon1Walk_17
+    21300036: Demon1Walk_18
+    21300038: Demon1Walk_19
+    21300040: Demon1Walk_20
+    21300042: Demon1Walk_21
+    21300044: Demon1Walk_22
+    21300046: Demon1Walk_23
+    21300048: Demon1Walk_24
+    21300050: Demon1Walk_25
+    21300052: Demon1Walk_26
+    21300054: Demon1Walk_27
+    21300056: Demon1Walk_28
+    21300058: Demon1Walk_29
+    21300060: Demon1Walk_30
+    21300062: Demon1Walk_31
+    21300064: Demon1Walk_32
+    21300066: Demon1Walk_33
+    21300068: Demon1Walk_34
+    21300070: Demon1Walk_35
+    21300072: Demon1Walk_36
+    21300074: Demon1Walk_37
+    21300076: Demon1Walk_38
+    21300078: Demon1Walk_39
+    21300080: Demon1Walk_40
+    21300082: Demon1Walk_41
+    21300084: Demon1Walk_42
+    21300086: Demon1Walk_43
+    21300088: Demon1Walk_44
+    21300090: Demon1Walk_45
+    21300092: Demon1Walk_46
+    21300094: Demon1Walk_47
+    21300096: Demon1Walk_48
+    21300098: Demon1Walk_49
+    21300100: Demon1Walk_50
+    21300102: Demon1Walk_51
+    21300104: Demon1Walk_52
+    21300106: Demon1Walk_53
+    21300108: Demon1Walk_54
+    21300110: Demon1Walk_55
+    21300112: Demon1Walk_56
+    21300114: Demon1Walk_57
+    21300116: Demon1Walk_58
+    21300118: Demon1Walk_59
+    21300120: Demon1Walk_60
+    21300122: Demon1Walk_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Demon1Walk_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1391
+        width: 130
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -91.5}
+        - {x: 30, y: -83.5}
+        - {x: 65, y: -2.5}
+        - {x: 65, y: 30.5}
+        - {x: 34, y: 91.5}
+        - {x: -57, y: 91.5}
+        - {x: -65, y: 32.5}
+        - {x: -65, y: -14.5}
+        - {x: -63, y: -17.5}
+        - {x: -49, y: -17.5}
+        - {x: -46, y: -13.5}
+        - {x: -58, y: -80.5}
+        - {x: -45, y: -91.5}
+        - {x: -27, y: -91.5}
+        - {x: -17, y: -79.5}
+        - {x: -23, y: -86.5}
+        - {x: -21, y: -91.5}
+    - name: Demon1Walk_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1391
+        width: 128
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -85}
+        - {x: -20, y: -91}
+        - {x: 12, y: -91}
+        - {x: 28, y: -84}
+        - {x: 64, y: -1}
+        - {x: 64, y: 84}
+        - {x: 28, y: 91}
+        - {x: -64, y: 91}
+        - {x: -64, y: -18}
+        - {x: -49, y: -19}
+        - {x: -38, y: 2}
+        - {x: -35, y: 9}
+        - {x: -48, y: -38}
+        - {x: -59, y: -80}
+        - {x: -50, y: -91}
+        - {x: -25, y: -91}
+        - {x: -20, y: -82}
+        - {x: -19, y: -74}
+        - {x: -12, y: -75}
+    - name: Demon1Walk_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1391
+        width: 128
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -86.5}
+        - {x: -19, y: -90.5}
+        - {x: 37, y: -90.5}
+        - {x: 64, y: -42.5}
+        - {x: 64, y: 31.5}
+        - {x: 60, y: 32.5}
+        - {x: 51, y: 22.5}
+        - {x: 51, y: 21.5}
+        - {x: 34, y: 9.5}
+        - {x: 22, y: -3.5}
+        - {x: 20, y: -17.5}
+        - {x: 23, y: 11.5}
+        - {x: 12, y: 55.5}
+        - {x: 26, y: 82.5}
+        - {x: 27, y: 90.5}
+        - {x: -60, y: 90.5}
+        - {x: -64, y: 49.5}
+        - {x: -64, y: -19.5}
+        - {x: -51, y: -20.5}
+        - {x: -46, y: -15.5}
+        - {x: -48, y: -37.5}
+        - {x: -61, y: -78.5}
+        - {x: -52, y: -90.5}
+        - {x: -27, y: -90.5}
+        - {x: -18, y: -80.5}
+        - {x: -19, y: -69.5}
+        - {x: -13, y: -73.5}
+    - name: Demon1Walk_3
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1390
+        width: 127
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: -91}
+        - {x: 25.5, y: -91}
+        - {x: 63.5, y: -27}
+        - {x: 63.5, y: 90}
+        - {x: 62.5, y: 91}
+        - {x: -63.5, y: 91}
+        - {x: -63.5, y: -27}
+        - {x: -46.5, y: -21}
+        - {x: -43.5, y: -11}
+        - {x: -57.5, y: -78}
+        - {x: -57.5, y: -80}
+        - {x: -48.5, y: -91}
+        - {x: -26.5, y: -91}
+        - {x: -27.5, y: -81}
+        - {x: -19.5, y: -81}
+        - {x: -21.5, y: -84}
+    - name: Demon1Walk_4
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1390
+        width: 127
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: -74.5}
+        - {x: -7.5, y: -67.5}
+        - {x: -25.5, y: -85.5}
+        - {x: -19.5, y: -90.5}
+        - {x: 17.5, y: -90.5}
+        - {x: 39.5, y: -77.5}
+        - {x: 63.5, y: -31.5}
+        - {x: 63.5, y: 84.5}
+        - {x: 57.5, y: 90.5}
+        - {x: -63.5, y: 90.5}
+        - {x: -63.5, y: -79.5}
+        - {x: -50.5, y: -90.5}
+        - {x: -27.5, y: -90.5}
+        - {x: -28.5, y: -87.5}
+        - {x: -24.5, y: -82.5}
+    - name: Demon1Walk_5
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1391
+        width: 126
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: 89.5}
+        - {x: -62, y: 86.5}
+        - {x: -63, y: 56.5}
+        - {x: -63, y: -18.5}
+        - {x: -48, y: -19.5}
+        - {x: -63, y: -79.5}
+        - {x: -63, y: -89.5}
+        - {x: 31, y: -89.5}
+        - {x: 41, y: -84.5}
+        - {x: 63, y: 1.5}
+        - {x: 63, y: 77.5}
+        - {x: 27, y: 89.5}
+    - name: Demon1Walk_6
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1391
+        width: 125
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.5, y: 89.5}
+        - {x: -62.5, y: -89.5}
+        - {x: 38.5, y: -89.5}
+        - {x: 62.5, y: -7.5}
+        - {x: 62.5, y: 52.5}
+        - {x: 19.5, y: 89.5}
+    - name: Demon1Walk_7
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1391
+        width: 127
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 89.5}
+        - {x: -63.5, y: 89.5}
+        - {x: -63.5, y: -20.5}
+        - {x: -42.5, y: -24.5}
+        - {x: -63.5, y: -76.5}
+        - {x: -50.5, y: -89.5}
+        - {x: 50.5, y: -89.5}
+        - {x: 63.5, y: -7.5}
+        - {x: 63.5, y: 49.5}
+        - {x: 56.5, y: 47.5}
+    - name: Demon1Walk_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1191
+        width: 128
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: -91}
+        - {x: -24, y: -89}
+        - {x: -27, y: -88}
+        - {x: -29, y: -91}
+      - - {x: 33, y: -81}
+        - {x: 64, y: 9}
+        - {x: 64, y: 57}
+        - {x: 51, y: 70}
+        - {x: 25, y: 91}
+        - {x: -64, y: 91}
+        - {x: -64, y: -91}
+        - {x: -32, y: -91}
+        - {x: -21, y: -82}
+        - {x: -14, y: -87}
+        - {x: 7, y: -91}
+        - {x: 16, y: -91}
+    - name: Demon1Walk_9
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1191
+        width: 129
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -91.5}
+        - {x: -24.5, y: -88.5}
+        - {x: -28.5, y: -88.5}
+        - {x: -29.5, y: -91.5}
+      - - {x: 4.5, y: -91.5}
+        - {x: 34.5, y: -91.5}
+        - {x: 42.5, y: -90.5}
+        - {x: 64.5, y: -8.5}
+        - {x: 64.5, y: 91.5}
+        - {x: -64.5, y: 91.5}
+        - {x: -64.5, y: 63.5}
+        - {x: -49.5, y: 45.5}
+        - {x: -41.5, y: 45.5}
+        - {x: -35.5, y: 46.5}
+        - {x: -45.5, y: 44.5}
+        - {x: -55.5, y: 39.5}
+        - {x: -64.5, y: -5.5}
+        - {x: -64.5, y: -12.5}
+        - {x: -55.5, y: -26.5}
+        - {x: -40.5, y: -23.5}
+        - {x: -37.5, y: -19.5}
+        - {x: -64.5, y: -65.5}
+        - {x: -64.5, y: -79.5}
+        - {x: -58.5, y: -88.5}
+        - {x: -44.5, y: -91.5}
+        - {x: -29.5, y: -91.5}
+        - {x: -24.5, y: -82.5}
+        - {x: -16.5, y: -54.5}
+        - {x: -14.5, y: -84.5}
+    - name: Demon1Walk_10
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1191
+        width: 130
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -92}
+        - {x: -23, y: -90}
+        - {x: -26, y: -89}
+        - {x: -28, y: -92}
+      - - {x: 58, y: 54}
+        - {x: 33, y: 21}
+        - {x: 21, y: 92}
+        - {x: -57, y: 92}
+        - {x: -65, y: 91}
+        - {x: -65, y: -60}
+        - {x: -62, y: -70}
+        - {x: -53, y: -91}
+        - {x: 24, y: -91}
+        - {x: 43, y: -75}
+        - {x: 65, y: 17}
+        - {x: 65, y: 46}
+    - name: Demon1Walk_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1194
+        width: 132
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: 52.5}
+        - {x: 33, y: 22.5}
+        - {x: 16, y: 90.5}
+        - {x: -22, y: 90.5}
+        - {x: -66, y: 86.5}
+        - {x: -66, y: 24.5}
+        - {x: -58, y: -27.5}
+        - {x: -35, y: -28.5}
+        - {x: -33, y: -22.5}
+        - {x: -36, y: -51.5}
+        - {x: -63, y: -68.5}
+        - {x: -66, y: -75.5}
+        - {x: -66, y: -90.5}
+        - {x: 39, y: -90.5}
+        - {x: 50, y: -79.5}
+        - {x: 66, y: 2.5}
+        - {x: 66, y: 48.5}
+    - name: Demon1Walk_12
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1195
+        width: 133
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.5, y: 44.5}
+        - {x: 63.5, y: 48.5}
+        - {x: 59.5, y: 49.5}
+        - {x: 51.5, y: 38.5}
+        - {x: 16.5, y: 90.5}
+        - {x: -22.5, y: 90.5}
+        - {x: -66.5, y: 83.5}
+        - {x: -66.5, y: 48.5}
+        - {x: -53.5, y: -26.5}
+        - {x: -43.5, y: -29.5}
+        - {x: -37.5, y: -27.5}
+        - {x: -31.5, y: -24.5}
+        - {x: -32.5, y: -17.5}
+        - {x: -25.5, y: -13.5}
+        - {x: -34.5, y: -51.5}
+        - {x: -34.5, y: -61.5}
+        - {x: -53.5, y: -69.5}
+        - {x: -58.5, y: -72.5}
+        - {x: -64.5, y: -81.5}
+        - {x: -51.5, y: -90.5}
+        - {x: 33.5, y: -90.5}
+        - {x: 43.5, y: -80.5}
+        - {x: 66.5, y: 23.5}
+    - name: Demon1Walk_13
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1194
+        width: 129
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.5, y: 89}
+        - {x: -64.5, y: -47}
+        - {x: -61.5, y: -77}
+        - {x: -59.5, y: -89}
+        - {x: 55.5, y: -89}
+        - {x: 64.5, y: -42}
+        - {x: 64.5, y: 66}
+        - {x: 37.5, y: 89}
+      - - {x: 38.5, y: -78}
+        - {x: 41.5, y: -77}
+        - {x: 41.5, y: -74}
+        - {x: 38.5, y: -73}
+        - {x: 36.5, y: -75}
+    - name: Demon1Walk_14
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1194
+        width: 129
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.5, y: -88.5}
+        - {x: 64.5, y: 11.5}
+        - {x: 64.5, y: 48.5}
+        - {x: 62.5, y: 54.5}
+        - {x: 35.5, y: 87.5}
+        - {x: 33.5, y: 88.5}
+        - {x: -64.5, y: 88.5}
+        - {x: -64.5, y: 17.5}
+        - {x: -59.5, y: -27.5}
+        - {x: -34.5, y: -28.5}
+        - {x: -32.5, y: -18.5}
+        - {x: -39.5, y: -52.5}
+        - {x: -61.5, y: -75.5}
+        - {x: -52.5, y: -88.5}
+        - {x: -28.5, y: -88.5}
+        - {x: -17.5, y: -78.5}
+        - {x: -6.5, y: -83.5}
+        - {x: 11.5, y: -88.5}
+    - name: Demon1Walk_15
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1193
+        width: 129
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.5, y: 89}
+        - {x: -64.5, y: -3}
+        - {x: -56.5, y: -82}
+        - {x: -55.5, y: -89}
+        - {x: 52.5, y: -89}
+        - {x: 59.5, y: -86}
+        - {x: 64.5, y: -31}
+        - {x: 64.5, y: 89}
+    - name: Demon1Walk_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 996
+        width: 128
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -88.5}
+        - {x: 51, y: -82.5}
+        - {x: 64, y: -13.5}
+        - {x: 64, y: 58.5}
+        - {x: 21, y: 88.5}
+        - {x: -64, y: 88.5}
+        - {x: -64, y: -84.5}
+        - {x: -54, y: -88.5}
+        - {x: -25, y: -88.5}
+        - {x: -17, y: -75.5}
+        - {x: -12, y: -87.5}
+        - {x: -7, y: -88.5}
+    - name: Demon1Walk_17
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 994
+        width: 127
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 89.5}
+        - {x: -63.5, y: 89.5}
+        - {x: -63.5, y: -10.5}
+        - {x: -51.5, y: -33.5}
+        - {x: -36.5, y: -25.5}
+        - {x: -35.5, y: -19.5}
+        - {x: -35.5, y: -15.5}
+        - {x: -25.5, y: -0.5}
+        - {x: -60.5, y: -83.5}
+        - {x: -50.5, y: -89.5}
+        - {x: 32.5, y: -89.5}
+        - {x: 45.5, y: -86.5}
+        - {x: 63.5, y: 17.5}
+        - {x: 63.5, y: 59.5}
+    - name: Demon1Walk_18
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 995
+        width: 127
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 88.5}
+        - {x: -63.5, y: 88.5}
+        - {x: -63.5, y: -88.5}
+        - {x: 31.5, y: -88.5}
+        - {x: 49.5, y: -82.5}
+        - {x: 63.5, y: -11.5}
+        - {x: 63.5, y: 54.5}
+        - {x: 54.5, y: 57.5}
+    - name: Demon1Walk_19
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 993
+        width: 127
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.5, y: 58.5}
+        - {x: 44.5, y: 49.5}
+        - {x: 20.5, y: 89.5}
+        - {x: -63.5, y: 89.5}
+        - {x: -63.5, y: 68.5}
+        - {x: -59.5, y: -30.5}
+        - {x: -40.5, y: -23.5}
+        - {x: -35.5, y: -20.5}
+        - {x: -31.5, y: -2.5}
+        - {x: -37.5, y: -47.5}
+        - {x: -63.5, y: -71.5}
+        - {x: -63.5, y: -77.5}
+        - {x: -47.5, y: -89.5}
+        - {x: 55.5, y: -89.5}
+        - {x: 63.5, y: -25.5}
+        - {x: 63.5, y: 54.5}
+    - name: Demon1Walk_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 993
+        width: 126
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: 89.5}
+        - {x: -63, y: -85.5}
+        - {x: -55, y: -89.5}
+        - {x: 38, y: -89.5}
+        - {x: 63, y: -45.5}
+        - {x: 63, y: 85.5}
+        - {x: 38, y: 89.5}
+    - name: Demon1Walk_21
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 994
+        width: 127
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.5, y: 60}
+        - {x: 22.5, y: 89}
+        - {x: -63.5, y: 89}
+        - {x: -63.5, y: 83}
+        - {x: -47.5, y: 51}
+        - {x: -42.5, y: 47}
+        - {x: -51.5, y: 40}
+        - {x: -63.5, y: -9}
+        - {x: -63.5, y: -89}
+        - {x: 37.5, y: -89}
+        - {x: 57.5, y: -82}
+        - {x: 63.5, y: -27}
+        - {x: 63.5, y: 53}
+        - {x: 61.5, y: 57}
+    - name: Demon1Walk_22
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 994
+        width: 127
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 16}
+        - {x: 17.5, y: 87}
+        - {x: 16.5, y: 89}
+        - {x: -63.5, y: 89}
+        - {x: -63.5, y: -89}
+        - {x: 63.5, y: -89}
+        - {x: 63.5, y: 64}
+        - {x: 56.5, y: 58}
+    - name: Demon1Walk_23
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 994
+        width: 127
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.5, y: 57}
+        - {x: 55.5, y: 57}
+        - {x: 34.5, y: 28}
+        - {x: 29.5, y: 15}
+        - {x: 22.5, y: 35}
+        - {x: 10.5, y: 56}
+        - {x: 18.5, y: 86}
+        - {x: 16.5, y: 89}
+        - {x: -63.5, y: 89}
+        - {x: -63.5, y: 20}
+        - {x: -59.5, y: -23}
+        - {x: -54.5, y: -25}
+        - {x: -42.5, y: -25}
+        - {x: -38.5, y: -22}
+        - {x: -56.5, y: -77}
+        - {x: -58.5, y: -89}
+        - {x: 45.5, y: -89}
+        - {x: 47.5, y: -72}
+        - {x: 63.5, y: 28}
+        - {x: 63.5, y: 54}
+    - name: Demon1Walk_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 794
+        width: 125
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: -90.5}
+        - {x: -16.5, y: -87.5}
+        - {x: -20.5, y: -87.5}
+        - {x: -21.5, y: -90.5}
+      - - {x: 44.5, y: -18.5}
+        - {x: 44.5, y: -11.5}
+        - {x: 62.5, y: 37.5}
+        - {x: 62.5, y: 59.5}
+        - {x: 53.5, y: 75.5}
+        - {x: 39.5, y: 90.5}
+        - {x: -62.5, y: 90.5}
+        - {x: -62.5, y: -52.5}
+        - {x: -53.5, y: -90.5}
+        - {x: 28.5, y: -90.5}
+        - {x: 52.5, y: -85.5}
+        - {x: 43.5, y: -71.5}
+        - {x: 38.5, y: -68.5}
+        - {x: 29.5, y: -48.5}
+    - name: Demon1Walk_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 794
+        width: 124
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -90.5}
+        - {x: -15, y: -87.5}
+        - {x: -19, y: -87.5}
+        - {x: -20, y: -90.5}
+      - - {x: 24, y: 90.5}
+        - {x: -62, y: 90.5}
+        - {x: -62, y: -37.5}
+        - {x: -61, y: -50.5}
+        - {x: -55, y: -90.5}
+        - {x: 55, y: -90.5}
+        - {x: 62, y: -85.5}
+        - {x: 62, y: 69.5}
+        - {x: 49, y: 74.5}
+    - name: Demon1Walk_26
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 794
+        width: 126
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -90.5}
+        - {x: -15, y: -87.5}
+        - {x: -19, y: -87.5}
+        - {x: -20, y: -90.5}
+      - - {x: 20, y: -90.5}
+        - {x: 47, y: -79.5}
+        - {x: 44, y: -70.5}
+        - {x: 40, y: -67.5}
+        - {x: 45, y: -24.5}
+        - {x: 63, y: -6.5}
+        - {x: 63, y: 90.5}
+        - {x: -63, y: 90.5}
+        - {x: -63, y: -20.5}
+        - {x: -59, y: -25.5}
+        - {x: -48, y: -26.5}
+        - {x: -42, y: -20.5}
+        - {x: -36, y: -3.5}
+        - {x: -35, y: 0.5}
+        - {x: -34, y: -47.5}
+        - {x: -55, y: -76.5}
+        - {x: -42, y: -90.5}
+        - {x: -23, y: -90.5}
+        - {x: -14, y: -78.5}
+        - {x: -2, y: -85.5}
+        - {x: 9, y: -90.5}
+    - name: Demon1Walk_27
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 794
+        width: 125
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: -90.5}
+        - {x: -14.5, y: -88.5}
+        - {x: -17.5, y: -87.5}
+        - {x: -19.5, y: -90.5}
+      - - {x: 62.5, y: -74.5}
+        - {x: 62.5, y: 78.5}
+        - {x: 40.5, y: 90.5}
+        - {x: -39.5, y: 90.5}
+        - {x: -41.5, y: 82.5}
+        - {x: -45.5, y: 88.5}
+        - {x: -49.5, y: 90.5}
+        - {x: -62.5, y: 90.5}
+        - {x: -62.5, y: -21.5}
+        - {x: -56.5, y: -23.5}
+        - {x: -46.5, y: -23.5}
+        - {x: -42.5, y: -18.5}
+        - {x: -35.5, y: -2.5}
+        - {x: -51.5, y: -77.5}
+        - {x: -50.5, y: -80.5}
+        - {x: -42.5, y: -90.5}
+        - {x: -38.5, y: -88.5}
+        - {x: -29.5, y: -90.5}
+        - {x: -24.5, y: -90.5}
+        - {x: -15.5, y: -77.5}
+        - {x: -6.5, y: -90.5}
+        - {x: 54.5, y: -90.5}
+    - name: Demon1Walk_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 796
+        width: 126
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: -82.5}
+        - {x: 43, y: -69.5}
+        - {x: 44, y: -67.5}
+        - {x: 63, y: 29.5}
+        - {x: 63, y: 54.5}
+        - {x: 59, y: 55.5}
+        - {x: 56, y: 54.5}
+        - {x: 49, y: 45.5}
+        - {x: 27, y: 15.5}
+        - {x: 20, y: 46.5}
+        - {x: 22, y: 84.5}
+        - {x: 20, y: 89.5}
+        - {x: -63, y: 89.5}
+        - {x: -63, y: -24.5}
+        - {x: -47, y: -27.5}
+        - {x: -39, y: -12.5}
+        - {x: -53, y: -77.5}
+        - {x: -44, y: -89.5}
+        - {x: -21, y: -89.5}
+        - {x: -13, y: -79.5}
+        - {x: -8, y: -89.5}
+        - {x: 18, y: -89.5}
+    - name: Demon1Walk_29
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 796
+        width: 129
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: -86.5}
+        - {x: 45.5, y: -67.5}
+        - {x: 42.5, y: -64.5}
+        - {x: 64.5, y: 29.5}
+        - {x: 64.5, y: 50.5}
+        - {x: 61.5, y: 54.5}
+        - {x: 57.5, y: 55.5}
+        - {x: 48.5, y: 44.5}
+        - {x: 41.5, y: 86.5}
+        - {x: 29.5, y: 89.5}
+        - {x: -62.5, y: 89.5}
+        - {x: -61.5, y: 86.5}
+        - {x: -64.5, y: 34.5}
+        - {x: -64.5, y: -23.5}
+        - {x: -51.5, y: -27.5}
+        - {x: -45.5, y: -19.5}
+        - {x: -35.5, y: -3.5}
+        - {x: -51.5, y: -78.5}
+        - {x: -46.5, y: -89.5}
+        - {x: -17.5, y: -89.5}
+        - {x: -11.5, y: -80.5}
+        - {x: -0.5, y: -89.5}
+        - {x: 12.5, y: -89.5}
+      - - {x: 36.5, y: -77.5}
+        - {x: 39.5, y: -76.5}
+        - {x: 39.5, y: -73.5}
+        - {x: 36.5, y: -72.5}
+        - {x: 34.5, y: -74.5}
+    - name: Demon1Walk_30
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 796
+        width: 130
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: 57}
+        - {x: 57, y: 52}
+        - {x: 50, y: 44}
+        - {x: 31, y: 12}
+        - {x: 15, y: 43}
+        - {x: 7, y: 54}
+        - {x: 4, y: 56}
+        - {x: -6, y: 55}
+        - {x: 22, y: 84}
+        - {x: 22, y: 90}
+        - {x: -65, y: 90}
+        - {x: -65, y: -90}
+        - {x: 46, y: -90}
+        - {x: 65, y: -8}
+        - {x: 65, y: 54}
+    - name: Demon1Walk_31
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 796
+        width: 131
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 12}
+        - {x: 28.5, y: 18}
+        - {x: 9.5, y: 62}
+        - {x: 23.5, y: 84}
+        - {x: 20.5, y: 88}
+        - {x: 15.5, y: 90}
+        - {x: -63.5, y: 90}
+        - {x: -65.5, y: 87}
+        - {x: -65.5, y: -90}
+        - {x: 65.5, y: -90}
+        - {x: 65.5, y: 52}
+        - {x: 58.5, y: 58}
+    - name: Demon1Walk_32
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 598
+        width: 134
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: 55}
+        - {x: 61, y: 54}
+        - {x: 52, y: 45}
+        - {x: 30, y: 90}
+        - {x: -59, y: 90}
+        - {x: -58, y: 87}
+        - {x: -45, y: 56}
+        - {x: -41, y: 48}
+        - {x: -67, y: 46}
+        - {x: -67, y: -90}
+        - {x: 29, y: -90}
+        - {x: 57, y: -66}
+        - {x: 67, y: -18}
+        - {x: 67, y: 52}
+    - name: Demon1Walk_33
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 598
+        width: 135
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67.5, y: 81}
+        - {x: 55.5, y: 90}
+        - {x: -60.5, y: 90}
+        - {x: -67.5, y: 66}
+        - {x: -67.5, y: -86}
+        - {x: -65.5, y: -90}
+        - {x: 28.5, y: -90}
+        - {x: 47.5, y: -76}
+        - {x: 67.5, y: -22}
+    - name: Demon1Walk_34
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 598
+        width: 137
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: -90}
+        - {x: 55.5, y: -80}
+        - {x: 68.5, y: 20}
+        - {x: 68.5, y: 90}
+        - {x: -68.5, y: 90}
+        - {x: -68.5, y: -19}
+        - {x: -55.5, y: -25}
+        - {x: -48.5, y: -90}
+        - {x: -15.5, y: -90}
+        - {x: -8.5, y: -81}
+        - {x: -10.5, y: -86}
+        - {x: -4.5, y: -90}
+    - name: Demon1Walk_35
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 598
+        width: 138
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: 42}
+        - {x: 38, y: 83}
+        - {x: 25, y: 88}
+        - {x: -12, y: 90}
+        - {x: -60, y: 90}
+        - {x: -69, y: 21}
+        - {x: -69, y: -25}
+        - {x: -45, y: -90}
+        - {x: 34, y: -90}
+        - {x: 69, y: -30}
+        - {x: 69, y: 52}
+        - {x: 63, y: 52}
+    - name: Demon1Walk_36
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 598
+        width: 138
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: 90.5}
+        - {x: -69, y: 52.5}
+        - {x: -69, y: -52.5}
+        - {x: -45, y: -90.5}
+        - {x: 31, y: -90.5}
+        - {x: 69, y: -44.5}
+        - {x: 69, y: 65.5}
+        - {x: 34, y: 90.5}
+    - name: Demon1Walk_37
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 598
+        width: 141
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67.5, y: 50.5}
+        - {x: 47.5, y: 47.5}
+        - {x: 28.5, y: 90.5}
+        - {x: -56.5, y: 90.5}
+        - {x: -54.5, y: 87.5}
+        - {x: -70.5, y: 8.5}
+        - {x: -70.5, y: -12.5}
+        - {x: -60.5, y: -19.5}
+        - {x: -49.5, y: -16.5}
+        - {x: -28.5, y: 6.5}
+        - {x: -29.5, y: 11.5}
+        - {x: -30.5, y: 12.5}
+        - {x: -30.5, y: 14.5}
+        - {x: -30.5, y: 12.5}
+        - {x: -26.5, y: 9.5}
+        - {x: -48.5, y: -75.5}
+        - {x: -39.5, y: -90.5}
+        - {x: 27.5, y: -90.5}
+        - {x: 55.5, y: -26.5}
+        - {x: 70.5, y: 21.5}
+        - {x: 70.5, y: 48.5}
+      - - {x: 37.5, y: -80.5}
+        - {x: 40.5, y: -79.5}
+        - {x: 40.5, y: -76.5}
+        - {x: 37.5, y: -75.5}
+        - {x: 35.5, y: -77.5}
+    - name: Demon1Walk_38
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 598
+        width: 141
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 90.5}
+        - {x: -70.5, y: 18.5}
+        - {x: -70.5, y: -11.5}
+        - {x: -69.5, y: -14.5}
+        - {x: -51.5, y: -90.5}
+        - {x: 17.5, y: -90.5}
+        - {x: 21.5, y: -88.5}
+        - {x: 70.5, y: -63.5}
+        - {x: 70.5, y: 90.5}
+      - - {x: 37.5, y: -80.5}
+        - {x: 40.5, y: -79.5}
+        - {x: 40.5, y: -76.5}
+        - {x: 37.5, y: -75.5}
+        - {x: 35.5, y: -77.5}
+    - name: Demon1Walk_39
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 598
+        width: 140
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 90}
+        - {x: -58, y: 90}
+        - {x: -38, y: 51}
+        - {x: -35, y: 48}
+        - {x: -48, y: 31}
+        - {x: -70, y: 1}
+        - {x: -70, y: -10}
+        - {x: -58, y: -19}
+        - {x: -52, y: -78}
+        - {x: -42, y: -90}
+        - {x: 25, y: -90}
+        - {x: 70, y: 17}
+        - {x: 70, y: 71}
+        - {x: 26, y: 89}
+      - - {x: 29, y: -82}
+        - {x: 32, y: -81}
+        - {x: 32, y: -78}
+        - {x: 29, y: -77}
+        - {x: 27, y: -79}
+    - name: Demon1Walk_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 400
+        width: 140
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 12}
+        - {x: 28, y: 18}
+        - {x: 30, y: 90}
+        - {x: -61, y: 90}
+        - {x: -70, y: 66}
+        - {x: -70, y: -88}
+        - {x: -65, y: -90}
+        - {x: 29, y: -90}
+        - {x: 70, y: -37}
+        - {x: 70, y: 55}
+        - {x: 63, y: 55}
+      - - {x: 28, y: -82}
+        - {x: 31, y: -81}
+        - {x: 31, y: -78}
+        - {x: 28, y: -77}
+        - {x: 26, y: -79}
+    - name: Demon1Walk_41
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 400
+        width: 139
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59.5, y: 50}
+        - {x: 36.5, y: 20}
+        - {x: 33.5, y: 8}
+        - {x: 30.5, y: 18}
+        - {x: 18.5, y: 54}
+        - {x: 5.5, y: 57}
+        - {x: -0.5, y: 53}
+        - {x: -1.5, y: 52}
+        - {x: -9.5, y: 50}
+        - {x: -7.5, y: 50}
+        - {x: -4.5, y: 54}
+        - {x: 15.5, y: 65}
+        - {x: 30.5, y: 90}
+        - {x: -56.5, y: 90}
+        - {x: -69.5, y: 39}
+        - {x: -69.5, y: -29}
+        - {x: -47.5, y: -90}
+        - {x: 39.5, y: -90}
+        - {x: 69.5, y: -14}
+        - {x: 69.5, y: 50}
+        - {x: 68.5, y: 51}
+    - name: Demon1Walk_42
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 400
+        width: 139
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.5, y: 48.5}
+        - {x: 48.5, y: 89.5}
+        - {x: -62.5, y: 89.5}
+        - {x: -40.5, y: 52.5}
+        - {x: -55.5, y: 36.5}
+        - {x: -69.5, y: 5.5}
+        - {x: -69.5, y: -20.5}
+        - {x: -62.5, y: -25.5}
+        - {x: -48.5, y: -77.5}
+        - {x: -39.5, y: -89.5}
+        - {x: 25.5, y: -89.5}
+        - {x: 45.5, y: -40.5}
+        - {x: 69.5, y: 28.5}
+        - {x: 69.5, y: 44.5}
+    - name: Demon1Walk_43
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 400
+        width: 139
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56.5, y: 37.5}
+        - {x: 56.5, y: 36.5}
+        - {x: 40.5, y: 17.5}
+        - {x: 27.5, y: 89.5}
+        - {x: -64.5, y: 89.5}
+        - {x: -69.5, y: 77.5}
+        - {x: -69.5, y: -89.5}
+        - {x: 29.5, y: -89.5}
+        - {x: 69.5, y: 20.5}
+        - {x: 69.5, y: 49.5}
+        - {x: 63.5, y: 49.5}
+    - name: Demon1Walk_44
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 400
+        width: 138
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: 89.5}
+        - {x: -69, y: 55.5}
+        - {x: -69, y: -54.5}
+        - {x: -45, y: -89.5}
+        - {x: 30, y: -89.5}
+        - {x: 69, y: 3.5}
+        - {x: 69, y: 59.5}
+        - {x: 37, y: 89.5}
+    - name: Demon1Walk_45
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 400
+        width: 137
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.5, y: 46.5}
+        - {x: 33.5, y: 89.5}
+        - {x: -68.5, y: 89.5}
+        - {x: -68.5, y: -26.5}
+        - {x: -50.5, y: -81.5}
+        - {x: -38.5, y: -89.5}
+        - {x: 23.5, y: -89.5}
+        - {x: 68.5, y: -8.5}
+        - {x: 68.5, y: 50.5}
+        - {x: 67.5, y: 51.5}
+    - name: Demon1Walk_46
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 400
+        width: 137
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.5, y: 90}
+        - {x: -59.5, y: 88}
+        - {x: -68.5, y: 24}
+        - {x: -68.5, y: -14}
+        - {x: -56.5, y: -20}
+        - {x: -52.5, y: -78}
+        - {x: -41.5, y: -90}
+        - {x: 62.5, y: -90}
+        - {x: 68.5, y: -45}
+        - {x: 68.5, y: 90}
+      - - {x: 24.5, y: -83}
+        - {x: 27.5, y: -82}
+        - {x: 27.5, y: -79}
+        - {x: 24.5, y: -78}
+        - {x: 22.5, y: -80}
+      - - {x: 33.5, y: -81}
+        - {x: 36.5, y: -80}
+        - {x: 36.5, y: -77}
+        - {x: 33.5, y: -76}
+        - {x: 31.5, y: -78}
+    - name: Demon1Walk_47
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 399
+        width: 136
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: 27.5}
+        - {x: 68, y: 42.5}
+        - {x: 61, y: 49.5}
+        - {x: 31, y: 11.5}
+        - {x: 27, y: 90.5}
+        - {x: -59, y: 90.5}
+        - {x: -66, y: 89.5}
+        - {x: -68, y: 81.5}
+        - {x: -68, y: -87.5}
+        - {x: -36, y: -90.5}
+        - {x: 7, y: -90.5}
+        - {x: 26, y: -81.5}
+        - {x: 67, y: 21.5}
+      - - {x: 24, y: -82.5}
+        - {x: 27, y: -81.5}
+        - {x: 27, y: -78.5}
+        - {x: 24, y: -77.5}
+        - {x: 22, y: -79.5}
+      - - {x: 33, y: -80.5}
+        - {x: 36, y: -79.5}
+        - {x: 36, y: -76.5}
+        - {x: 33, y: -75.5}
+        - {x: 31, y: -77.5}
+    - name: Demon1Walk_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 201
+        width: 136
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: -23}
+        - {x: 68, y: 28}
+        - {x: 68, y: 39}
+        - {x: 67, y: 42}
+        - {x: 64, y: 45}
+        - {x: 60, y: 45}
+        - {x: 31, y: 8}
+        - {x: 25, y: 45}
+        - {x: 27, y: 91}
+        - {x: -68, y: 91}
+        - {x: -68, y: -91}
+        - {x: 14, y: -91}
+        - {x: 22, y: -88}
+        - {x: 20, y: -82}
+        - {x: 14, y: -76}
+        - {x: 38, y: -36}
+    - name: Demon1Walk_49
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 201
+        width: 136
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: 48}
+        - {x: 28, y: 9}
+        - {x: 26, y: 22}
+        - {x: 19, y: 44}
+        - {x: 19, y: 91}
+        - {x: -58, y: 91}
+        - {x: -68, y: 87}
+        - {x: -68, y: 86}
+        - {x: -41, y: 50}
+        - {x: -37, y: 46}
+        - {x: -31, y: 47}
+        - {x: -47, y: 43}
+        - {x: -68, y: 20}
+        - {x: -68, y: -86}
+        - {x: -53, y: -91}
+        - {x: 25, y: -91}
+        - {x: 68, y: 18}
+        - {x: 68, y: 41}
+        - {x: 67, y: 45}
+    - name: Demon1Walk_50
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 201
+        width: 135
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: 91.5}
+        - {x: -57.5, y: 91.5}
+        - {x: -67.5, y: 88.5}
+        - {x: -67.5, y: 84.5}
+        - {x: -41.5, y: 47.5}
+        - {x: -37.5, y: 45.5}
+        - {x: -31.5, y: 46.5}
+        - {x: -41.5, y: 44.5}
+        - {x: -67.5, y: 26.5}
+        - {x: -67.5, y: -91.5}
+        - {x: 27.5, y: -91.5}
+        - {x: 67.5, y: -23.5}
+        - {x: 67.5, y: 47.5}
+        - {x: 50.5, y: 36.5}
+    - name: Demon1Walk_51
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 201
+        width: 134
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67, y: 91}
+        - {x: -67, y: -13}
+        - {x: -56, y: -20}
+        - {x: -52, y: -17}
+        - {x: -47, y: -79}
+        - {x: -45, y: -91}
+        - {x: 28, y: -91}
+        - {x: 35, y: -90}
+        - {x: 67, y: 19}
+        - {x: 67, y: 91}
+      - - {x: 30, y: -82}
+        - {x: 33, y: -81}
+        - {x: 33, y: -78}
+        - {x: 30, y: -77}
+        - {x: 28, y: -79}
+    - name: Demon1Walk_52
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 202
+        width: 135
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.5, y: 90.5}
+        - {x: -64.5, y: 87.5}
+        - {x: -67.5, y: 53.5}
+        - {x: -67.5, y: -15.5}
+        - {x: -51.5, y: -21.5}
+        - {x: -51.5, y: -78.5}
+        - {x: -47.5, y: -90.5}
+        - {x: 24.5, y: -90.5}
+        - {x: 67.5, y: -17.5}
+        - {x: 67.5, y: 63.5}
+        - {x: 23.5, y: 90.5}
+      - - {x: 27.5, y: -83.5}
+        - {x: 30.5, y: -82.5}
+        - {x: 30.5, y: -79.5}
+        - {x: 27.5, y: -78.5}
+        - {x: 25.5, y: -80.5}
+    - name: Demon1Walk_53
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 202
+        width: 134
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67, y: 90}
+        - {x: -67, y: -90}
+        - {x: 15, y: -90}
+        - {x: 63, y: -41}
+        - {x: 67, y: -7}
+        - {x: 67, y: 90}
+    - name: Demon1Walk_54
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 202
+        width: 134
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 15}
+        - {x: 29, y: 30}
+        - {x: 23, y: 90}
+        - {x: -67, y: 90}
+        - {x: -67, y: -54}
+        - {x: -48, y: -90}
+        - {x: 29, y: -90}
+        - {x: 67, y: 12}
+        - {x: 67, y: 42}
+        - {x: 62, y: 43}
+    - name: Demon1Walk_55
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 201
+        width: 134
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 18.5}
+        - {x: 22, y: 42.5}
+        - {x: 23, y: 88.5}
+        - {x: 23, y: 90.5}
+        - {x: -58, y: 90.5}
+        - {x: -58, y: 89.5}
+        - {x: -55, y: 86.5}
+        - {x: -45, y: 59.5}
+        - {x: -41, y: 53.5}
+        - {x: -38, y: 47.5}
+        - {x: -38, y: 48.5}
+        - {x: -41, y: 46.5}
+        - {x: -50, y: 43.5}
+        - {x: -67, y: 10.5}
+        - {x: -67, y: -12.5}
+        - {x: -64, y: -18.5}
+        - {x: -52, y: -15.5}
+        - {x: -49, y: -12.5}
+        - {x: -62, y: -77.5}
+        - {x: -56, y: -90.5}
+        - {x: 31, y: -90.5}
+        - {x: 67, y: 16.5}
+        - {x: 67, y: 40.5}
+        - {x: 62, y: 38.5}
+    - name: Demon1Walk_56
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 3
+        width: 133
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.5, y: 90.5}
+        - {x: -66.5, y: 77.5}
+        - {x: -66.5, y: -88.5}
+        - {x: -58.5, y: -90.5}
+        - {x: 13.5, y: -90.5}
+        - {x: 27.5, y: -80.5}
+        - {x: 66.5, y: -0.5}
+        - {x: 66.5, y: 54.5}
+        - {x: 31.5, y: 90.5}
+    - name: Demon1Walk_57
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 3
+        width: 133
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 91}
+        - {x: -57.5, y: 91}
+        - {x: -66.5, y: 29}
+        - {x: -66.5, y: -22}
+        - {x: -38.5, y: -55}
+        - {x: -33.5, y: -61}
+        - {x: -52.5, y: -78}
+        - {x: -46.5, y: -91}
+        - {x: 34.5, y: -91}
+        - {x: 66.5, y: 10}
+        - {x: 66.5, y: 34}
+        - {x: 61.5, y: 39}
+    - name: Demon1Walk_58
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 4
+        width: 132
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: 34.5}
+        - {x: 61, y: 32.5}
+        - {x: 53, y: 25.5}
+        - {x: 32, y: 17.5}
+        - {x: 16, y: 45.5}
+        - {x: 8, y: 51.5}
+        - {x: 29, y: 84.5}
+        - {x: 25, y: 89.5}
+        - {x: 9, y: 90.5}
+        - {x: -59, y: 90.5}
+        - {x: -66, y: 28.5}
+        - {x: -66, y: -14.5}
+        - {x: -52, y: -16.5}
+        - {x: -47, y: -13.5}
+        - {x: -37, y: 3.5}
+        - {x: -35, y: 8.5}
+        - {x: -51, y: -54.5}
+        - {x: -57, y: -90.5}
+        - {x: 31, y: -90.5}
+        - {x: 65, y: 1.5}
+        - {x: 66, y: 3.5}
+        - {x: 66, y: 34.5}
+    - name: Demon1Walk_59
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 4
+        width: 131
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 91}
+        - {x: -65.5, y: 91}
+        - {x: -65.5, y: -14}
+        - {x: -51.5, y: -19}
+        - {x: -55.5, y: -79}
+        - {x: -44.5, y: -91}
+        - {x: -26.5, y: -91}
+        - {x: -23.5, y: -88}
+        - {x: -22.5, y: -85}
+        - {x: -22.5, y: -80}
+        - {x: -22.5, y: -87}
+        - {x: -20.5, y: -89}
+        - {x: -17.5, y: -91}
+        - {x: 16.5, y: -91}
+        - {x: 27.5, y: -87}
+        - {x: 65.5, y: 10}
+        - {x: 65.5, y: 82}
+    - name: Demon1Walk_60
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 4
+        width: 131
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.5, y: 31.5}
+        - {x: 56.5, y: 26.5}
+        - {x: 37.5, y: 81.5}
+        - {x: 23.5, y: 91.5}
+        - {x: -54.5, y: 91.5}
+        - {x: -45.5, y: 48.5}
+        - {x: -35.5, y: 47.5}
+        - {x: -30.5, y: 47.5}
+        - {x: -32.5, y: 47.5}
+        - {x: -40.5, y: 46.5}
+        - {x: -45.5, y: 44.5}
+        - {x: -61.5, y: 12.5}
+        - {x: -65.5, y: 0.5}
+        - {x: -65.5, y: -17.5}
+        - {x: -51.5, y: -20.5}
+        - {x: -54.5, y: -80.5}
+        - {x: -44.5, y: -91.5}
+        - {x: -25.5, y: -91.5}
+        - {x: -23.5, y: -88.5}
+        - {x: -23.5, y: -80.5}
+        - {x: -18.5, y: -80.5}
+        - {x: -16.5, y: -78.5}
+        - {x: -16.5, y: -75.5}
+        - {x: -18.5, y: -47.5}
+        - {x: -19.5, y: -44.5}
+        - {x: -18.5, y: -45.5}
+        - {x: -8.5, y: -70.5}
+        - {x: -19.5, y: -82.5}
+        - {x: -23.5, y: -85.5}
+        - {x: -22.5, y: -91.5}
+        - {x: 10.5, y: -91.5}
+        - {x: 22.5, y: -85.5}
+        - {x: 24.5, y: -80.5}
+        - {x: 65.5, y: -0.5}
+    - name: Demon1Walk_61
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 4
+        width: 131
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 91.5}
+        - {x: -28.5, y: 87.5}
+        - {x: -31.5, y: 84.5}
+        - {x: -35.5, y: 88.5}
+        - {x: -40.5, y: 91.5}
+        - {x: -54.5, y: 91.5}
+        - {x: -62.5, y: 39.5}
+        - {x: -65.5, y: 17.5}
+        - {x: -65.5, y: -24.5}
+        - {x: -49.5, y: -16.5}
+        - {x: -46.5, y: -14.5}
+        - {x: -53.5, y: -80.5}
+        - {x: -52.5, y: -83.5}
+        - {x: -42.5, y: -90.5}
+        - {x: -31.5, y: -91.5}
+        - {x: -26.5, y: -91.5}
+        - {x: -24.5, y: -88.5}
+        - {x: -17.5, y: -78.5}
+        - {x: -17.5, y: -75.5}
+        - {x: -9.5, y: -64.5}
+        - {x: -23.5, y: -87.5}
+        - {x: -22.5, y: -91.5}
+        - {x: 38.5, y: -91.5}
+        - {x: 65.5, y: -41.5}
+        - {x: 65.5, y: 57.5}
+        - {x: 43.5, y: 91.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
