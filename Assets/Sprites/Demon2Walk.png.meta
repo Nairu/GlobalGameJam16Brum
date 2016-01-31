@@ -1,0 +1,738 @@
+fileFormatVersion: 2
+guid: b7163fd4ec822a3439d6ca51e64ad828
+timeCreated: 1454226295
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Demon2Walk_0
+    21300002: Demon2Walk_1
+    21300004: Demon2Walk_2
+    21300006: Demon2Walk_3
+    21300008: Demon2Walk_4
+    21300010: Demon2Walk_5
+    21300012: Demon2Walk_6
+    21300014: Demon2Walk_7
+    21300016: Demon2Walk_8
+    21300018: Demon2Walk_9
+    21300020: Demon2Walk_10
+    21300022: Demon2Walk_11
+    21300024: Demon2Walk_12
+    21300026: Demon2Walk_13
+    21300028: Demon2Walk_14
+    21300030: Demon2Walk_15
+    21300032: Demon2Walk_16
+    21300034: Demon2Walk_17
+    21300036: Demon2Walk_18
+    21300038: Demon2Walk_19
+    21300040: Demon2Walk_20
+    21300042: Demon2Walk_21
+    21300044: Demon2Walk_22
+    21300046: Demon2Walk_23
+    21300048: Demon2Walk_24
+    21300050: Demon2Walk_25
+    21300052: Demon2Walk_26
+    21300054: Demon2Walk_27
+    21300056: Demon2Walk_28
+    21300058: Demon2Walk_29
+    21300060: Demon2Walk_30
+    21300062: Demon2Walk_31
+    21300064: Demon2Walk_32
+    21300066: Demon2Walk_33
+    21300068: Demon2Walk_34
+    21300070: Demon2Walk_35
+    21300072: Demon2Walk_36
+    21300074: Demon2Walk_37
+    21300076: Demon2Walk_38
+    21300078: Demon2Walk_39
+    21300080: Demon2Walk_40
+    21300082: Demon2Walk_41
+    21300084: Demon2Walk_42
+    21300086: Demon2Walk_43
+    21300088: Demon2Walk_44
+    21300090: Demon2Walk_45
+    21300092: Demon2Walk_46
+    21300094: Demon2Walk_47
+    21300096: Demon2Walk_48
+    21300098: Demon2Walk_49
+    21300100: Demon2Walk_50
+    21300102: Demon2Walk_51
+    21300104: Demon2Walk_52
+    21300106: Demon2Walk_53
+    21300108: Demon2Walk_54
+    21300110: Demon2Walk_55
+    21300112: Demon2Walk_56
+    21300114: Demon2Walk_57
+    21300116: Demon2Walk_58
+    21300118: Demon2Walk_59
+    21300120: Demon2Walk_60
+    21300122: Demon2Walk_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Demon2Walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1435
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1435
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_2
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1435
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_3
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1435
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_4
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 1435
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_5
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1435
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_6
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1435
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_7
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 1435
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1230
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_9
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1230
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_10
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1230
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_11
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1230
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_12
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 1230
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_13
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1230
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_14
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1230
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_15
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 1230
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1025
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_17
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1025
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_18
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1025
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_19
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1025
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_20
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 1025
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_21
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1025
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_22
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1025
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_23
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 1025
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_25
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 820
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_26
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 820
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_27
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 820
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_28
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 820
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_29
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 820
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_30
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 820
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_31
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 820
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_33
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 615
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_34
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 615
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_35
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 615
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_36
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 615
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_37
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 615
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_38
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 615
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_39
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 615
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_41
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 410
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_42
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 410
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_43
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 410
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_44
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 410
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_45
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 410
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_46
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 410
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_47
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 410
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_49
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 205
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_50
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 205
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_51
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 205
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_52
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 205
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_53
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 205
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_54
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 205
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_55
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 205
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_57
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 0
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_58
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_59
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 0
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_60
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 0
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demon2Walk_61
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 0
+        width: 241
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
