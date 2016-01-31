@@ -24,8 +24,8 @@ public class GetFollowerQuest : Quest {
                             I'm a generous chap, and I'd like to see you all do well,
                             so I'll give you something if you can get " + followersToAquire + 
                             " chaps to sign up to your cause in " + timeLimit + " seconds.";
-        
-                            
+        questText = listOfQuests[UnityEngine.Random.Range(0, listOfQuests.Length)];
+
 
     }
         

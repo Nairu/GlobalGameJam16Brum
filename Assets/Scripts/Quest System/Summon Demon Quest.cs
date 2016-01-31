@@ -22,7 +22,7 @@ public class SummonDemonQuest : Quest {
                             . I have a little job for you, if you would be so kind.
                             Please summon for me " + noOfDemonsToSummon + " in " + timeLimit
                             + " seconds. Just need to kill my brother off for the old insurance money, you know how it is.";
-
+        questText = listOfQuests[UnityEngine.Random.Range(0, listOfQuests.Length)];
     }
 
     public override bool QuestSucceeded(int currentNoOfDemons)

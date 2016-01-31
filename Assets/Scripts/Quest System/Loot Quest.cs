@@ -21,7 +21,7 @@ public class LootQuest : Quest {
                             As you know, I only sell the strongest of potions, and your cultists cannot handle my potions
                             but I do know there is a village nearby with some valuable weaker potions worth: " + lootToget*2 + " gold." +
                             " If you get them for me within " + timeLimit + " seconds, I'll split the loot with you";
-
+        questText = listOfQuests[UnityEngine.Random.Range(0, listOfQuests.Length)];
     }
 
     public override bool QuestSucceeded(int currentLoot)
