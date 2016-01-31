@@ -11,19 +11,23 @@ public class CultistAI : BaseAI {
 
     public int myHash;
     public Transform boundTransform;
+    public Animator myAnimator;
 
     bool moving = false;
+    bool working = false;
 
     public float needSleep = 0;
     public float needFood = 0;
     public float needFun = 0;
 
+    [SerializeField()]
     public CultistJob myCultistJob;
     public Tile myCultistCareer;
 
     void Awake()
     {
         myName = gameObject.name;
+        myAnimator = GetComponent<Animator>();
     }
 
     public new int Health
@@ -33,8 +37,16 @@ public class CultistAI : BaseAI {
 
     public void Update()
     {
+        myAnimator.SetBool("Walking", false);
+        myAnimator.SetBool("Worshipping", false);
+        myAnimator.SetBool("Climbing", false);
+        myAnimator.SetBool("Praying", false);        
+
         myHash = GetHashCode();
-        needSleep += Time.deltaTime / 143f;
+        if (!sleeping)
+            needSleep += Time.deltaTime / 150f;
+        else
+            needSleep -= Time.deltaTime / 50f;
         needFood += Time.deltaTime / 92f;
         needFun += Time.deltaTime / 125f;
 
@@ -50,14 +62,16 @@ public class CultistAI : BaseAI {
             return;
         }
 
-        if (FunFoodNeeds())
+        else if (FunFoodNeeds())
         {
             if (myJob != null)
                 myJob.Done();
             return;
         }
-        
-        if (!moving)
+
+        DoWork();
+
+        if (!moving && !working)
             DoWander();
     }
 
@@ -213,6 +227,41 @@ public class CultistAI : BaseAI {
 
     bool sleeping = false;
 
+    bool DoWork()
+    {
+        if (myCultistJob == null)
+            myCultistJob = JobQueue.TakeJob(this) as CultistJob;
+
+        if (myCultistJob == null)
+            return false;
+
+        if (myCultistJob.tile != null)
+        {
+            if (myCultistJob.tile.TileType == Enumerations.GetEnumDescription(TileTypes.SummonRoom))
+            {
+                if ((int)myCultistJob.tile.Pos.y != transform.position.y)
+                    base.MoveToFloor((int)myCultistJob.tile.Pos.y);
+                else if(transform.position.x < myCultistJob.tile.Pos.x + 0.9f
+                        || transform.position.x > myCultistJob.tile.Pos.x + 1.1f)                
+                    base.MoveToX((int)myCultistJob.tile.Pos.x + 1f);
+                else
+                {
+                    myCultistJob.timeToComplete = myCultistJob.tile.JobDuration;
+
+                    GetComponent<Animator>().SetBool("Praying", true);
+                    GetComponent<Animator>().SetBool("Walking", false);
+
+                    myCultistJob.tile.myJob = myCultistJob;
+                    myCultistJob.StartJob();
+                    working = true;
+                }
+            }
+        }
+
+        return false;
+        //if ()
+    }
+
     bool NeedSleep()
     {
         Tile t = null;
@@ -221,12 +270,15 @@ public class CultistAI : BaseAI {
         if (sleeping)
         {
             t = p.GetComponent<Tile>();
-            if (sleepTimer <= 0)
+           // if (sleepTimer <= 0)
+           if (needSleep < 0)
             {
-                needSleep = 0;
-                
+                //needSleep = 0;
+
+                sleeping = false;
                 return false;
             }
+            return true;
         }
         else
         {
@@ -248,11 +300,13 @@ public class CultistAI : BaseAI {
                     else
                     {
                         moving = false;
+                        sleeping = true;
                         DoSleep();
                         
                         return true;
                     }
                 }
+                return true;
             }
         }
 

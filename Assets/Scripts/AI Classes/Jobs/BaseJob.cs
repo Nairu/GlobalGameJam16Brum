@@ -9,17 +9,17 @@ public class BaseJob {
     {
         this.tile = tile;
         JobQueue.AddJob(this);
-        tile.myJobs.Add(this);
+        tile.myJob = this as CultistJob;// .myJobs.Add(this);
     }
 
     public virtual void Done()
     {
         if (tile != null)
-            tile.myJobs.Remove(this);
+            tile.myJob = null;
 
         if (worker != null)
         {
-            
+            worker.myJob = null;
         }
 
         JobQueue.RemoveJob(this);

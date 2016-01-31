@@ -118,6 +118,12 @@ public class GUIManager : MonoBehaviour {
     public void SummonDemon()
     {
         Debug.Log("Demon summon started at: " + OwningTile);
+        if (GameObject.Find(OwningTile).GetComponent<Tile>().myJob != null)
+        {
+            Debug.Log("Attempting to assign a job to a tile which already has one");
+            return;
+        }
+        JobQueue.AddJob(new CultistJob(GameObject.Find(OwningTile).GetComponent<Tile>()));
     }
     #endregion
 

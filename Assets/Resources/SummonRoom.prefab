@@ -121,6 +121,7 @@ MonoBehaviour:
   canRight: 0
   goldCost: 10
   soulsCost: 2
+  JobDuration: 10
   AllowsVerticalMove: 0
 --- !u!212 &21205500
 SpriteRenderer:
@@ -166,6 +167,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: soulsCost
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: JobDuration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: AllowsVerticalMove
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

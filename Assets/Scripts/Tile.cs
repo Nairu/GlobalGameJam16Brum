@@ -46,6 +46,8 @@ public class Tile : MonoBehaviour {
 
     public int goldCost;
     public int soulsCost;
+    public int JobDuration;
+
 
     private int _roomToPlace;
 
@@ -53,12 +55,13 @@ public class Tile : MonoBehaviour {
 
     public bool AllowsVerticalMove = false;
 
-    public List<BaseJob> myJobs;
+    public CultistJob myJob;
+    //public List<BaseJob> myJobs;
 
 	// Use this for initialization
 	void Start () {
         map = GameObject.FindObjectOfType<MapManager>();
-
+        //myJobs = new List<BaseJob>();
 	}
 
     void OnMouseDown()
@@ -253,8 +256,8 @@ public class Tile : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update () {
-
+    void Update() {
+        JobLogic(TileType.GetEnumFromDescription<TileTypes>());
     }
 
     public int IsLadderReachable()
@@ -301,6 +304,29 @@ public class Tile : MonoBehaviour {
         }
 
         return false;
+    }
+
+    void JobLogic(TileTypes type)
+    {
+        if (type == TileTypes.SummonRoom)
+        {
+            if (myJob != null)
+            {
+                if (myJob.JobCompleted())
+                {
+                    GameObject prefab = Resources.Load<GameObject>("Demon");
+                    // check type exists iin prefabs
+                    if (prefab == null)
+                    {
+                        Debug.LogError("No prefab found: " + type);
+                    }
+                    GameObject go = (GameObject)GameObject.Instantiate(prefab, new Vector3(Pos.x + 1.5f, Pos.y, 0), Quaternion.identity);
+                    myJob.KillJob();
+                    myJob.Done();
+                    myJob = null;
+                }
+            }            
+        }
     }
 
 

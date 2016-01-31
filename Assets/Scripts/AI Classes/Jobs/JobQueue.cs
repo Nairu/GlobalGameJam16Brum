@@ -24,13 +24,31 @@ public class JobQueue : MonoBehaviour {
         if (openJobs.Count == 0)
             return null;
 
+        if ((worker as CultistAI).myCultistJob != null)
+            return null;
+
         int i = 0;
         while (i < openJobs.Count)
         {
             BaseJob j = (openJobs.First as LinkedListNode<BaseJob>).Value;
 
-            return j;
+            if (worker.GetType() == typeof(CultistAI) && j.worker == null)
+            {
+                if (j.tile.IsLadderReachable() != -1)
+                {                    
+                    j.worker = worker;
+                    openJobs.Remove(j);
+                    return j as CultistJob;
+                }
+            }
+            else if(worker.GetType() == typeof(DemonAI))
+            {
 
+            }
+            else if(worker.GetType() == typeof(DoogooderAI))
+            {
+
+            }
             i++;
         }
 

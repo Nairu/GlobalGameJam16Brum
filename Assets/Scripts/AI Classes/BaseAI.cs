@@ -128,6 +128,9 @@ public class BaseAI : MonoBehaviour
             dir = Vector3.ClampMagnitude(dir, Mathf.Abs(x - transform.position.x));
         }
 
+        GetComponent<Animator>().SetBool("Climbing", false);
+        GetComponent<Animator>().SetBool("Walking", true);
+
         FaceToMovement(dir);
         transform.Translate(dir);
     }
@@ -149,6 +152,8 @@ public class BaseAI : MonoBehaviour
                 dir = Vector3.ClampMagnitude(dir, Mathf.Abs(y - transform.position.y));
             }
 
+            GetComponent<Animator>().SetBool("Walking", false);
+            GetComponent<Animator>().SetBool("Climbing", true);
             FaceToMovement(dir);
             transform.Translate(dir);
         }
