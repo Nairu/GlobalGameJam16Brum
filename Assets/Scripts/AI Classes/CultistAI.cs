@@ -238,6 +238,8 @@ public class CultistAI : BaseAI {
     {
         if (myCultistJob == null)
             myCultistJob = JobQueue.TakeCultistJob(this);
+        if (myCultistJob == null)
+            return false;
 
         if (myCultistJob.tile != null)
         {

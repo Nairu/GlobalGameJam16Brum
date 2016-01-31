@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine.UI;
 
 enum questType { buildQuest, followerQuest, lootQuest, summonQuest}
 
@@ -14,6 +15,8 @@ public class QuestManager : MonoBehaviour
     private int currentGold;
     private float currentRenown;
 
+    public GameObject panel;
+    public Text questTextObject;
 
 
     public void start()
@@ -33,9 +36,13 @@ public class QuestManager : MonoBehaviour
         currentDemons = Camera.main.GetComponent<GameResourceManager>().getDemonsAmt();
 
         int generationChance = UnityEngine.Random.Range(1, 10801);
-        if(generationChance == 10800)
+        if(generationChance > 0)
         {
-            activeQuests.Add(genRandQuest());
+            Quest qu = genRandQuest();
+            questTextObject.text = qu.getQuestText();
+            panel.SetActive(true);            
+            activeQuests.Add(qu);
+
         }
 
         foreach (Quest q in activeQuests)
