@@ -241,14 +241,18 @@ public class CultistAI : BaseAI {
         if (myCultistJob == null)
             return false;
 
-        if (myCultistJob.tile != null)
+            if (myCultistJob.tile != null)
         {
             if (myCultistJob.tile.TileType == Enumerations.GetEnumDescription(TileTypes.SummonRoom))
             {
+                Debug.Log("Cultist: " + (int)myCultistJob.tile.Pos.y + " | " + "Target: " + transform.position.y);
                 if ((int)myCultistJob.tile.Pos.y != transform.position.y)
+                {
+                    moving = true;
                     base.MoveToFloor((int)myCultistJob.tile.Pos.y);
-                else if(transform.position.x < myCultistJob.tile.Pos.x + 0.9f
-                        || transform.position.x > myCultistJob.tile.Pos.x + 1.1f)                
+                }
+                else if (transform.position.x < myCultistJob.tile.Pos.x + 0.9f
+                        || transform.position.x > myCultistJob.tile.Pos.x + 1.1f)
                     base.MoveToX((int)myCultistJob.tile.Pos.x + 1f);
                 else
                 {

@@ -16,11 +16,6 @@ public class BaseAI : MonoBehaviour
 
     public MapManager myMap;
 
-    private float targetX = 0;
-    private float endX = 0;
-    private float targetY = 0;
-    private float endY = 0;
-
     private int _damage;
     public int Damage
     {
@@ -28,11 +23,7 @@ public class BaseAI : MonoBehaviour
         set { _damage = value; }
     }
 
-    float baseSpeed = 1f;
     protected float speed = 1f;
-
-    bool move = false;
-    bool initEndPos = false;
 
     public void DealDamage(int damageToTake)
     {
