@@ -314,13 +314,13 @@ public class Tile : MonoBehaviour {
             {
                 if (myJob.JobCompleted())
                 {
-                    GameObject prefab = Resources.Load<GameObject>("Demon");
+                    GameObject prefab = Resources.Load<GameObject>("Demon1");
                     // check type exists iin prefabs
                     if (prefab == null)
                     {
                         Debug.LogError("No prefab found: " + type);
                     }
-                    GameObject go = (GameObject)GameObject.Instantiate(prefab, new Vector3(Pos.x + 1.5f, Pos.y, 0), Quaternion.identity);
+                    GameObject go = (GameObject)GameObject.Instantiate(prefab, new Vector3(Pos.x + 1.5f, Pos.y + 0.25f, 0), Quaternion.identity);
                     myJob.KillJob();
                     myJob.Done();
                     myJob = null;
