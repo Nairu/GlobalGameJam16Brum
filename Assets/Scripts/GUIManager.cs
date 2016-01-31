@@ -123,7 +123,7 @@ public class GUIManager : MonoBehaviour {
             Debug.Log("Attempting to assign a job to a tile which already has one");
             return;
         }
-        JobQueue.AddJob(new CultistJob(GameObject.Find(OwningTile).GetComponent<Tile>()));
+        JobQueue.AddCultistJob(new CultistJob(GameObject.Find(OwningTile).GetComponent<Tile>()));
     }
     #endregion
 

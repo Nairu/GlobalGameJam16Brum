@@ -7,9 +7,7 @@ public class BaseJob {
     
     public BaseJob(Tile tile)
     {
-        this.tile = tile;
-        JobQueue.AddJob(this);
-        tile.myJob = this as CultistJob;// .myJobs.Add(this);
+        
     }
 
     public virtual void Done()
@@ -22,6 +20,6 @@ public class BaseJob {
             worker.myJob = null;
         }
 
-        JobQueue.RemoveJob(this);
+        //JobQueue.RemoveJob(this);
     }
 }

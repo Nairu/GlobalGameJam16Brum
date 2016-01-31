@@ -41,7 +41,7 @@ public class CultistJob : BaseJob {
             (worker as CultistAI).myJob = null;
         }
 
-        JobQueue.RemoveJob(this);
+        JobQueue.RemoveCultistJob(this);
     }
 
     public bool JobCompleted()
