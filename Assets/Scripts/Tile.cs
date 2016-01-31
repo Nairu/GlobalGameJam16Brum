@@ -68,25 +68,11 @@ public class Tile : MonoBehaviour {
             {
                 case "Tunnel":
                     Debug.Log("Tunnel" + " Clicked");
-                    if (Camera.main.GetComponent<CameraMoveController>().currentWorker != null)
-                    {
-                        
-                    }
-                    else
-                    {
                         TunnelClicked();
-                    }
                     break;
                 case "TunnelStart":
                     Debug.Log("Tunnel" + " Clicked");
-                    if (Camera.main.GetComponent<CameraMoveController>().currentWorker != null)
-                    {
-                        
-                    }
-                    else
-                    {
                         TunnelClicked();
-                    }
                     break;
                 case "Dirt":
                     Debug.Log("Dirt" + " Clicked");
@@ -94,25 +80,11 @@ public class Tile : MonoBehaviour {
                     break;
                 case "DugDirt":
                     Debug.Log("Empty Clicked");
-                    if (Camera.main.GetComponent<CameraMoveController>().currentWorker != null)
-                    {
-                        
-                    }
-                    else
-                    {
-                        DugDirtClicked(_goldCost, _soulsCost);
-                    }
+                        DugDirtClicked(_goldCost, _soulsCost);                   
                     break;
                 case "Empty":
                     Debug.Log("Empty Clicked");
-                    if (Camera.main.GetComponent<CameraMoveController>().currentWorker != null)
-                    {
-                        
-                    }
-                    else
-                    {
-                        DugDirtClicked(_goldCost, _soulsCost);
-                    }
+                        DugDirtClicked(_goldCost, _soulsCost);                    
                     break;
                 default:
                     Debug.Log("Room Clicked");
@@ -173,14 +145,17 @@ public class Tile : MonoBehaviour {
             return;
 
         Debug.Log("Change to " + Enumerations.GetEnumDescription((TileTypes)_roomToPlace));
-        
-        if (((TileTypes)_roomToPlace) == TileTypes.TunnelStart 
-            && (map.GetTileAt(Mathf.FloorToInt(this.Pos.x), Mathf.FloorToInt(this.Pos.y + 2)).TileType == 
-                             Enumerations.GetEnumDescription(TileTypes.Tunnel)) ||
-                map.GetTileAt(Mathf.FloorToInt(this.Pos.x), Mathf.FloorToInt(this.Pos.y + 2)).TileType ==
-                             Enumerations.GetEnumDescription(TileTypes.TunnelStart))
+
+        if (this.Pos.y < -2f)
         {
-            _roomToPlace = (int)TileTypes.Tunnel;
+            if (((TileTypes)_roomToPlace) == TileTypes.TunnelStart
+                && (map.GetTileAt(Mathf.FloorToInt(this.Pos.x), Mathf.FloorToInt(this.Pos.y + 2)).TileType ==
+                                 Enumerations.GetEnumDescription(TileTypes.Tunnel)) ||
+                    map.GetTileAt(Mathf.FloorToInt(this.Pos.x), Mathf.FloorToInt(this.Pos.y + 2)).TileType ==
+                                 Enumerations.GetEnumDescription(TileTypes.TunnelStart))
+            {
+                _roomToPlace = (int)TileTypes.Tunnel;
+            }
         }
         
         if (Camera.main.GetComponent<GameResourceManager>().SpendResources(_goldCost, _soulsCost))
