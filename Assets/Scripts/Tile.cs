@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.EventSystems;
 using System.ComponentModel;
 using System.Reflection;
+using System.Collections.Generic;
 
 public enum TileTypes
 {
@@ -36,7 +37,7 @@ public class Tile : MonoBehaviour {
 
     public Vector2 Pos;
     public string TileType;
-    public bool isWalkable = false;
+    public bool isWalkable = false;    
 
     public bool canUp = false;
     public bool canDown = false;
@@ -51,6 +52,8 @@ public class Tile : MonoBehaviour {
     MapManager map;
 
     public bool AllowsVerticalMove = false;
+
+    public List<BaseJob> myJobs;
 
 	// Use this for initialization
 	void Start () {
@@ -72,11 +75,11 @@ public class Tile : MonoBehaviour {
             {
                 case "Tunnel":
                     Debug.Log("Tunnel" + " Clicked");
-                    TunnelClicked();
+                        TunnelClicked();
                     break;
                 case "TunnelStart":
                     Debug.Log("Tunnel" + " Clicked");
-                    TunnelClicked();
+                        TunnelClicked();
                     break;
                 case "Dirt":
                     Debug.Log("Dirt" + " Clicked");
@@ -84,11 +87,11 @@ public class Tile : MonoBehaviour {
                     break;
                 case "DugDirt":
                     Debug.Log("Empty Clicked");
-                    DugDirtClicked(_goldCost, _soulsCost);
+                        DugDirtClicked(_goldCost, _soulsCost);                   
                     break;
                 case "Empty":
                     Debug.Log("Empty Clicked");
-                    DugDirtClicked(_goldCost, _soulsCost);
+                        DugDirtClicked(_goldCost, _soulsCost);                    
                     break;
                 default:
                     Debug.Log("Room Clicked");
@@ -133,7 +136,7 @@ public class Tile : MonoBehaviour {
 
         //start logic to add job to the queue to destroy this dirt, 
         // ONLY if the tile in question has a walkable path to a ladder
-        if (IsReachable())
+        if (IsLadderReachable() != -1)
         {
             // Must check if we have discovered a secret! Oooooohh!
             TileTypes t = checkForSecret(Pos);
@@ -149,6 +152,19 @@ public class Tile : MonoBehaviour {
             return;
 
         Debug.Log("Change to " + Enumerations.GetEnumDescription((TileTypes)_roomToPlace));
+
+        if (this.Pos.y < -2f)
+        {
+            if (((TileTypes)_roomToPlace) == TileTypes.TunnelStart
+                && (map.GetTileAt(Mathf.FloorToInt(this.Pos.x), Mathf.FloorToInt(this.Pos.y + 2)).TileType ==
+                                 Enumerations.GetEnumDescription(TileTypes.Tunnel)) ||
+                    map.GetTileAt(Mathf.FloorToInt(this.Pos.x), Mathf.FloorToInt(this.Pos.y + 2)).TileType ==
+                                 Enumerations.GetEnumDescription(TileTypes.TunnelStart))
+            {
+                _roomToPlace = (int)TileTypes.Tunnel;
+            }
+        }
+        
         if (Camera.main.GetComponent<GameResourceManager>().SpendResources(_goldCost, _soulsCost))
         {
             map.ChangeTile(Pos, Enumerations.GetEnumDescription((TileTypes)_roomToPlace));
@@ -236,11 +252,10 @@ public class Tile : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-	
-        
-	}
 
-    bool IsReachable()
+    }
+
+    public int IsLadderReachable()
     {
         // Firsttry pathing towards the centre
         int dir = 3;
@@ -250,19 +265,19 @@ public class Tile : MonoBehaviour {
         //Tile examine = this;
         Debug.Log("Pathing check: "  + this.TileName);
         if (ExamineReachable(this, dir))
-            return true;
+            return dir;
         else
         {
             // repeat, pathing the oposite direction
             dir *= -1;
            // examine = this;
             if (ExamineReachable(this, dir))
-                return true;
+                return dir;
         }
 
         // Can't find a ladder in either direction, the tile is not currently connected
         Debug.Log("No Path to " + this.TileName);
-        return false;
+        return -1;
     }
 
     bool ExamineReachable(Tile examine, int dir)
